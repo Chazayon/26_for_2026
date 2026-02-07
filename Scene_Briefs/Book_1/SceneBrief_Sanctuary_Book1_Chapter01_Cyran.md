@@ -119,6 +119,36 @@ Cyran portrays the hunt as a game to convince himself he has agency. If he's pla
 
 ---
 
+####  **World Interaction & Secondary Characters**
+
+**Secondary Character Interactions:**
+
+- **The Unnamed Child (Witness):** A street urchin, approx. 8-10 years old, hiding in the cistern tunnels. Wears patched clothes, bare feet. Eyes too wide, breath coming in hitches. When Cyran approaches after the kill, the child shrinks back, clutching a rusted pipe like a weapon. This is a **Stranger** interaction that reveals how the public perceives Cyran: as a monster who happens to work for the right side.
+
+**Dialogue Moments:**
+
+- **Worldbuilding revealed:** When Cyran tells the child to "find the nearest Vigil post" and "tell them Relic Cyran cleared the cistern," it establishes the bureaucratic nature of the Vigil system and his official designation as "Relic" (property, not person).
+- **Local knowledge:** The child knows enough to be in the cisterns (suggesting these tunnels are used by the desperate/homeless) and recognizes the Vigil uniform, showing the organization's ubiquity.
+- **Speech pattern:** The child stammers, uses simple sentences: "You're... you're like it. But worse." This childish bluntness cuts through Cyran's performative armor.
+
+**Character Interaction Beats:**
+
+- **How Cyran treats them:** He shifts to a gentler register mid-scene when he realizes the child is there. He makes himself smaller (the bow), speaks more formally/carefully, and directs them to safety. But he doesn't touch them or come closer—he knows he's frightening.
+- **What it reveals:** Cyran has protective instincts despite his self-loathing. He's capable of gentleness, but expects rejection. The child's fear stings him more than the monster's claws did.
+- **The moment:** When the child says "You're worse [than the monster]," Cyran doesn't argue. He just tells them to go home. It's a small cruelty he inflicts on *himself*—accepting the verdict.
+
+**Environmental Engagement:**
+
+- **Background activity:** The drip of water, the distant hum of the city above, the occasional skitter of smaller scavenger creatures in the dark corners (the world doesn't stop for his drama).
+- **Objects noticed:** The pump mechanism the child hides behind—industrial, rusted, covered in sigils for "Property of the Tribunal." A vein-flower bouquet left at a shrine (showing religious practices). The Merit Mark on the beast's hide (the bureaucracy of monster-hunting).
+- **Physical interaction:** Cyran taps the shrine statue's cheek in mock-prayer. He carves the sigil from the beast with practiced precision. He adjusts his ruined boot with annoyance. These aren't plot-critical but show he *inhabits* the space.
+
+**Purpose:**
+The child witness prevents this from being pure action spectacle. Their presence forces Cyran to engage with how he's perceived and adds emotional stakes (he must save them AND deal with their fear). The dialogue—though minimal—establishes the Vigil system, the Merit Mark economy, and Cyran's reputation in a way internal monologue couldn't.
+
+
+---
+
 #### **Setting & Atmosphere**
 
 **Location:** Ribcage District, transitioning into the Blood Cisterns (underground).

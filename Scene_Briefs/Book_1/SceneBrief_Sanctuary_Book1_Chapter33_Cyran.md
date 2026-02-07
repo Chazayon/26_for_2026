@@ -115,6 +115,40 @@ Cyran uses his "Protector" identity to override his "Slave" identity.
 
 ---
 
+####
+
+ **World Interaction & Secondary Characters**
+
+**Secondary Character Interactions:**
+
+- [Identify at least ONE secondary character who appears: colleague, neighbor, stranger, service worker, fan, or antagonist]
+- [Describe their role and how they interact with the POV character]
+- [Note their distinct voice, mannerism, or personality trait]
+
+**Dialogue Moments:**
+
+- [What worldbuilding is revealed through conversation?]
+- [What local gossip, rumors, or information is exchanged?]
+- [How does this character's speech pattern differ from the main cast?]
+
+**Character Interaction Beats:**
+
+- [How does the POV character treat this secondary character?]
+- [What does this interaction reveal about the POV character's personality or reputation?]
+- [Is there a small kindness, cruelty, or moment of connection?]
+
+**Environmental Engagement:**
+
+- [What background activity or environmental detail is noticed?]
+- [What objects are touched, used, or noticed in passing?]
+- [How does the POV character physically interact with their surroundings?]
+
+**Purpose:**
+This section ensures the scene includes external dialogue and interaction, preventing pure introspection and making the world feel lived-in and populated.
+
+
+---
+
 #### **Setting & Atmosphere**
 
 **Location:** Heart-Chamber.

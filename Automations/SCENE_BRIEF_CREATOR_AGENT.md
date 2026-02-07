@@ -165,6 +165,51 @@ Map the emotional journey separate from action:
 
 ---
 
+#### **World Interaction & Secondary Characters**
+
+**MANDATORY: Every scene must include at least ONE interaction with a secondary character or environmental element that demonstrates the world is lived-in and active.**
+
+**Secondary Character Interactions (Choose at least one):**
+
+- **Colleague/Coworker:** [Brief interaction that shows workplace dynamics, gossip, or professional relationships]
+- **Neighbor/Acquaintance:** [Casual encounter that reveals social standing, reputation, or daily life]
+- **Stranger/Passerby:** [Interaction showing how main character navigates public spaces or is perceived by others]
+- **Service Worker:** [Bartender, merchant, servant, guard - shows class dynamics and worldbuilding]
+- **Fan/Admirer:** [Someone who recognizes them - shows reputation and public perception]
+- **Antagonistic NPC:** [Minor conflict that isn't the main plot - adds texture and stakes]
+
+**Dialogue Opportunities:**
+
+- What world-building information can be revealed through casual conversation?
+- What local gossip, rumors, or news circulates in this scene?
+- How do secondary characters' speech patterns differ from main characters?
+- What questions does the POV character need to ask to gather information?
+
+**Character Moments:**
+
+- How does the POV character treat people "beneath" them (servants, children, etc.)?
+- How do they respond to being recognized or ignored in public?
+- What small kindnesses or cruelties do they display in passing?
+- How do they navigate social hierarchies and etiquette?
+
+**Environmental Interactions:**
+
+- What objects do they notice, touch, or use that aren't central to the plot?
+- What background activity happens around them (market vendors, street performers, etc.)?
+- How does the POV character physically engage with their environment?
+
+**Prevents:**
+- ❌ Scenes with only internal monologue and no external interaction
+- ❌ Dialogue only between the main romantic/plot couple with no one else present
+- ❌ Characters existing in a void without acknowledging the world around them
+
+**Requires:**
+- ✅ At least one named or described secondary character with distinct voice/mannerism
+- ✅ At least one exchange of dialogue or physical interaction with the environment
+- ✅ Worldbuilding details revealed through interaction, not exposition
+
+---
+
 #### **Setting & Atmosphere**
 
 **Location:** [Specific place name and description]

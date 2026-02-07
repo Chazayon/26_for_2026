@@ -122,6 +122,37 @@ The glass floor symbolizes their precarious position. One crack and they fall.
 
 ---
 
+####  **World Interaction & Secondary Characters**
+
+**Secondary Character Interactions:**
+
+- **Lady Morven (Aristocrat/Antagonistic NPC):** High society guest at Thessen's Gala, dripping in jewels made from calcified god-bone, holds a glass of blood-wine like it's a fashion accessory. Approaches Lysa to gossip/probe about why an Auditor is attending.
+  - **Distinct voice/mannerism:** Affected aristocratic drawl, uses "darling" and "dreadful" constantly, weaponized politeness, touches Lysa's arm in false intimacy
+
+**Dialogue Moments:**
+
+- **Worldbuilding:** "Thessen's Relic is _exquisite_, isn't he? They say he killed three men last month with just his bare hands. So dreadful. So _thrilling_." Reveals how the aristocracy fetishizes Relics as dangerous pets/art pieces
+- **Local gossip:** "Of course, everyone knows Thessen keeps the creature on a _very_ short leash these days. Ever since that incident with the Ambassador's daughter..." (implies scandal, Cyran's past violence)
+- **Speech pattern:** Breathy, scandalized tone, euphemisms for violence ("incident," "unpleasantness"), treats murder as gossip fodder
+
+**Character Interaction Beats:**
+
+- **How Lysa treats Lady Morven:** Forces a polite smile, responds with minimal bureaucratic pleasantries ("How fascinating, my lady"), mentally cataloguing the conversation as evidence of systemic dehumanization. Internal rage vs. external composure.
+- **What it reveals:** Lysa is an excellent actress when needed (undercover skills), but she's disgusted by this world. The interaction shows the moral rot at the top of society.
+- **The moment:** When Morven says "You simply _must_ ask Thessen for a private demonstration," Lysa's smile turns into something sharp: "I prefer my demonstrations to involve paperwork, my lady." Polite resistance.
+
+**Environmental Engagement:**
+
+- **Background activity:** Orchestra playing (identifiable as a specific piece from the Series Bible's culture section), servants in bone-white livery circulating with trays, other guests pointing at Cyran on display, someone laughing too loud near the fountain
+- **Objects noticed:** The blood-wine in crystal goblets (Lysa notices it's real blood, not dyed), elaborate centerpiece made of preserved god-spawn wings, the ballroom's chandelier (described as "ossuaries lit from within")
+- **Physical interaction:** Lysa accepts a glass of wine she won't drink (holding it gives her something to do with her hands), adjusts her formal robes when they catch on her boot, sidesteps a drunk aristocrat stumbling past
+
+**Purpose:**
+Lady Morven embodies the "casual cruelty of the ruling class" and prevents this from being just Lysa watching Cyran from afar. The dialogue does critical work: it shows how Cyran is discussed by his "owners'" social circle (as a thing, a pet, a spectacle), gives Lysa someone to verbally spar with (showing her restraint and quick thinking), and provides worldbuilding about god-bone jewelry, blood-wine culture, and past scandals. The environmental details paint the Gala as grotesque excess built on suffering, making Lysa's (and the reader's) discomfort visceral.
+
+
+---
+
 #### **Setting & Atmosphere**
 
 **Location:** Thessen's Estate (Ballroom).

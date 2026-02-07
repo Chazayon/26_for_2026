@@ -119,6 +119,37 @@ The Tribunal is corrupt. Voss doesn't want justice; he wants a clean PR problem.
 
 ---
 
+####  **World Interaction & Secondary Characters**
+
+**Secondary Character Interactions:**
+
+- **Auditor Kess (Colleague):** Junior auditor in Lysa's department, mid-20s, always has ink-stained fingers and a nervous energy. Approaches Lysa's desk during the file review scene, ostensibly to borrow a reference ledger but actually to gossip about Cyran's file.
+  - **Distinct voice/mannerism:** Speaks in excited half-whispers, uses bureaucratic euphemisms ("compliance irregularities" instead of "murders"), fidgets with her quill
+
+**Dialogue Moments:**
+
+- **Worldbuilding:** Kess mentions "They say he's killed thirty god-spawn this quarter. Thirty! How does a Relic even count that high?" Reveals that A) Relics are viewed as property/weapons, not mathematically competent beings, and B) The kill quotas are tracked/gossiped about
+- **Local gossip:** "Did you hear? Someone requested his full creation file. That hasn't been opened since Thessen first commissioned him decades ago." Establishes that Lysa's investigation is already noticed and unusual
+- **Speech pattern difference:** Kess uses casual office shorthand ("files," "quotas," "the Vigil brass") vs. Lysa's more formal, precise legal terminology
+
+**Character Interaction Beats:**
+
+- **How Lysa treats Kess:** Polite but distracted, doesn't encourage the gossip but doesn't shut it down either. Shows Lysa is weary of office culture but not cruel to colleagues.
+- **What it reveals:** Lysa is an outsider even among her peers—she doesn't participate in the dehumanization of Relics that's casual office conversation for others
+- **The moment:** When Kess says something particularly callous ("At least if he goes feral, he's pretty to look at"), Lysa stiffens and gives a cold "That will be all, Kess," showing her protective instincts are already forming
+
+**Environmental Engagement:**
+
+- **Background activity:** Other auditors shuffling papers, the scratch of quills on parchment, a clerk delivering message tubes via pneumatic system (whoosh and thunk), the distant toll of the Tribunal clock marking the hour
+-** Objects touched:** Lysa runs her finger down the ledger index, stamps a requisition form with her official seal (the wax is still warm), adjusts the oil lamp on her desk when the light flickers
+- **Physical interaction:** She notices someone left a half-eaten apple on the file cart (shows the mundane reality of bureaucracy), straightens a stack of case files that's leaning precariously
+
+**Purpose:**
+Kess's gossip prevents the file-reading scene from being pure exposition dumps. The dialogue shows how Relics are discussed by "normal" people, establishes the surveillance Lysa is already under, and gives Lysa a chance to demonstrate her character (protective, principled) through how she responds to casual cruelty. The environmental details ground the scene in office reality—it's not a dramatic noir detective office, it's a boring bureaucracy with squeaky file carts and half-eaten fruit.
+
+
+---
+
 #### **Setting & Atmosphere**
 
 **Location:** The Spine District - Tribunal Hall / Voss's Office.
