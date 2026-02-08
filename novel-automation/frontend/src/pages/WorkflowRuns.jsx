@@ -1,34 +1,41 @@
 import { useState } from 'react';
-import { useQuery } from '@tanstack/react-query';
-import { getRuns, getRun } from '../api';
-import { Activity, Clock, CheckCircle2, XCircle, Loader2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+import { getRuns, getRun, cancelRun } from '../api';
+import { useToast } from '../components/ToastProvider';
+import { Activity, Clock, CheckCircle2, XCircle, Loader2, Ban, ExternalLink } from 'lucide-react';
 
 function StatusBadge({ status }) {
   const map = {
     running: 'badge-running',
+    retrying: 'badge-running',
     completed: 'badge-completed',
     failed: 'badge-failed',
+    cancelled: 'badge-cancelled',
     paused: 'badge-pending',
   };
   return <span className={map[status] || 'badge-pending'}>{status}</span>;
 }
 
 function StatusIcon({ status }) {
-  if (status === 'running') return <Loader2 className="w-5 h-5 text-gold-500 animate-spin" />;
+  if (status === 'running' || status === 'retrying') return <Loader2 className="w-5 h-5 text-gold-500 animate-spin" />;
   if (status === 'completed') return <CheckCircle2 className="w-5 h-5 text-emerald-500" />;
   if (status === 'failed') return <XCircle className="w-5 h-5 text-crimson-500" />;
+  if (status === 'cancelled') return <Ban className="w-5 h-5 text-base-400" />;
   return <Clock className="w-5 h-5 text-ink-400" />;
 }
 
 export default function WorkflowRuns() {
   const [expandedRun, setExpandedRun] = useState(null);
+  const queryClient = useQueryClient();
+  const { toast } = useToast();
 
   const { data: runs = [], isLoading } = useQuery({
     queryKey: ['runs'],
     queryFn: () => getRuns(),
     refetchInterval: (query) => {
       const data = query.state.data || [];
-      return data.some((run) => run.status === 'running') ? 3000 : false;
+      return data.some((run) => run.status === 'running' || run.status === 'retrying') ? 3000 : false;
     },
   });
 
@@ -37,13 +44,28 @@ export default function WorkflowRuns() {
     queryFn: () => getRun(expandedRun),
     enabled: !!expandedRun,
     refetchInterval: (query) => {
-      return query.state.data?.status === 'running' ? 3000 : false;
+      return query.state.data?.status === 'running' || query.state.data?.status === 'retrying' ? 3000 : false;
     },
   });
 
-  const runningCount = runs.filter(r => r.status === 'running').length;
+  const cancelMutation = useMutation({
+    mutationFn: cancelRun,
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['runs'] });
+      toast({ type: 'info', title: 'Run cancelled', message: 'Generation has been stopped.' });
+    },
+    onError: (error) => toast({ type: 'error', title: 'Cancel failed', message: error.message }),
+  });
+
+  const runningCount = runs.filter(r => r.status === 'running' || r.status === 'retrying').length;
   const completedCount = runs.filter(r => r.status === 'completed').length;
   const failedCount = runs.filter(r => r.status === 'failed').length;
+
+  const outputHref = (run) => {
+    if (run.chapter_id && run.book_id) return `/library/${run.project_id}/books/${run.book_id}/chapters/${run.chapter_id}`;
+    if (run.workflow_type === 'brainstorm') return `/library/${run.project_id}?tab=bible`;
+    return `/library/${run.project_id}?tab=books`;
+  };
 
   return (
     <div className="space-y-6">
@@ -98,6 +120,7 @@ export default function WorkflowRuns() {
                   </div>
                   <div className="flex items-center gap-3 text-xs text-ink-400 mt-1">
                     <span>Step: {run.current_step || '—'}</span>
+                    {run.retry_count > 0 && <span>Attempt: {run.retry_count + 1}/{run.max_retries || 3}</span>}
                     <span>Started: {new Date(run.started_at).toLocaleString()}</span>
                     {run.completed_at && (
                       <span>Finished: {new Date(run.completed_at).toLocaleString()}</span>
@@ -108,6 +131,24 @@ export default function WorkflowRuns() {
 
               {expandedRun === run.id && (
                 <div className="border-t border-parchment-200 p-4 space-y-3">
+                  <div className="flex items-center justify-end gap-2">
+                    {run.cancellable && (
+                      <button
+                        onClick={() => cancelMutation.mutate(run.id)}
+                        disabled={cancelMutation.isPending}
+                        className="btn-danger text-xs px-3 py-1.5 flex items-center gap-1.5"
+                      >
+                        <Ban className="w-3.5 h-3.5" />
+                        {cancelMutation.isPending ? 'Cancelling...' : 'Cancel'}
+                      </button>
+                    )}
+                    {(run.status === 'completed' || run.status === 'failed') && (
+                      <Link to={outputHref(run)} className="btn-ghost text-xs px-3 py-1.5 flex items-center gap-1.5">
+                        <ExternalLink className="w-3.5 h-3.5" />
+                        View Output
+                      </Link>
+                    )}
+                  </div>
                   <div className="grid grid-cols-2 gap-4 text-sm">
                     <div>
                       <span className="text-ink-500">Run ID:</span>

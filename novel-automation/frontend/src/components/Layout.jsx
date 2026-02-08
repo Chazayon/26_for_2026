@@ -1,5 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+import ActiveRunBanner from './ActiveRunBanner';
+import RunStatusNotifier from './RunStatusNotifier';
 import {
   LayoutDashboard, Library, Sparkles, GitBranch, Clock,
   Settings, Feather, Zap
@@ -19,6 +21,7 @@ export default function Layout({ children }) {
 
   return (
     <div className="flex h-screen overflow-hidden bg-base-950">
+      <RunStatusNotifier />
       {/* Ambient glow orbs */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden">
         <div className="absolute -top-40 -left-40 w-96 h-96 bg-cyan-500/[0.03] rounded-full blur-3xl" />
@@ -94,6 +97,7 @@ export default function Layout({ children }) {
             transition={{ duration: 0.25, ease: 'easeOut' }}
             className="max-w-7xl mx-auto px-8 py-6"
           >
+            <ActiveRunBanner />
             {children}
           </motion.div>
         </AnimatePresence>

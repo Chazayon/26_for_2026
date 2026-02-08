@@ -69,9 +69,14 @@ class Chapter(Base):
     metadata_yaml = Column(Text, default="")
     production_log = Column(Text, default="")
     word_count = Column(Integer, default=0)
-    status = Column(String, default="pending")  # pending | brief_generating | brief_review | prose_generating | prose_review | completed
+    status = Column(String, default="pending")  # pending | brief_generating | brief_review | prose_generating | prose_review | awaiting_human_review | needs_revision | completed
     scene_brief_revisions = Column(Integer, default=0)
     prose_revisions = Column(Integer, default=0)
+    scene_brief_review = Column(Text, default="")
+    prose_review = Column(Text, default="")
+    scene_brief_human_approved = Column(Integer, default=0)
+    prose_human_approved = Column(Integer, default=0)
+    human_review_notes = Column(Text, default="")
     context_summary = Column(Text, default="")
     character_knowledge = Column(JSON, default=dict)
     created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))
@@ -98,8 +103,10 @@ class WorkflowRun(Base):
     book_id = Column(String, nullable=True)
     chapter_id = Column(String, nullable=True)
     workflow_type = Column(String, nullable=False)  # brainstorm | outline | chapter | full_book
-    status = Column(String, default="running")  # running | completed | failed | paused
+    status = Column(String, default="running")  # running | retrying | completed | failed | cancelled | paused
     current_step = Column(String, default="")
+    retry_count = Column(Integer, default=0)
+    max_retries = Column(Integer, default=3)
     logs = Column(JSON, default=list)
     error = Column(Text, default="")
     started_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))
@@ -133,6 +140,7 @@ class ProviderConfig(Base):
 async def init_db():
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
+        await _run_schema_migrations(conn)
 
     async with async_session() as session:
         from sqlalchemy import select
@@ -198,3 +206,22 @@ async def init_db():
 async def get_session():
     async with async_session() as session:
         yield session
+
+
+async def _run_schema_migrations(conn):
+    """Add missing columns for existing SQLite databases."""
+    await _ensure_column(conn, "chapters", "scene_brief_review", "TEXT DEFAULT ''")
+    await _ensure_column(conn, "chapters", "prose_review", "TEXT DEFAULT ''")
+    await _ensure_column(conn, "chapters", "scene_brief_human_approved", "INTEGER DEFAULT 0")
+    await _ensure_column(conn, "chapters", "prose_human_approved", "INTEGER DEFAULT 0")
+    await _ensure_column(conn, "chapters", "human_review_notes", "TEXT DEFAULT ''")
+
+    await _ensure_column(conn, "workflow_runs", "retry_count", "INTEGER DEFAULT 0")
+    await _ensure_column(conn, "workflow_runs", "max_retries", "INTEGER DEFAULT 3")
+
+
+async def _ensure_column(conn, table_name: str, column_name: str, ddl: str):
+    result = await conn.exec_driver_sql(f"PRAGMA table_info({table_name})")
+    columns = {row[1] for row in result.fetchall()}
+    if column_name not in columns:
+        await conn.exec_driver_sql(f"ALTER TABLE {table_name} ADD COLUMN {column_name} {ddl}")

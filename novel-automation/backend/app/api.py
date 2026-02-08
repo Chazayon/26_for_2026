@@ -3,7 +3,7 @@ import asyncio
 import json
 import logging
 from datetime import datetime, timezone
-from typing import Optional
+from typing import Optional, Literal
 from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, Form
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
@@ -26,6 +26,7 @@ router = APIRouter()
 # Active workflow tasks (in-memory tracker)
 _active_runs: dict[str, asyncio.Task] = {}
 _cancelled_runs: set[str] = set()
+MAX_RUN_RETRIES = 3
 
 
 # ---------------------------------------------------------------------------
@@ -73,6 +74,12 @@ class ChapterUpdate(BaseModel):
     location: Optional[str] = None
     scene_brief: Optional[str] = None
     prose: Optional[str] = None
+
+
+class ChapterHumanReviewUpdate(BaseModel):
+    target: Literal["scene_brief", "prose"]
+    approved: bool
+    notes: str = ""
 
 class CallsheetCreate(BaseModel):
     character_name: str
@@ -257,6 +264,43 @@ async def update_chapter(project_id: str, book_id: str, chapter_id: str, data: C
     await session.refresh(chapter)
     return _chapter_dict(chapter)
 
+
+@router.post("/projects/{project_id}/books/{book_id}/chapters/{chapter_id}/review")
+async def submit_chapter_review(
+    project_id: str,
+    book_id: str,
+    chapter_id: str,
+    data: ChapterHumanReviewUpdate,
+    session: AsyncSession = Depends(get_session),
+):
+    chapter = await session.get(Chapter, chapter_id)
+    if not chapter:
+        raise HTTPException(404, "Chapter not found")
+
+    if data.target == "scene_brief":
+        chapter.scene_brief_human_approved = 1 if data.approved else 0
+    else:
+        chapter.prose_human_approved = 1 if data.approved else 0
+
+    if data.notes.strip():
+        note = f"[{_now()}] {data.target} {'approved' if data.approved else 'needs revision'}: {data.notes.strip()}"
+        existing = chapter.human_review_notes or ""
+        chapter.human_review_notes = f"{existing}\n{note}".strip()
+
+    both_approved = bool(chapter.scene_brief_human_approved) and bool(chapter.prose_human_approved)
+    if both_approved:
+        chapter.status = "completed"
+    elif data.approved:
+        chapter.status = "awaiting_human_review"
+    else:
+        chapter.status = "needs_revision"
+
+    chapter.updated_at = datetime.now(timezone.utc)
+    await session.commit()
+    await session.refresh(chapter)
+    return _chapter_dict(chapter)
+
+
 @router.delete("/projects/{project_id}/books/{book_id}/chapters/{chapter_id}")
 async def delete_chapter(project_id: str, book_id: str, chapter_id: str, session: AsyncSession = Depends(get_session)):
     chapter = await session.get(Chapter, chapter_id)
@@ -422,8 +466,8 @@ async def cancel_run(run_id: str, session: AsyncSession = Depends(get_session)):
     run = await session.get(WorkflowRun, run_id)
     if not run:
         raise HTTPException(404, "Run not found")
-    if run.status != "running":
-        raise HTTPException(400, f"Run is not running (status: {run.status})")
+    if run.status not in {"running", "retrying"}:
+        raise HTTPException(400, f"Run is not cancellable (status: {run.status})")
 
     _cancelled_runs.add(run_id)
 
@@ -433,7 +477,7 @@ async def cancel_run(run_id: str, session: AsyncSession = Depends(get_session)):
 
     run.status = "cancelled"
     run.current_step = "cancelled_by_user"
-    run.logs = (run.logs or []) + [f"Workflow cancelled by user"]
+    run.logs = (run.logs or []) + [f"[{_now()}] Workflow cancelled by user"]
     run.completed_at = datetime.now(timezone.utc)
     await session.commit()
 
@@ -453,6 +497,9 @@ async def start_brainstorm(req: RunBrainstormRequest, session: AsyncSession = De
         workflow_type="brainstorm",
         status="running",
         current_step="brainstorm_expand",
+        retry_count=0,
+        max_retries=MAX_RUN_RETRIES,
+        logs=[f"[{_now()}] Brainstorm run queued (max retries: {MAX_RUN_RETRIES})"],
     )
     session.add(run)
     await session.commit()
@@ -483,6 +530,9 @@ async def start_chapter_run(req: RunChapterRequest, session: AsyncSession = Depe
         workflow_type="chapter",
         status="running",
         current_step="assemble_context",
+        retry_count=0,
+        max_retries=MAX_RUN_RETRIES,
+        logs=[f"[{_now()}] Chapter run queued (max retries: {MAX_RUN_RETRIES})"],
     )
     session.add(run)
     await session.commit()
@@ -517,6 +567,9 @@ async def start_book_run(req: RunBookRequest, session: AsyncSession = Depends(ge
         workflow_type="full_book",
         status="running",
         current_step=f"chapter_1_of_{len(chapters)}",
+        retry_count=0,
+        max_retries=MAX_RUN_RETRIES,
+        logs=[f"[{_now()}] Full book run queued for {len(chapters)} chapters (max retries: {MAX_RUN_RETRIES})"],
     )
     session.add(run)
     await session.commit()
@@ -579,56 +632,73 @@ def _is_cancelled(run_id: str) -> bool:
 
 async def _run_brainstorm(run_id: str, project: Project):
     try:
-        if _is_cancelled(run_id):
-            return
-        graph = get_brainstorm_graph()
-        initial_state = {
-            "project_id": project.id,
-            "idea_text": project.idea_text or "",
-            "genre": project.genre or "romance fantasy",
-            "ship_vibes": project.ship_vibes or "",
-            "existing_story_bible": project.story_bible or "",
-            "existing_outline": "",
-            "model_config": project.model_config_json or {},
-            "series_concept": "",
-            "world_building": "",
-            "character_profiles": "",
-            "series_arc": "",
-            "book_outlines": "",
-            "story_bible": "",
-            "status": "starting",
-            "logs": [],
-        }
+        async def _execute(attempt: int):
+            if _is_cancelled(run_id):
+                raise asyncio.CancelledError
 
-        result = await graph.ainvoke(initial_state)
+            await _update_run_state(
+                run_id,
+                status="running" if attempt == 1 else "retrying",
+                current_step="brainstorm_expand",
+                retry_count=attempt - 1,
+                append_log=f"[{_now()}] Brainstorm attempt {attempt}/{MAX_RUN_RETRIES} started",
+                clear_error=True,
+            )
 
-        async with get_session_direct() as session:
-            run = await session.get(WorkflowRun, run_id)
-            if run:
-                run.status = "completed"
-                run.current_step = "done"
-                run.logs = result.get("logs", [])
-                run.completed_at = datetime.now(timezone.utc)
+            graph = get_brainstorm_graph()
+            initial_state = {
+                "project_id": project.id,
+                "idea_text": project.idea_text or "",
+                "genre": project.genre or "romance fantasy",
+                "ship_vibes": project.ship_vibes or "",
+                "existing_story_bible": project.story_bible or "",
+                "existing_outline": "",
+                "model_config": project.model_config_json or {},
+                "series_concept": "",
+                "world_building": "",
+                "character_profiles": "",
+                "series_arc": "",
+                "book_outlines": "",
+                "story_bible": "",
+                "status": "starting",
+                "logs": [],
+            }
 
-            p = await session.get(Project, project.id)
-            if p:
-                p.story_bible = result.get("story_bible", "")
-                p.status = "brainstormed"
+            result = await _run_graph_with_progress(run_id, graph, initial_state)
+            if _is_cancelled(run_id):
+                raise asyncio.CancelledError
 
-                # Index the generated bible
-                if result.get("story_bible"):
-                    await asyncio.to_thread(
-                        index_document,
-                        p.id,
-                        "series_bible",
-                        "generated_bible",
-                        result["story_bible"],
-                    )
+            async with get_session_direct() as session:
+                run = await session.get(WorkflowRun, run_id)
+                if run:
+                    run.status = "completed"
+                    run.current_step = "done"
+                    run.retry_count = attempt - 1
+                    run.logs = result.get("logs", [])
+                    run.completed_at = datetime.now(timezone.utc)
 
-            await session.commit()
+                p = await session.get(Project, project.id)
+                if p:
+                    p.story_bible = result.get("story_bible", "")
+                    p.status = "brainstormed"
+
+                    # Index the generated bible
+                    if result.get("story_bible"):
+                        await asyncio.to_thread(
+                            index_document,
+                            p.id,
+                            "series_bible",
+                            "generated_bible",
+                            result["story_bible"],
+                        )
+
+                await session.commit()
+
+        await _run_with_retries(run_id, _execute)
 
     except asyncio.CancelledError:
         logger.info(f"Brainstorm run {run_id} was cancelled")
+        await _append_run_log(run_id, f"[{_now()}] Brainstorm run cancelled")
     except Exception as e:
         logger.exception(f"Brainstorm run {run_id} failed")
         async with get_session_direct() as session:
@@ -636,6 +706,7 @@ async def _run_brainstorm(run_id: str, project: Project):
             if run:
                 run.status = "failed"
                 run.error = str(e)
+                run.current_step = "failed"
                 run.logs = (run.logs or []) + [f"ERROR: {str(e)}"]
                 await session.commit()
     finally:
@@ -643,79 +714,113 @@ async def _run_brainstorm(run_id: str, project: Project):
         _cancelled_runs.discard(run_id)
 
 
-async def _run_chapter(run_id: str, project: Project, book: Book, chapter: Chapter):
+async def _run_chapter(run_id: str, project: Project, book: Book, chapter: Chapter, raise_on_error: bool = False):
     try:
-        graph = get_chapter_graph()
+        async def _execute(attempt: int):
+            if _is_cancelled(run_id):
+                raise asyncio.CancelledError
 
-        # Fetch previous chapter for context
-        async with get_session_direct() as session:
-            result = await session.execute(
-                select(Chapter).where(
-                    Chapter.book_id == book.id,
-                    Chapter.chapter_number == chapter.chapter_number - 1,
-                )
+            await _update_run_state(
+                run_id,
+                status="running" if attempt == 1 else "retrying",
+                current_step="assemble_context",
+                retry_count=attempt - 1,
+                append_log=f"[{_now()}] Chapter run attempt {attempt}/{MAX_RUN_RETRIES} started",
+                clear_error=True,
             )
-            prev_chapter = result.scalar_one_or_none()
 
-        initial_state = {
-            "project_id": project.id,
-            "book_id": book.id,
-            "chapter_id": chapter.id,
-            "chapter_number": chapter.chapter_number,
-            "pov_character": chapter.pov_character or "",
-            "plot_summary": chapter.plot_summary or "",
-            "character_list": chapter.character_list or "",
-            "location": chapter.location or "",
-            "model_config": project.model_config_json or {},
-            "previous_chapter_prose": prev_chapter.prose if prev_chapter else "",
-            "previous_chapter_summary": prev_chapter.context_summary if prev_chapter else "",
-            "voice_callsheet": "",
-            "series_bible_excerpt": "",
-            "ship_vibes": project.ship_vibes or "",
-            "book_outline_excerpt": book.outline[:3000] if book.outline else "",
-            "character_knowledge": prev_chapter.character_knowledge if prev_chapter else {},
-            "scene_brief": "",
-            "scene_brief_approved": False,
-            "scene_brief_revision_count": 0,
-            "scene_brief_review": "",
-            "prose": "",
-            "prose_approved": False,
-            "prose_revision_count": 0,
-            "prose_review": "",
-            "metadata_yaml": "",
-            "production_log": "",
-            "context_summary": "",
-            "word_count": 0,
-            "status": "starting",
-            "logs": [],
-        }
+            await _update_chapter_status(chapter.id, "brief_generating")
 
-        result = await graph.ainvoke(initial_state)
+            graph = get_chapter_graph()
 
-        async with get_session_direct() as session:
-            run = await session.get(WorkflowRun, run_id)
-            if run:
-                run.status = "completed"
-                run.current_step = "done"
-                run.logs = result.get("logs", [])
-                run.completed_at = datetime.now(timezone.utc)
+            # Fetch previous chapter for context
+            async with get_session_direct() as session:
+                result = await session.execute(
+                    select(Chapter).where(
+                        Chapter.book_id == book.id,
+                        Chapter.chapter_number == chapter.chapter_number - 1,
+                    )
+                )
+                prev_chapter = result.scalar_one_or_none()
 
-            ch = await session.get(Chapter, chapter.id)
-            if ch:
-                ch.scene_brief = result.get("scene_brief", "")
-                ch.prose = result.get("prose", "")
-                ch.metadata_yaml = result.get("metadata_yaml", "")
-                ch.production_log = result.get("production_log", "")
-                ch.word_count = result.get("word_count", 0)
-                ch.context_summary = result.get("context_summary", "")
-                ch.scene_brief_revisions = result.get("scene_brief_revision_count", 0)
-                ch.prose_revisions = result.get("prose_revision_count", 0)
-                ch.status = "completed"
+            initial_state = {
+                "project_id": project.id,
+                "book_id": book.id,
+                "chapter_id": chapter.id,
+                "chapter_number": chapter.chapter_number,
+                "pov_character": chapter.pov_character or "",
+                "plot_summary": chapter.plot_summary or "",
+                "character_list": chapter.character_list or "",
+                "location": chapter.location or "",
+                "model_config": project.model_config_json or {},
+                "previous_chapter_prose": prev_chapter.prose if prev_chapter else "",
+                "previous_chapter_summary": prev_chapter.context_summary if prev_chapter else "",
+                "voice_callsheet": "",
+                "series_bible_excerpt": "",
+                "ship_vibes": project.ship_vibes or "",
+                "book_outline_excerpt": book.outline[:3000] if book.outline else "",
+                "character_knowledge": prev_chapter.character_knowledge if prev_chapter else {},
+                "scene_brief": "",
+                "scene_brief_approved": False,
+                "scene_brief_revision_count": 0,
+                "scene_brief_review": "",
+                "prose": "",
+                "prose_approved": False,
+                "prose_revision_count": 0,
+                "prose_review": "",
+                "metadata_yaml": "",
+                "production_log": "",
+                "context_summary": "",
+                "word_count": 0,
+                "status": "starting",
+                "logs": [],
+            }
 
-            await session.commit()
+            result = await _run_graph_with_progress(
+                run_id,
+                graph,
+                initial_state,
+                chapter_id=chapter.id,
+            )
+            if _is_cancelled(run_id):
+                raise asyncio.CancelledError
+
+            async with get_session_direct() as session:
+                run = await session.get(WorkflowRun, run_id)
+                if run:
+                    run.status = "completed"
+                    run.current_step = "done"
+                    run.retry_count = attempt - 1
+                    run.logs = result.get("logs", [])
+                    run.logs = run.logs + [f"[{_now()}] Generation complete. Awaiting human approval."]
+                    run.completed_at = datetime.now(timezone.utc)
+
+                ch = await session.get(Chapter, chapter.id)
+                if ch:
+                    ch.scene_brief = result.get("scene_brief", "")
+                    ch.prose = result.get("prose", "")
+                    ch.metadata_yaml = result.get("metadata_yaml", "")
+                    ch.production_log = result.get("production_log", "")
+                    ch.word_count = result.get("word_count", 0)
+                    ch.context_summary = result.get("context_summary", "")
+                    ch.scene_brief_revisions = result.get("scene_brief_revision_count", 0)
+                    ch.prose_revisions = result.get("prose_revision_count", 0)
+                    ch.scene_brief_review = result.get("scene_brief_review", "")
+                    ch.prose_review = result.get("prose_review", "")
+                    ch.scene_brief_human_approved = 0
+                    ch.prose_human_approved = 0
+                    ch.status = "awaiting_human_review"
+
+                await session.commit()
+
+        await _run_with_retries(run_id, _execute)
 
     except asyncio.CancelledError:
         logger.info(f"Chapter run {run_id} was cancelled")
+        await _append_run_log(run_id, f"[{_now()}] Chapter run cancelled")
+        await _update_chapter_status(chapter.id, "pending")
+        if raise_on_error:
+            raise
     except Exception as e:
         logger.exception(f"Chapter run {run_id} failed")
         async with get_session_direct() as session:
@@ -723,8 +828,12 @@ async def _run_chapter(run_id: str, project: Project, book: Book, chapter: Chapt
             if run:
                 run.status = "failed"
                 run.error = str(e)
+                run.current_step = "failed"
                 run.logs = (run.logs or []) + [f"ERROR: {str(e)}"]
                 await session.commit()
+        await _update_chapter_status(chapter.id, "needs_revision")
+        if raise_on_error:
+            raise
     finally:
         _active_runs.pop(run_id, None)
         _cancelled_runs.discard(run_id)
@@ -736,20 +845,21 @@ async def _run_full_book(run_id: str, project: Project, book: Book, chapters: li
             if _is_cancelled(run_id):
                 return
 
-            async with get_session_direct() as session:
-                run = await session.get(WorkflowRun, run_id)
-                if run:
-                    run.current_step = f"chapter_{i + 1}_of_{len(chapters)}"
-                    run.logs = (run.logs or []) + [f"Starting Chapter {chapter.chapter_number}"]
-                    await session.commit()
+            await _update_run_state(
+                run_id,
+                current_step=f"chapter_{i + 1}_of_{len(chapters)}",
+                append_log=f"[{_now()}] Starting Chapter {chapter.chapter_number}",
+            )
 
-            await _run_chapter(f"{run_id}_ch{chapter.chapter_number}", project, book, chapter)
+            await _run_chapter(f"{run_id}_ch{chapter.chapter_number}", project, book, chapter, raise_on_error=True)
+            await _append_run_log(run_id, f"[{_now()}] Finished Chapter {chapter.chapter_number}")
 
         async with get_session_direct() as session:
             run = await session.get(WorkflowRun, run_id)
             if run:
                 run.status = "completed"
                 run.current_step = "done"
+                run.logs = (run.logs or []) + [f"[{_now()}] Full book generation complete"]
                 run.completed_at = datetime.now(timezone.utc)
                 await session.commit()
 
@@ -760,17 +870,136 @@ async def _run_full_book(run_id: str, project: Project, book: Book, chapters: li
 
     except asyncio.CancelledError:
         logger.info(f"Book run {run_id} was cancelled")
+        await _append_run_log(run_id, f"[{_now()}] Full book run cancelled")
     except Exception as e:
         logger.exception(f"Book run {run_id} failed")
         async with get_session_direct() as session:
             run = await session.get(WorkflowRun, run_id)
             if run:
                 run.status = "failed"
+                run.current_step = "failed"
                 run.error = str(e)
                 await session.commit()
     finally:
         _active_runs.pop(run_id, None)
         _cancelled_runs.discard(run_id)
+
+
+async def _run_with_retries(run_id: str, runner):
+    last_error: Optional[Exception] = None
+    for attempt in range(1, MAX_RUN_RETRIES + 1):
+        if _is_cancelled(run_id):
+            raise asyncio.CancelledError
+        try:
+            await runner(attempt)
+            return
+        except asyncio.CancelledError:
+            raise
+        except Exception as exc:
+            last_error = exc
+            if attempt >= MAX_RUN_RETRIES:
+                break
+            next_attempt = attempt + 1
+            await _update_run_state(
+                run_id,
+                status="retrying",
+                current_step=f"retry_attempt_{next_attempt}",
+                retry_count=attempt,
+                append_log=f"[{_now()}] Attempt {attempt} failed, retrying ({next_attempt}/{MAX_RUN_RETRIES})",
+            )
+            await asyncio.sleep(min(2 * attempt, 6))
+
+    if last_error:
+        raise last_error
+
+
+async def _run_graph_with_progress(run_id: str, graph, initial_state: dict, chapter_id: Optional[str] = None):
+    state = dict(initial_state)
+    if hasattr(graph, "astream"):
+        try:
+            async for event in graph.astream(initial_state, stream_mode="updates"):
+                if _is_cancelled(run_id):
+                    raise asyncio.CancelledError
+                if not isinstance(event, dict):
+                    continue
+                for node_name, node_output in event.items():
+                    if isinstance(node_output, dict):
+                        state.update(node_output)
+                    await _update_run_state(
+                        run_id,
+                        status="running",
+                        current_step=node_name,
+                        logs=state.get("logs", []),
+                    )
+                    if chapter_id:
+                        chapter_status = _chapter_status_from_step(node_name, state)
+                        if chapter_status:
+                            await _update_chapter_status(chapter_id, chapter_status)
+            return state
+        except TypeError:
+            logger.warning("Graph streaming unavailable; falling back to ainvoke")
+
+    # Fallback if stream API is unavailable.
+    return await graph.ainvoke(initial_state)
+
+
+def _chapter_status_from_step(step: str, state: dict) -> Optional[str]:
+    if step == "assemble_context":
+        return "brief_generating"
+    if step == "generate_scene_brief":
+        return "brief_review"
+    if step == "review_scene_brief":
+        return "prose_generating" if state.get("scene_brief_approved") else "brief_generating"
+    if step == "generate_prose":
+        return "prose_review"
+    if step == "review_prose":
+        return "awaiting_human_review" if state.get("prose_approved") else "prose_generating"
+    if step == "finalize_chapter":
+        return "awaiting_human_review"
+    return None
+
+
+async def _update_run_state(
+    run_id: str,
+    *,
+    status: Optional[str] = None,
+    current_step: Optional[str] = None,
+    retry_count: Optional[int] = None,
+    logs: Optional[list] = None,
+    append_log: Optional[str] = None,
+    clear_error: bool = False,
+):
+    async with get_session_direct() as session:
+        run = await session.get(WorkflowRun, run_id)
+        if not run:
+            return
+        if status is not None:
+            run.status = status
+        if current_step is not None:
+            run.current_step = current_step
+        if retry_count is not None:
+            run.retry_count = retry_count
+        if logs is not None:
+            run.logs = logs
+        if append_log:
+            run.logs = (run.logs or []) + [append_log]
+        if clear_error:
+            run.error = ""
+        await session.commit()
+
+
+async def _append_run_log(run_id: str, line: str):
+    await _update_run_state(run_id, append_log=line)
+
+
+async def _update_chapter_status(chapter_id: str, status: str):
+    async with get_session_direct() as session:
+        chapter = await session.get(Chapter, chapter_id)
+        if not chapter:
+            return
+        chapter.status = status
+        chapter.updated_at = datetime.now(timezone.utc)
+        await session.commit()
 
 
 # ---------------------------------------------------------------------------
@@ -809,6 +1038,11 @@ def _chapter_dict(c: Chapter) -> dict:
         "word_count": c.word_count, "status": c.status,
         "scene_brief_revisions": c.scene_brief_revisions,
         "prose_revisions": c.prose_revisions,
+        "scene_brief_review": c.scene_brief_review,
+        "prose_review": c.prose_review,
+        "scene_brief_human_approved": c.scene_brief_human_approved,
+        "prose_human_approved": c.prose_human_approved,
+        "human_review_notes": c.human_review_notes,
         "context_summary": c.context_summary,
         "character_knowledge": c.character_knowledge,
         "created_at": c.created_at.isoformat() if c.created_at else None,
@@ -820,10 +1054,12 @@ def _run_dict(r: WorkflowRun) -> dict:
         "id": r.id, "project_id": r.project_id, "book_id": r.book_id,
         "chapter_id": r.chapter_id, "workflow_type": r.workflow_type,
         "status": r.status, "current_step": r.current_step,
+        "retry_count": r.retry_count or 0,
+        "max_retries": r.max_retries or MAX_RUN_RETRIES,
         "logs": r.logs or [], "error": r.error,
         "started_at": r.started_at.isoformat() if r.started_at else None,
         "completed_at": r.completed_at.isoformat() if r.completed_at else None,
-        "cancellable": r.status == "running",
+        "cancellable": r.status in {"running", "retrying"},
     }
 
 def _model_config_dict(m: ModelConfig) -> dict:

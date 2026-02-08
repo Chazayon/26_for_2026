@@ -30,6 +30,7 @@ export const getChapters = (projectId, bookId) => request(`/projects/${projectId
 export const getChapter = (projectId, bookId, chapterId) => request(`/projects/${projectId}/books/${bookId}/chapters/${chapterId}`);
 export const createChapter = (projectId, bookId, data) => request(`/projects/${projectId}/books/${bookId}/chapters`, { method: 'POST', body: JSON.stringify(data) });
 export const updateChapter = (projectId, bookId, chapterId, data) => request(`/projects/${projectId}/books/${bookId}/chapters/${chapterId}`, { method: 'PATCH', body: JSON.stringify(data) });
+export const submitChapterReview = (projectId, bookId, chapterId, data) => request(`/projects/${projectId}/books/${bookId}/chapters/${chapterId}/review`, { method: 'POST', body: JSON.stringify(data) });
 export const deleteChapter = (projectId, bookId, chapterId) => request(`/projects/${projectId}/books/${bookId}/chapters/${chapterId}`, { method: 'DELETE' });
 
 // Voice Callsheets

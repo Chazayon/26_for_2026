@@ -3,10 +3,11 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
-import { getProject, getChapter, updateChapter, startChapterRun } from '../api';
+import { getProject, getChapter, updateChapter, startChapterRun, getRuns, cancelRun, submitChapterReview } from '../api';
+import { useToast } from '../components/ToastProvider';
 import {
   ArrowLeft, Play, PenTool, Save, BookOpen,
-  ScrollText, ClipboardList, BarChart3
+  ScrollText, ClipboardList, BarChart3, ShieldCheck, Ban
 } from 'lucide-react';
 
 const LIVE_CHAPTER_STATUSES = new Set([
@@ -15,13 +16,18 @@ const LIVE_CHAPTER_STATUSES = new Set([
   'prose_generating',
   'prose_review',
   'running',
+  'retrying',
+  'awaiting_human_review',
+  'needs_revision',
 ]);
 
 const statusMap = {
   pending: 'badge-pending', completed: 'badge-completed',
   brief_generating: 'badge-running', prose_generating: 'badge-running',
   brief_review: 'badge-running', prose_review: 'badge-running',
-  running: 'badge-running', failed: 'badge-failed',
+  running: 'badge-running', retrying: 'badge-running',
+  awaiting_human_review: 'badge-pending', needs_revision: 'badge-failed',
+  failed: 'badge-failed', cancelled: 'badge-cancelled',
 };
 function StatusBadge({ status }) {
   return <span className={statusMap[status] || 'badge-pending'}>{status}</span>;
@@ -33,6 +39,7 @@ export default function ChapterView() {
   const { projectId, bookId, chapterId } = useParams();
   const navigate = useNavigate();
   const queryClient = useQueryClient();
+  const { toast } = useToast();
   const [activeTab, setActiveTab] = useState('prose');
   const [editing, setEditing] = useState(null);
   const [editText, setEditText] = useState('');
@@ -46,6 +53,18 @@ export default function ChapterView() {
       return status && LIVE_CHAPTER_STATUSES.has(status) ? 3000 : false;
     },
   });
+  const { data: runs = [] } = useQuery({
+    queryKey: ['runs', projectId],
+    queryFn: () => getRuns(projectId),
+    refetchInterval: (query) => {
+      const data = query.state.data || [];
+      return data.some((run) => run.status === 'running' || run.status === 'retrying') ? 3000 : false;
+    },
+  });
+
+  const activeRun = runs.find(
+    (run) => run.chapter_id === chapterId && (run.status === 'running' || run.status === 'retrying'),
+  );
 
   const saveMutation = useMutation({
     mutationFn: (data) => updateChapter(projectId, bookId, chapterId, data),
@@ -53,7 +72,29 @@ export default function ChapterView() {
   });
   const runMutation = useMutation({
     mutationFn: () => startChapterRun(projectId, bookId, chapterId),
-    onSuccess: () => { queryClient.invalidateQueries({ queryKey: ['chapter', chapterId] }); queryClient.invalidateQueries({ queryKey: ['runs', projectId] }); },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['chapter', chapterId] });
+      queryClient.invalidateQueries({ queryKey: ['runs', projectId] });
+      toast({ type: 'success', title: 'Generation started', message: 'Live status is now tracking this chapter.' });
+    },
+    onError: (error) => toast({ type: 'error', title: 'Could not start generation', message: error.message }),
+  });
+  const cancelMutation = useMutation({
+    mutationFn: (runId) => cancelRun(runId),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['runs', projectId] });
+      queryClient.invalidateQueries({ queryKey: ['chapter', chapterId] });
+      toast({ type: 'info', title: 'Generation cancelled', message: 'This chapter run has been stopped.' });
+    },
+    onError: (error) => toast({ type: 'error', title: 'Cancel failed', message: error.message }),
+  });
+  const reviewMutation = useMutation({
+    mutationFn: (payload) => submitChapterReview(projectId, bookId, chapterId, payload),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['chapter', chapterId] });
+      toast({ type: 'success', title: 'Review saved', message: 'Chapter approval state updated.' });
+    },
+    onError: (error) => toast({ type: 'error', title: 'Review update failed', message: error.message }),
   });
 
   if (isLoading) return <div className="flex items-center justify-center h-64"><div className="w-8 h-8 rounded-full border-2 border-cyan-500 border-t-transparent animate-spin" /></div>;
@@ -62,6 +103,7 @@ export default function ChapterView() {
   const tabs = [
     { id: 'prose', label: 'Prose', icon: BookOpen },
     { id: 'brief', label: 'Scene Brief', icon: ScrollText },
+    { id: 'review', label: 'Review', icon: ShieldCheck },
     { id: 'details', label: 'Details', icon: ClipboardList },
     { id: 'log', label: 'Production Log', icon: BarChart3 },
   ];
@@ -103,11 +145,29 @@ export default function ChapterView() {
               </button>
             </>
           )}
-          <button onClick={() => runMutation.mutate()} disabled={runMutation.isPending} className="btn-primary flex items-center gap-2 text-sm">
-            <Play className="w-4 h-4" /> {runMutation.isPending ? 'Starting...' : 'Generate'}
-          </button>
+          {activeRun ? (
+            <button
+              onClick={() => cancelMutation.mutate(activeRun.id)}
+              disabled={cancelMutation.isPending}
+              className="btn-danger flex items-center gap-2 text-sm"
+            >
+              <Ban className="w-4 h-4" /> {cancelMutation.isPending ? 'Cancelling...' : 'Cancel Generation'}
+            </button>
+          ) : (
+            <button onClick={() => runMutation.mutate()} disabled={runMutation.isPending} className="btn-primary flex items-center gap-2 text-sm">
+              <Play className="w-4 h-4" /> {runMutation.isPending ? 'Starting...' : 'Generate'}
+            </button>
+          )}
         </div>
       </div>
+
+      {chapter.status === 'awaiting_human_review' && (
+        <div className="glass-subtle border-cyan-500/20 p-3">
+          <p className="text-sm text-base-200">
+            Generation is complete. Review and approve Scene Brief + Prose in the <strong>Review</strong> tab.
+          </p>
+        </div>
+      )}
 
       {/* Tabs */}
       <div className="flex gap-1 border-b border-white/[0.06] relative">
@@ -141,6 +201,14 @@ export default function ChapterView() {
         )
       )}
 
+      {activeTab === 'review' && (
+        <ReviewPanel
+          chapter={chapter}
+          isSaving={reviewMutation.isPending}
+          onApprove={(target, approved) => reviewMutation.mutate({ target, approved })}
+        />
+      )}
+
       {activeTab === 'details' && (
         <motion.div variants={fadeUp} initial="hidden" animate="show" className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="glass p-5 space-y-4">
@@ -154,6 +222,8 @@ export default function ChapterView() {
               <DetailRow label="Word Count" value={chapter.word_count?.toLocaleString() || '0'} />
               <DetailRow label="Brief Revisions" value={chapter.scene_brief_revisions || 0} />
               <DetailRow label="Prose Revisions" value={chapter.prose_revisions || 0} />
+              <DetailRow label="Brief Approved (Human)" value={chapter.scene_brief_human_approved ? 'Yes' : 'No'} />
+              <DetailRow label="Prose Approved (Human)" value={chapter.prose_human_approved ? 'Yes' : 'No'} />
             </div>
           </div>
           <div className="glass p-5 space-y-4">
@@ -195,6 +265,74 @@ function DetailRow({ label, value }) {
     <div className="flex justify-between items-center py-1">
       <span className="text-base-400">{label}</span>
       <span className="text-base-100 font-medium">{value}</span>
+    </div>
+  );
+}
+
+function ReviewPanel({ chapter, onApprove, isSaving }) {
+  const briefApproved = Boolean(chapter.scene_brief_human_approved);
+  const proseApproved = Boolean(chapter.prose_human_approved);
+
+  return (
+    <motion.div variants={fadeUp} initial="hidden" animate="show" className="space-y-4">
+      <div className="glass p-5">
+        <h3 className="font-display font-semibold text-base-100 mb-2">Human Approval</h3>
+        <p className="text-sm text-base-400">
+          Confirm both artifacts before the chapter is marked complete.
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <ReviewCard
+          title="Scene Brief Review"
+          approved={briefApproved}
+          reviewText={chapter.scene_brief_review}
+          onApprove={() => onApprove('scene_brief', true)}
+          onReject={() => onApprove('scene_brief', false)}
+          isSaving={isSaving}
+        />
+        <ReviewCard
+          title="Prose Review"
+          approved={proseApproved}
+          reviewText={chapter.prose_review}
+          onApprove={() => onApprove('prose', true)}
+          onReject={() => onApprove('prose', false)}
+          isSaving={isSaving}
+        />
+      </div>
+
+      {chapter.human_review_notes && (
+        <div className="glass p-5">
+          <h4 className="font-display font-semibold text-base-100 mb-3">Review Notes</h4>
+          <pre className="bg-base-950/60 rounded-xl p-3 text-xs text-base-300 whitespace-pre-wrap">{chapter.human_review_notes}</pre>
+        </div>
+      )}
+    </motion.div>
+  );
+}
+
+function ReviewCard({ title, approved, reviewText, onApprove, onReject, isSaving }) {
+  return (
+    <div className="glass p-5 space-y-4">
+      <div className="flex items-center justify-between">
+        <h4 className="font-semibold text-base-100">{title}</h4>
+        <span className={approved ? 'badge-completed' : 'badge-pending'}>
+          {approved ? 'approved' : 'pending'}
+        </span>
+      </div>
+      <div className="bg-base-950/60 rounded-xl border border-white/[0.05] p-3 max-h-64 overflow-auto">
+        {reviewText ? (
+          <div className="prose-preview text-xs">
+            <ReactMarkdown>{reviewText}</ReactMarkdown>
+          </div>
+        ) : (
+          <p className="text-xs text-base-500">No AI review notes captured.</p>
+        )}
+      </div>
+      <div className="flex justify-end gap-2">
+        <button onClick={onReject} disabled={isSaving} className="btn-danger text-xs px-3 py-1.5">Needs Revision</button>
+        <button onClick={onApprove} disabled={isSaving} className="btn-primary text-xs px-3 py-1.5">Approve</button>
+      </div>
     </div>
   );
 }

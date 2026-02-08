@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { motion, AnimatePresence } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
@@ -7,18 +7,22 @@ import {
   getProject, getBooks, createBook, deleteBook,
   getChapters, createChapter, deleteChapter,
   getCallsheets, createCallsheet, deleteCallsheet,
-  startBrainstorm, startChapterRun, startBookRun,
+  startBrainstorm, startChapterRun, startBookRun, cancelRun,
   getRuns, updateProject,
 } from '../api';
+import { useToast } from '../components/ToastProvider';
 import {
   BookOpen, Plus, Play, Trash2, ChevronRight, ChevronDown,
-  Users, Brain, Scroll, ArrowLeft, Eye, PenTool, Save
+  Users, Brain, Scroll, ArrowLeft, Eye, PenTool, Save, Ban, ExternalLink
 } from 'lucide-react';
 
 const statusMap = {
   created: 'badge-pending', pending: 'badge-pending', brainstormed: 'badge-completed',
   completed: 'badge-completed', running: 'badge-running', writing: 'badge-running',
-  brief_generating: 'badge-running', prose_generating: 'badge-running', failed: 'badge-failed',
+  brief_generating: 'badge-running', prose_generating: 'badge-running', retrying: 'badge-running',
+  brief_review: 'badge-running', prose_review: 'badge-running',
+  awaiting_human_review: 'badge-pending', needs_revision: 'badge-failed',
+  failed: 'badge-failed', cancelled: 'badge-cancelled',
 };
 function StatusBadge({ status }) {
   return <span className={statusMap[status] || 'badge-pending'}>{status}</span>;
@@ -29,7 +33,9 @@ const fadeUp = { hidden: { opacity: 0, y: 12 }, show: { opacity: 1, y: 0 } };
 export default function ProjectView() {
   const { projectId } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
   const queryClient = useQueryClient();
+  const { toast } = useToast();
   const [activeTab, setActiveTab] = useState('overview');
   const [expandedBook, setExpandedBook] = useState(null);
   const [showAddBook, setShowAddBook] = useState(false);
@@ -44,13 +50,25 @@ export default function ProjectView() {
     queryFn: () => getRuns(projectId),
     refetchInterval: (query) => {
       const data = query.state.data || [];
-      return data.some((run) => run.status === 'running') ? 3000 : false;
+      return data.some((run) => run.status === 'running' || run.status === 'retrying') ? 3000 : false;
     },
   });
 
+  useEffect(() => {
+    const requestedTab = new URLSearchParams(location.search).get('tab');
+    if (requestedTab && ['overview', 'books', 'callsheets', 'bible', 'runs'].includes(requestedTab)) {
+      setActiveTab(requestedTab);
+    }
+  }, [location.search]);
+
   const brainstormMutation = useMutation({
     mutationFn: () => startBrainstorm(projectId),
-    onSuccess: () => { queryClient.invalidateQueries({ queryKey: ['runs', projectId] }); setActiveTab('runs'); },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['runs', projectId] });
+      setActiveTab('runs');
+      toast({ type: 'success', title: 'Brainstorm started', message: 'Track progress in Workflow Runs.' });
+    },
+    onError: (error) => toast({ type: 'error', title: 'Could not start brainstorm', message: error.message }),
   });
   const addBookMutation = useMutation({
     mutationFn: (data) => createBook(projectId, data),
@@ -62,7 +80,20 @@ export default function ProjectView() {
   });
   const bookRunMutation = useMutation({
     mutationFn: (bookId) => startBookRun(projectId, bookId),
-    onSuccess: () => { queryClient.invalidateQueries({ queryKey: ['runs', projectId] }); setActiveTab('runs'); },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['runs', projectId] });
+      setActiveTab('runs');
+      toast({ type: 'success', title: 'Book production started', message: 'Live updates are now available.' });
+    },
+    onError: (error) => toast({ type: 'error', title: 'Could not start book run', message: error.message }),
+  });
+  const cancelMutation = useMutation({
+    mutationFn: cancelRun,
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['runs', projectId] });
+      toast({ type: 'info', title: 'Generation cancelled', message: 'The run was stopped.' });
+    },
+    onError: (error) => toast({ type: 'error', title: 'Cancel failed', message: error.message }),
   });
 
   if (isLoading) return <div className="flex items-center justify-center h-64"><div className="w-8 h-8 rounded-full border-2 border-cyan-500 border-t-transparent animate-spin" /></div>;
@@ -127,7 +158,7 @@ export default function ProjectView() {
       )}
       {activeTab === 'callsheets' && <CallsheetsTab projectId={projectId} callsheets={callsheets} showAdd={showAddCallsheet} setShowAdd={setShowAddCallsheet} queryClient={queryClient} />}
       {activeTab === 'bible' && <BibleTab project={project} projectId={projectId} queryClient={queryClient} />}
-      {activeTab === 'runs' && <RunsTab runs={runs} />}
+      {activeTab === 'runs' && <RunsTab runs={runs} onCancel={(runId) => cancelMutation.mutate(runId)} cancelling={cancelMutation.isPending} />}
     </motion.div>
   );
 }
@@ -247,13 +278,21 @@ function BooksTab({ projectId, books, expandedBook, setExpandedBook, showAddBook
 }
 
 function BookCard({ projectId, book, expanded, onToggle, showAddChapter, setShowAddChapter, onDelete, onRunBook, queryClient }) {
+  const { toast } = useToast();
   const { data: chapters = [] } = useQuery({ queryKey: ['chapters', projectId, book.id], queryFn: () => getChapters(projectId, book.id), enabled: expanded });
   const [chForm, setChForm] = useState({ chapter_number: 1, title: '', pov_character: '', plot_summary: '', character_list: '', location: '' });
   const addChapterMut = useMutation({
     mutationFn: (data) => createChapter(projectId, book.id, data),
     onSuccess: () => { queryClient.invalidateQueries({ queryKey: ['chapters', projectId, book.id] }); setShowAddChapter(false); setChForm({ ...chForm, chapter_number: chForm.chapter_number + 1, title: '', pov_character: '', plot_summary: '', character_list: '', location: '' }); },
   });
-  const chRunMut = useMutation({ mutationFn: (cid) => startChapterRun(projectId, book.id, cid), onSuccess: () => queryClient.invalidateQueries({ queryKey: ['runs', projectId] }) });
+  const chRunMut = useMutation({
+    mutationFn: (cid) => startChapterRun(projectId, book.id, cid),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['runs', projectId] });
+      toast({ type: 'success', title: 'Chapter generation started', message: 'Follow progress in Workflow Runs.' });
+    },
+    onError: (error) => toast({ type: 'error', title: 'Could not start chapter run', message: error.message }),
+  });
   const chDelMut = useMutation({ mutationFn: (cid) => deleteChapter(projectId, book.id, cid), onSuccess: () => queryClient.invalidateQueries({ queryKey: ['chapters', projectId, book.id] }) });
 
   return (
@@ -400,8 +439,19 @@ function BibleTab({ project, projectId, queryClient }) {
   );
 }
 
-function RunsTab({ runs }) {
+function RunsTab({ runs, onCancel, cancelling }) {
   const [expandedRun, setExpandedRun] = useState(null);
+
+  const outputHref = (run) => {
+    if (run.chapter_id && run.book_id) {
+      return `/library/${run.project_id}/books/${run.book_id}/chapters/${run.chapter_id}`;
+    }
+    if (run.workflow_type === 'brainstorm') {
+      return `/library/${run.project_id}?tab=bible`;
+    }
+    return `/library/${run.project_id}?tab=books`;
+  };
+
   return (
     <motion.div variants={fadeUp} initial="hidden" animate="show" className="space-y-4">
       <h3 className="font-display font-semibold text-base-100">Workflow Runs</h3>
@@ -413,19 +463,40 @@ function RunsTab({ runs }) {
             <div key={run.id} className="glass-subtle overflow-hidden">
               <div className="p-4 flex items-center justify-between cursor-pointer hover:bg-white/[0.02] transition-colors" onClick={() => setExpandedRun(expandedRun === run.id ? null : run.id)}>
                 <div className="flex items-center gap-3">
-                  {run.status === 'running' && <div className="w-2 h-2 rounded-full bg-amber-400 animate-glow-pulse" />}
+                  {(run.status === 'running' || run.status === 'retrying') && <div className="w-2 h-2 rounded-full bg-amber-400 animate-glow-pulse" />}
                   <div>
                     <span className="font-medium text-sm text-base-200 capitalize">{run.workflow_type.replace('_', ' ')}</span>
                     <span className="text-xs text-base-500 ml-2">{run.current_step}</span>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
+                  {run.retry_count > 0 && (
+                    <span className="text-[11px] text-amber-400">attempt {run.retry_count + 1}/{run.max_retries || 3}</span>
+                  )}
                   <StatusBadge status={run.status} />
                   <span className="text-[11px] text-base-500">{new Date(run.started_at).toLocaleString()}</span>
                 </div>
               </div>
               {expandedRun === run.id && (
                 <div className="border-t border-white/[0.04] p-4">
+                  <div className="flex items-center justify-end gap-2 mb-3">
+                    {run.cancellable && (
+                      <button
+                        onClick={() => onCancel(run.id)}
+                        disabled={cancelling}
+                        className="btn-danger text-xs px-3 py-1.5 flex items-center gap-1.5"
+                      >
+                        <Ban className="w-3.5 h-3.5" />
+                        {cancelling ? 'Cancelling...' : 'Cancel'}
+                      </button>
+                    )}
+                    {(run.status === 'completed' || run.status === 'failed') && (
+                      <Link to={outputHref(run)} className="btn-ghost text-xs px-3 py-1.5 flex items-center gap-1.5">
+                        <ExternalLink className="w-3.5 h-3.5" />
+                        View Output
+                      </Link>
+                    )}
+                  </div>
                   {run.error && <div className="bg-rose-500/10 text-rose-400 rounded-xl p-3 mb-3 text-xs border border-rose-500/15">{run.error}</div>}
                   <div className="bg-base-950/60 rounded-xl p-3 max-h-60 overflow-auto">
                     {(run.logs || []).map((log, i) => <div key={i} className="text-[11px] font-mono text-emerald-400/80 py-0.5">{log}</div>)}

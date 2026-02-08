@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { motion, AnimatePresence } from 'framer-motion';
 import { getRuns, getRun, cancelRun } from '../api';
@@ -24,6 +25,7 @@ const BRAINSTORM_PHASES = [
 
 const statusMap = {
   running: 'badge-running', completed: 'badge-completed',
+  retrying: 'badge-running',
   failed: 'badge-failed', cancelled: 'badge-cancelled',
 };
 
@@ -39,7 +41,7 @@ export default function Pipeline() {
     queryFn: () => getRuns(),
     refetchInterval: (query) => {
       const data = query.state.data || [];
-      return data.some((run) => run.status === 'running') ? 3000 : false;
+      return data.some((run) => run.status === 'running' || run.status === 'retrying') ? 3000 : false;
     },
   });
 
@@ -48,7 +50,7 @@ export default function Pipeline() {
     queryFn: () => getRun(expandedRun),
     enabled: !!expandedRun,
     refetchInterval: (query) => {
-      return query.state.data?.status === 'running' ? 3000 : false;
+      return query.state.data?.status === 'running' || query.state.data?.status === 'retrying' ? 3000 : false;
     },
   });
 
@@ -57,8 +59,8 @@ export default function Pipeline() {
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ['runs'] }),
   });
 
-  const activeRuns = runs.filter(r => r.status === 'running');
-  const otherRuns = runs.filter(r => r.status !== 'running');
+  const activeRuns = runs.filter(r => r.status === 'running' || r.status === 'retrying');
+  const otherRuns = runs.filter(r => r.status !== 'running' && r.status !== 'retrying');
 
   return (
     <motion.div variants={stagger} initial="hidden" animate="show" className="space-y-8">
@@ -248,6 +250,11 @@ function CompletedRunRow({ run, expanded, onToggle, detail }) {
             exit={{ height: 0, opacity: 0 }}
             className="overflow-hidden"
           >
+            <div className="px-4 pt-3 pb-1 flex justify-end">
+              <Link to={outputHref(run)} className="btn-ghost text-xs px-3 py-1.5">
+                View Output
+              </Link>
+            </div>
             {run.error && (
               <div className="mx-4 mb-3 p-3 rounded-xl bg-rose-500/10 border border-rose-500/20 text-rose-400 text-xs">
                 <AlertTriangle className="w-3.5 h-3.5 inline mr-1.5" />
@@ -260,6 +267,12 @@ function CompletedRunRow({ run, expanded, onToggle, detail }) {
       </AnimatePresence>
     </div>
   );
+}
+
+function outputHref(run) {
+  if (run.chapter_id && run.book_id) return `/library/${run.project_id}/books/${run.book_id}/chapters/${run.chapter_id}`;
+  if (run.workflow_type === 'brainstorm') return `/library/${run.project_id}?tab=bible`;
+  return `/library/${run.project_id}?tab=books`;
 }
 
 function LogViewer({ logs = [] }) {

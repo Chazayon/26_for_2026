@@ -10,7 +10,7 @@ import {
 const statusMap = {
   created: 'badge-pending', brainstorming: 'badge-running', brainstormed: 'badge-completed',
   outlining: 'badge-running', writing: 'badge-running', completed: 'badge-completed',
-  running: 'badge-running', failed: 'badge-failed', cancelled: 'badge-cancelled', pending: 'badge-pending',
+  running: 'badge-running', retrying: 'badge-running', failed: 'badge-failed', cancelled: 'badge-cancelled', pending: 'badge-pending',
 };
 function StatusBadge({ status }) {
   return <span className={statusMap[status] || 'badge-pending'}>{status}</span>;
@@ -27,7 +27,7 @@ export default function Dashboard() {
     refetchInterval: 3000,
   });
 
-  const activeRuns = runs.filter(r => r.status === 'running');
+  const activeRuns = runs.filter(r => r.status === 'running' || r.status === 'retrying');
   const completedRuns = runs.filter(r => r.status === 'completed');
   const recentCompleted = completedRuns.slice(0, 4);
   const totalChaptersCompleted = completedRuns.filter(r => r.workflow_type === 'chapter').length;

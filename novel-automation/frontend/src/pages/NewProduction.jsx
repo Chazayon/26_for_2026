@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { motion, AnimatePresence } from 'framer-motion';
-import { createProject, getProjects, getBooks, createBook, createChapter, startBrainstorm, startChapterRun, startBookRun } from '../api';
+import { createProject, startBrainstorm } from '../api';
+import { useToast } from '../components/ToastProvider';
 import {
-  Lightbulb, BookOpen, Library, ArrowRight, ArrowLeft, Sparkles,
-  Wand2, CheckCircle2, ChevronRight, Rocket, Plus, Trash2
+  Lightbulb, BookOpen, Library, ArrowRight, ArrowLeft,
+  Wand2, CheckCircle2, ChevronRight, Rocket
 } from 'lucide-react';
 
 const fadeUp = { hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0 } };
@@ -19,6 +20,7 @@ const INPUT_TYPES = [
 export default function NewProduction() {
   const navigate = useNavigate();
   const queryClient = useQueryClient();
+  const { toast } = useToast();
   const [step, setStep] = useState(0); // 0: type, 1: details, 2: chapters, 3: launch
   const [inputType, setInputType] = useState('idea');
   const [form, setForm] = useState({
@@ -28,16 +30,41 @@ export default function NewProduction() {
 
   const createMutation = useMutation({
     mutationFn: (data) => createProject(data),
-    onSuccess: (project) => {
+    onSuccess: async (project) => {
       queryClient.invalidateQueries({ queryKey: ['projects'] });
       if (inputType === 'idea') {
-        startBrainstorm(project.id).then(() => {
-          queryClient.invalidateQueries({ queryKey: ['runs'] });
-          navigate(`/library/${project.id}`);
+        toast({
+          type: 'success',
+          title: 'Production created',
+          message: 'Brainstorm generation is starting now.',
         });
+        try {
+          await startBrainstorm(project.id);
+          queryClient.invalidateQueries({ queryKey: ['runs'] });
+          navigate(`/library/${project.id}?tab=runs`);
+        } catch (error) {
+          toast({
+            type: 'error',
+            title: 'Brainstorm failed to start',
+            message: error.message || 'Please retry from the project page.',
+          });
+          navigate(`/library/${project.id}`);
+        }
       } else {
+        toast({
+          type: 'success',
+          title: 'Production created',
+          message: 'Add books and chapters, then start generation.',
+        });
         navigate(`/library/${project.id}`);
       }
+    },
+    onError: (error) => {
+      toast({
+        type: 'error',
+        title: 'Could not create production',
+        message: error.message || 'Please check your inputs and try again.',
+      });
     },
   });
 

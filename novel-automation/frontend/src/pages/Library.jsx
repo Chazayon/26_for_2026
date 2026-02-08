@@ -10,6 +10,7 @@ import {
 const statusMap = {
   created: 'badge-pending', brainstormed: 'badge-completed', brainstorming: 'badge-running',
   writing: 'badge-running', completed: 'badge-completed', failed: 'badge-failed',
+  awaiting_human_review: 'badge-pending', needs_revision: 'badge-failed', retrying: 'badge-running',
 };
 function StatusBadge({ status }) {
   return <span className={statusMap[status] || 'badge-pending'}>{status}</span>;

@@ -21,18 +21,21 @@ const typeColors = {
 };
 const statusIcons = {
   running: Loader2,
+  retrying: Loader2,
   completed: CheckCircle2,
   failed: XCircle,
   cancelled: Ban,
 };
 const statusColors = {
   running: 'text-amber-400',
+  retrying: 'text-amber-400',
   completed: 'text-emerald-400',
   failed: 'text-rose-400',
   cancelled: 'text-base-400',
 };
 const statusBadges = {
   running: 'badge-running',
+  retrying: 'badge-running',
   completed: 'badge-completed',
   failed: 'badge-failed',
   cancelled: 'badge-cancelled',
@@ -67,7 +70,7 @@ export default function History() {
     queryFn: () => getRuns(),
     refetchInterval: (query) => {
       const data = query.state.data || [];
-      return data.some((run) => run.status === 'running') ? 5000 : false;
+      return data.some((run) => run.status === 'running' || run.status === 'retrying') ? 5000 : false;
     },
   });
 
