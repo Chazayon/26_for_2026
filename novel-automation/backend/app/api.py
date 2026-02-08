@@ -10,7 +10,7 @@ from pydantic import BaseModel
 from sqlalchemy import select, update, delete
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.database import (
-    get_session, Project, Book, Chapter, VoiceCallsheet, WorkflowRun, ModelConfig, gen_id,
+    get_session, Project, Book, Chapter, VoiceCallsheet, WorkflowRun, ModelConfig, ProviderConfig, gen_id,
 )
 from app.llm_providers import (
     list_ollama_models,
@@ -95,6 +95,17 @@ class ModelConfigUpdate(BaseModel):
     temperature: Optional[str] = None
     max_tokens: Optional[int] = None
     is_default: Optional[int] = None
+
+class ProviderConfigCreate(BaseModel):
+    provider_name: str
+    api_key: Optional[str] = None
+    base_url: Optional[str] = None
+    is_enabled: int = 1
+
+class ProviderConfigUpdate(BaseModel):
+    api_key: Optional[str] = None
+    base_url: Optional[str] = None
+    is_enabled: Optional[int] = None
 
 class RunBrainstormRequest(BaseModel):
     project_id: str
@@ -341,13 +352,48 @@ async def delete_model_config(config_id: str, session: AsyncSession = Depends(ge
     return {"ok": True}
 
 @router.get("/models/available")
-async def list_available_models():
+async def list_available_models(session: AsyncSession = Depends(get_session)):
     ollama_models = await list_ollama_models()
+    
+    # Get enabled providers to filter UI
+    result = await session.execute(select(ProviderConfig))
+    providers = {p.provider_name: p.is_enabled for p in result.scalars().all()}
+    
     return {
         "openrouter": OPENROUTER_POPULAR_MODELS,
         "ollama": ollama_models,
-        "ollama_available": len(ollama_models) > 0,
+        "providers": providers,
     }
+
+
+# ---------------------------------------------------------------------------
+# Provider Configuration
+# ---------------------------------------------------------------------------
+
+@router.get("/providers")
+async def list_providers(session: AsyncSession = Depends(get_session)):
+    result = await session.execute(select(ProviderConfig).order_by(ProviderConfig.provider_name))
+    return [_provider_config_dict(p) for p in result.scalars().all()]
+
+@router.post("/providers")
+async def update_provider_config(data: ProviderConfigCreate, session: AsyncSession = Depends(get_session)):
+    pc = await session.get(ProviderConfig, data.provider_name)
+    if not pc:
+        # Create new if not exists (allows adding custom providers implicitly)
+        pc = ProviderConfig(**data.model_dump())
+        session.add(pc)
+    else:
+        # Update existing
+        if data.api_key is not None:
+            pc.api_key = data.api_key
+        if data.base_url is not None:
+            pc.base_url = data.base_url
+        if data.is_enabled is not None:
+            pc.is_enabled = data.is_enabled
+            
+    await session.commit()
+    clear_model_config_cache()
+    return _provider_config_dict(pc)
 
 
 # ---------------------------------------------------------------------------
@@ -786,4 +832,13 @@ def _model_config_dict(m: ModelConfig) -> dict:
         "model_id": m.model_id, "role": m.role,
         "temperature": m.temperature, "max_tokens": m.max_tokens,
         "is_default": m.is_default,
+    }
+
+def _provider_config_dict(p: ProviderConfig) -> dict:
+    return {
+        "provider_name": p.provider_name,
+        "base_url": p.base_url,
+        "is_enabled": p.is_enabled,
+        # Never return full API key to frontend, just existence check
+        "has_key": bool(p.api_key) if p.api_key else False,
     }

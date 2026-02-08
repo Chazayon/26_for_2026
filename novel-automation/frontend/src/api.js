@@ -43,6 +43,8 @@ export const createModelConfig = (data) => request('/models/configs', { method: 
 export const updateModelConfig = (id, data) => request(`/models/configs/${id}`, { method: 'PATCH', body: JSON.stringify(data) });
 export const deleteModelConfig = (id) => request(`/models/configs/${id}`, { method: 'DELETE' });
 export const getAvailableModels = () => request('/models/available');
+export const getProviders = () => request('/providers');
+export const updateProviderConfig = (data) => request('/providers', { method: 'POST', body: JSON.stringify(data) });
 
 // Workflow Runs
 export const getRuns = (projectId) => request(`/runs${projectId ? `?project_id=${projectId}` : ''}`);

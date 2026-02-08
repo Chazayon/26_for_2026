@@ -119,6 +119,17 @@ class ModelConfig(Base):
     is_default = Column(Integer, default=0)
 
 
+class ProviderConfig(Base):
+    __tablename__ = "provider_configs"
+
+    provider_name = Column(String, primary_key=True)  # openai | anthropic | gemini | openrouter | ollama | etc.
+    api_key = Column(String, nullable=True)
+    base_url = Column(String, nullable=True)
+    model_list = Column(JSON, default=list)  # Cache of available models
+    is_enabled = Column(Integer, default=1)
+
+
+
 async def init_db():
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
@@ -170,6 +181,17 @@ async def init_db():
                 ),
             ]
             session.add_all(defaults)
+            
+            # Initialize default providers
+            providers = [
+                ProviderConfig(provider_name="openrouter", is_enabled=1),
+                ProviderConfig(provider_name="ollama", base_url="http://localhost:11434", is_enabled=1),
+                ProviderConfig(provider_name="openai", is_enabled=0),
+                ProviderConfig(provider_name="anthropic", is_enabled=0),
+                ProviderConfig(provider_name="gemini", is_enabled=0),
+            ]
+            session.add_all(providers)
+            
             await session.commit()
 
 
