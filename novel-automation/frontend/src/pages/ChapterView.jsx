@@ -9,6 +9,14 @@ import {
   ScrollText, ClipboardList, BarChart3
 } from 'lucide-react';
 
+const LIVE_CHAPTER_STATUSES = new Set([
+  'brief_generating',
+  'brief_review',
+  'prose_generating',
+  'prose_review',
+  'running',
+]);
+
 const statusMap = {
   pending: 'badge-pending', completed: 'badge-completed',
   brief_generating: 'badge-running', prose_generating: 'badge-running',
@@ -30,7 +38,14 @@ export default function ChapterView() {
   const [editText, setEditText] = useState('');
 
   const { data: project } = useQuery({ queryKey: ['project', projectId], queryFn: () => getProject(projectId) });
-  const { data: chapter, isLoading } = useQuery({ queryKey: ['chapter', chapterId], queryFn: () => getChapter(projectId, bookId, chapterId), refetchInterval: 5000 });
+  const { data: chapter, isLoading } = useQuery({
+    queryKey: ['chapter', chapterId],
+    queryFn: () => getChapter(projectId, bookId, chapterId),
+    refetchInterval: (query) => {
+      const status = query.state.data?.status;
+      return status && LIVE_CHAPTER_STATUSES.has(status) ? 3000 : false;
+    },
+  });
 
   const saveMutation = useMutation({
     mutationFn: (data) => updateChapter(projectId, bookId, chapterId, data),

@@ -10,6 +10,7 @@ from chromadb.config import Settings as ChromaSettings
 from app.config import settings
 
 _client: Optional[chromadb.ClientAPI] = None
+_collection_cache: dict[str, chromadb.Collection] = {}
 
 
 def get_chroma_client() -> chromadb.ClientAPI:
@@ -40,14 +41,35 @@ def _chunk_text(text: str, chunk_size: int = 1000, overlap: int = 200) -> list[s
     return chunks
 
 
+def _get_or_create_collection(col_name: str):
+    collection = _collection_cache.get(col_name)
+    if collection is not None:
+        return collection
+
+    client = get_chroma_client()
+    collection = client.get_or_create_collection(name=col_name)
+    _collection_cache[col_name] = collection
+    return collection
+
+
+def _get_collection(col_name: str):
+    collection = _collection_cache.get(col_name)
+    if collection is not None:
+        return collection
+
+    client = get_chroma_client()
+    collection = client.get_collection(name=col_name)
+    _collection_cache[col_name] = collection
+    return collection
+
+
 def index_document(project_id: str, doc_type: str, doc_id: str, content: str, metadata: Optional[dict] = None):
     """Index a document into the project's RAG collection.
     
     doc_type: series_bible | voice_callsheet | chapter_prose | chapter_brief | outline
     """
-    client = get_chroma_client()
     col_name = _collection_name(project_id, doc_type)
-    collection = client.get_or_create_collection(name=col_name)
+    collection = _get_or_create_collection(col_name)
 
     # Remove old entries for this doc_id
     try:
@@ -72,11 +94,10 @@ def index_document(project_id: str, doc_type: str, doc_id: str, content: str, me
 
 def query_documents(project_id: str, doc_type: str, query: str, n_results: int = 5) -> list[dict]:
     """Query the RAG collection for relevant chunks."""
-    client = get_chroma_client()
     col_name = _collection_name(project_id, doc_type)
 
     try:
-        collection = client.get_collection(name=col_name)
+        collection = _get_collection(col_name)
     except Exception:
         return []
 
@@ -112,5 +133,6 @@ def delete_project_collections(project_id: str):
         col_name = _collection_name(project_id, dt)
         try:
             client.delete_collection(name=col_name)
+            _collection_cache.pop(col_name, None)
         except Exception:
             pass

@@ -35,21 +35,26 @@ export default function Pipeline() {
   const [expandedRun, setExpandedRun] = useState(null);
 
   const { data: runs = [], isLoading } = useQuery({
-    queryKey: ['allRuns'],
+    queryKey: ['runs'],
     queryFn: () => getRuns(),
-    refetchInterval: 3000,
+    refetchInterval: (query) => {
+      const data = query.state.data || [];
+      return data.some((run) => run.status === 'running') ? 3000 : false;
+    },
   });
 
   const { data: runDetail } = useQuery({
     queryKey: ['run', expandedRun],
     queryFn: () => getRun(expandedRun),
     enabled: !!expandedRun,
-    refetchInterval: 3000,
+    refetchInterval: (query) => {
+      return query.state.data?.status === 'running' ? 3000 : false;
+    },
   });
 
   const cancelMutation = useMutation({
     mutationFn: cancelRun,
-    onSuccess: () => queryClient.invalidateQueries({ queryKey: ['allRuns'] }),
+    onSuccess: () => queryClient.invalidateQueries({ queryKey: ['runs'] }),
   });
 
   const activeRuns = runs.filter(r => r.status === 'running');

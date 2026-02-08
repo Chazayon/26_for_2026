@@ -5,6 +5,7 @@ Supports multiple entry points:
 - From outline: outline → chapters  
 - Single chapter: chapter outline → scene brief → prose
 """
+import asyncio
 import json
 import logging
 from datetime import datetime, timezone
@@ -18,13 +19,16 @@ from app.prompts import (
     PROSE_WRITER_SYSTEM,
 )
 from app.llm_providers import get_llm_for_role
-from app.rag import query_documents, query_all_types, index_document
+from app.rag import query_documents, index_document
 
 logger = logging.getLogger(__name__)
 
 # Configurable max revision limits
 MAX_BRIEF_REVISIONS = 3
 MAX_PROSE_REVISIONS = 3
+
+_brainstorm_graph = None
+_chapter_graph = None
 
 
 # ---------------------------------------------------------------------------
@@ -228,32 +232,37 @@ async def assemble_context(state: ChapterState) -> dict:
     logs = list(state.get("logs", []))
     logs.append(f"[{_now()}] Assembling context for Chapter {state['chapter_number']}")
 
-    # Pull relevant context from RAG
     project_id = state["project_id"]
     pov = state.get("pov_character", "")
     query = f"{pov} chapter {state['chapter_number']} {state.get('plot_summary', '')[:200]}"
 
-    rag_context = query_all_types(project_id, query, n_results=3)
-    extra_context_parts = []
-    for doc_type, hits in rag_context.items():
-        for hit in hits:
-            extra_context_parts.append(f"[{doc_type}] {hit['content']}")
-
     # Build voice callsheet from RAG if not already provided
     voice = state.get("voice_callsheet", "")
     if not voice and pov:
-        voice_hits = query_documents(project_id, "voice_callsheet", pov, n_results=5)
+        voice_hits = await asyncio.to_thread(
+            query_documents,
+            project_id,
+            "voice_callsheet",
+            pov,
+            5,
+        )
         if voice_hits:
             voice = "\n\n".join(h["content"] for h in voice_hits)
 
     # Build series bible excerpt from RAG if not provided
     bible = state.get("series_bible_excerpt", "")
     if not bible:
-        bible_hits = query_documents(project_id, "series_bible", query, n_results=5)
+        bible_hits = await asyncio.to_thread(
+            query_documents,
+            project_id,
+            "series_bible",
+            query,
+            5,
+        )
         if bible_hits:
             bible = "\n\n".join(h["content"] for h in bible_hits)
 
-    logs.append(f"[{_now()}] Context assembled: voice={'yes' if voice else 'no'}, bible={'yes' if bible else 'no'}, RAG chunks={len(extra_context_parts)}")
+    logs.append(f"[{_now()}] Context assembled: voice={'yes' if voice else 'no'}, bible={'yes' if bible else 'no'}")
 
     return {
         "voice_callsheet": voice,
@@ -564,15 +573,29 @@ async def finalize_chapter(state: ChapterState) -> dict:
     chapter_id = state.get("chapter_id", f"ch_{state['chapter_number']}")
 
     if state.get("prose"):
-        index_document(project_id, "chapter_prose", chapter_id, state["prose"], {
-            "chapter_number": state["chapter_number"],
-            "pov_character": state.get("pov_character", ""),
-        })
+        await asyncio.to_thread(
+            index_document,
+            project_id,
+            "chapter_prose",
+            chapter_id,
+            state["prose"],
+            {
+                "chapter_number": state["chapter_number"],
+                "pov_character": state.get("pov_character", ""),
+            },
+        )
     if state.get("scene_brief"):
-        index_document(project_id, "chapter_brief", chapter_id, state["scene_brief"], {
-            "chapter_number": state["chapter_number"],
-            "pov_character": state.get("pov_character", ""),
-        })
+        await asyncio.to_thread(
+            index_document,
+            project_id,
+            "chapter_brief",
+            chapter_id,
+            state["scene_brief"],
+            {
+                "chapter_number": state["chapter_number"],
+                "pov_character": state.get("pov_character", ""),
+            },
+        )
 
     logs = list(state.get("logs", []))
     logs.append(f"[{now}] Chapter {state['chapter_number']} FINALIZED — {state.get('word_count', 0)} words")
@@ -631,6 +654,20 @@ def build_chapter_graph() -> StateGraph:
     graph.add_edge("finalize_chapter", END)
 
     return graph.compile()
+
+
+def get_brainstorm_graph():
+    global _brainstorm_graph
+    if _brainstorm_graph is None:
+        _brainstorm_graph = build_brainstorm_graph()
+    return _brainstorm_graph
+
+
+def get_chapter_graph():
+    global _chapter_graph
+    if _chapter_graph is None:
+        _chapter_graph = build_chapter_graph()
+    return _chapter_graph
 
 
 # ---------------------------------------------------------------------------

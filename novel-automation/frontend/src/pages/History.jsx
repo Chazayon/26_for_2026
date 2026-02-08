@@ -63,9 +63,12 @@ function groupByDate(runs) {
 
 export default function History() {
   const { data: runs = [], isLoading } = useQuery({
-    queryKey: ['allRuns'],
+    queryKey: ['runs'],
     queryFn: () => getRuns(),
-    refetchInterval: 5000,
+    refetchInterval: (query) => {
+      const data = query.state.data || [];
+      return data.some((run) => run.status === 'running') ? 5000 : false;
+    },
   });
 
   const grouped = groupByDate(runs);

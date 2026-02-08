@@ -39,7 +39,14 @@ export default function ProjectView() {
   const { data: project, isLoading } = useQuery({ queryKey: ['project', projectId], queryFn: () => getProject(projectId) });
   const { data: books = [] } = useQuery({ queryKey: ['books', projectId], queryFn: () => getBooks(projectId) });
   const { data: callsheets = [] } = useQuery({ queryKey: ['callsheets', projectId], queryFn: () => getCallsheets(projectId) });
-  const { data: runs = [] } = useQuery({ queryKey: ['runs', projectId], queryFn: () => getRuns(projectId), refetchInterval: 5000 });
+  const { data: runs = [] } = useQuery({
+    queryKey: ['runs', projectId],
+    queryFn: () => getRuns(projectId),
+    refetchInterval: (query) => {
+      const data = query.state.data || [];
+      return data.some((run) => run.status === 'running') ? 3000 : false;
+    },
+  });
 
   const brainstormMutation = useMutation({
     mutationFn: () => startBrainstorm(projectId),

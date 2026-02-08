@@ -8,6 +8,9 @@ from sqlalchemy import select
 from app.config import settings
 from app.database import async_session, ModelConfig
 
+_llm_cache: dict[tuple[str, str, float, int], BaseChatModel] = {}
+_role_default_cache: dict[str, Optional[tuple[str, str, float, int]]] = {}
+
 
 def get_openrouter_llm(model_id: str, temperature: float = 0.7, max_tokens: int = 4096) -> BaseChatModel:
     return ChatOpenAI(
@@ -33,12 +36,26 @@ def get_ollama_llm(model_id: str, temperature: float = 0.7, max_tokens: int = 40
 
 
 def get_llm(provider: str, model_id: str, temperature: float = 0.7, max_tokens: int = 4096) -> BaseChatModel:
+    cache_key = (provider, model_id, temperature, max_tokens)
+    cached = _llm_cache.get(cache_key)
+    if cached is not None:
+        return cached
+
     if provider == "openrouter":
-        return get_openrouter_llm(model_id, temperature, max_tokens)
+        llm = get_openrouter_llm(model_id, temperature, max_tokens)
     elif provider == "ollama":
-        return get_ollama_llm(model_id, temperature, max_tokens)
+        llm = get_ollama_llm(model_id, temperature, max_tokens)
     else:
         raise ValueError(f"Unknown provider: {provider}")
+
+    _llm_cache[cache_key] = llm
+    return llm
+
+
+def clear_model_config_cache():
+    """Clear cached defaults and model instances after config changes."""
+    _role_default_cache.clear()
+    _llm_cache.clear()
 
 
 async def get_llm_for_role(role: str, project_config: Optional[dict] = None) -> BaseChatModel:
@@ -55,24 +72,37 @@ async def get_llm_for_role(role: str, project_config: Optional[dict] = None) -> 
             max_tokens=int(cfg.get("max_tokens", 4096)),
         )
 
-    async with async_session() as session:
-        result = await session.execute(
-            select(ModelConfig).where(
-                ModelConfig.role == role,
-                ModelConfig.is_default == 1,
+    default_cfg = _role_default_cache.get(role)
+    if role not in _role_default_cache:
+        async with async_session() as session:
+            result = await session.execute(
+                select(ModelConfig).where(
+                    ModelConfig.role == role,
+                    ModelConfig.is_default == 1,
+                )
             )
-        )
-        config = result.scalar_one_or_none()
+            config = result.scalar_one_or_none()
+            if config is None:
+                _role_default_cache[role] = None
+            else:
+                _role_default_cache[role] = (
+                    config.provider,
+                    config.model_id,
+                    float(config.temperature),
+                    config.max_tokens,
+                )
+        default_cfg = _role_default_cache.get(role)
 
-        if config is None:
-            return get_openrouter_llm("anthropic/claude-sonnet-4", 0.7, 4096)
+    if default_cfg is None:
+        return get_llm("openrouter", "anthropic/claude-sonnet-4", 0.7, 4096)
 
-        return get_llm(
-            provider=config.provider,
-            model_id=config.model_id,
-            temperature=float(config.temperature),
-            max_tokens=config.max_tokens,
-        )
+    provider, model_id, temperature, max_tokens = default_cfg
+    return get_llm(
+        provider=provider,
+        model_id=model_id,
+        temperature=temperature,
+        max_tokens=max_tokens,
+    )
 
 
 async def list_ollama_models() -> list[dict]:

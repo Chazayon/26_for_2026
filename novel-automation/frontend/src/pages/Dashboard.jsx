@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { getProjects, getRuns, getBooks, getChapters } from '../api';
+import { getProjects, getRuns } from '../api';
 import {
   BookOpen, CheckCircle2, Sparkles, Activity, ArrowRight,
   TrendingUp, FileText, Feather, Zap, BarChart3
@@ -21,7 +21,14 @@ const stagger = { show: { transition: { staggerChildren: 0.06 } } };
 
 export default function Dashboard() {
   const { data: projects = [] } = useQuery({ queryKey: ['projects'], queryFn: getProjects });
-  const { data: runs = [] } = useQuery({ queryKey: ['runs'], queryFn: () => getRuns(), refetchInterval: 5000 });
+  const { data: runs = [] } = useQuery({
+    queryKey: ['runs'],
+    queryFn: () => getRuns(),
+    refetchInterval: (query) => {
+      const data = query.state.data || [];
+      return data.some((run) => run.status === 'running') ? 3000 : false;
+    },
+  });
 
   const activeRuns = runs.filter(r => r.status === 'running');
   const completedRuns = runs.filter(r => r.status === 'completed');

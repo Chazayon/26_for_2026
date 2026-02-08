@@ -12,9 +12,13 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.database import (
     get_session, Project, Book, Chapter, VoiceCallsheet, WorkflowRun, ModelConfig, gen_id,
 )
-from app.llm_providers import get_llm_for_role, list_ollama_models, OPENROUTER_POPULAR_MODELS
+from app.llm_providers import (
+    list_ollama_models,
+    OPENROUTER_POPULAR_MODELS,
+    clear_model_config_cache,
+)
 from app.rag import index_document, query_documents, query_all_types, delete_project_collections
-from app.workflow import build_brainstorm_graph, build_chapter_graph
+from app.workflow import get_brainstorm_graph, get_chapter_graph
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
@@ -124,9 +128,9 @@ async def create_project(data: ProjectCreate, session: AsyncSession = Depends(ge
 
     # Index story bible and ship vibes into RAG if provided
     if data.story_bible:
-        index_document(project.id, "series_bible", "main_bible", data.story_bible)
+        await asyncio.to_thread(index_document, project.id, "series_bible", "main_bible", data.story_bible)
     if data.ship_vibes:
-        index_document(project.id, "series_bible", "ship_vibes", data.ship_vibes)
+        await asyncio.to_thread(index_document, project.id, "series_bible", "ship_vibes", data.ship_vibes)
 
     return _project_dict(project)
 
@@ -149,7 +153,7 @@ async def update_project(project_id: str, data: ProjectUpdate, session: AsyncSes
     await session.refresh(project)
 
     if data.story_bible:
-        index_document(project_id, "series_bible", "main_bible", data.story_bible)
+        await asyncio.to_thread(index_document, project_id, "series_bible", "main_bible", data.story_bible)
 
     return _project_dict(project)
 
@@ -160,7 +164,7 @@ async def delete_project(project_id: str, session: AsyncSession = Depends(get_se
         raise HTTPException(404, "Project not found")
     await session.delete(project)
     await session.commit()
-    delete_project_collections(project_id)
+    await asyncio.to_thread(delete_project_collections, project_id)
     return {"ok": True}
 
 
@@ -183,7 +187,7 @@ async def create_book(project_id: str, data: BookCreate, session: AsyncSession =
     await session.refresh(book)
 
     if data.outline:
-        index_document(project_id, "outline", book.id, data.outline)
+        await asyncio.to_thread(index_document, project_id, "outline", book.id, data.outline)
 
     return _book_dict(book)
 
@@ -268,7 +272,14 @@ async def create_callsheet(project_id: str, data: CallsheetCreate, session: Asyn
     cs = VoiceCallsheet(id=gen_id(), project_id=project_id, **data.model_dump())
     session.add(cs)
     await session.commit()
-    index_document(project_id, "voice_callsheet", cs.id, data.content, {"character_name": data.character_name})
+    await asyncio.to_thread(
+        index_document,
+        project_id,
+        "voice_callsheet",
+        cs.id,
+        data.content,
+        {"character_name": data.character_name},
+    )
     return {"id": cs.id, "character_name": cs.character_name}
 
 @router.delete("/projects/{project_id}/callsheets/{callsheet_id}")
@@ -295,6 +306,7 @@ async def create_model_config(data: ModelConfigCreate, session: AsyncSession = D
     mc = ModelConfig(id=gen_id(), **data.model_dump())
     session.add(mc)
     await session.commit()
+    clear_model_config_cache()
     return _model_config_dict(mc)
 
 @router.patch("/models/configs/{config_id}")
@@ -315,6 +327,7 @@ async def update_model_config(config_id: str, data: ModelConfigUpdate, session: 
         setattr(mc, k, v)
     await session.commit()
     await session.refresh(mc)
+    clear_model_config_cache()
     return _model_config_dict(mc)
 
 @router.delete("/models/configs/{config_id}")
@@ -324,6 +337,7 @@ async def delete_model_config(config_id: str, session: AsyncSession = Depends(ge
         raise HTTPException(404)
     await session.delete(mc)
     await session.commit()
+    clear_model_config_cache()
     return {"ok": True}
 
 @router.get("/models/available")
@@ -494,7 +508,7 @@ async def upload_document(
         raise HTTPException(400, "No content provided")
 
     doc_id = gen_id()
-    index_document(project_id, doc_type, doc_id, content, {"name": doc_name})
+    await asyncio.to_thread(index_document, project_id, doc_type, doc_id, content, {"name": doc_name})
 
     return {"ok": True, "doc_id": doc_id, "doc_type": doc_type, "name": doc_name}
 
@@ -502,9 +516,9 @@ async def upload_document(
 @router.get("/projects/{project_id}/rag/search")
 async def rag_search(project_id: str, query: str, doc_type: Optional[str] = None):
     if doc_type:
-        results = query_documents(project_id, doc_type, query, n_results=10)
+        results = await asyncio.to_thread(query_documents, project_id, doc_type, query, 10)
     else:
-        results = query_all_types(project_id, query, n_results=5)
+        results = await asyncio.to_thread(query_all_types, project_id, query, 5)
     return results
 
 
@@ -521,7 +535,7 @@ async def _run_brainstorm(run_id: str, project: Project):
     try:
         if _is_cancelled(run_id):
             return
-        graph = build_brainstorm_graph()
+        graph = get_brainstorm_graph()
         initial_state = {
             "project_id": project.id,
             "idea_text": project.idea_text or "",
@@ -557,7 +571,13 @@ async def _run_brainstorm(run_id: str, project: Project):
 
                 # Index the generated bible
                 if result.get("story_bible"):
-                    index_document(p.id, "series_bible", "generated_bible", result["story_bible"])
+                    await asyncio.to_thread(
+                        index_document,
+                        p.id,
+                        "series_bible",
+                        "generated_bible",
+                        result["story_bible"],
+                    )
 
             await session.commit()
 
@@ -579,7 +599,7 @@ async def _run_brainstorm(run_id: str, project: Project):
 
 async def _run_chapter(run_id: str, project: Project, book: Book, chapter: Chapter):
     try:
-        graph = build_chapter_graph()
+        graph = get_chapter_graph()
 
         # Fetch previous chapter for context
         async with get_session_direct() as session:
@@ -711,7 +731,7 @@ async def _run_full_book(run_id: str, project: Project, book: Book, chapters: li
 # Helpers
 # ---------------------------------------------------------------------------
 
-async def get_session_direct():
+def get_session_direct():
     from app.database import async_session
     return async_session()
 
