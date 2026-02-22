@@ -1,560 +1,204 @@
-# Chapter 20 — *The Cage Drops*
+# Chapter 20 — *The Sanctuary of Her Room*
 ### Lysa | POV
 
-They waited until the sun was high. No shadows to hide in. 
+My quarters have never felt this small, or this aggressively quiet. 
 
-The street is bright bone and dust and too many eyes.
+The heavy iron tumblers of the door lock turn with a brutal, final click that seems to echo too loudly against the bare stone walls. I step over the threshold, the residual chill of the Spine District clinging to my damp robes. Behind me, the hallway is empty save for the flickering glow of the luminescent moss tracing the ceiling. 
 
-Midday in the Ribcage: stalls open, hawkers shouting, marrow-sellers waving skewers, children weaving through legs with the inhuman precision of people born to a city that tries to kill them. The god’s ribs arch overhead like the bars of a cage, sunlight knifing through the gaps. 
+Cyran stops at the edge of the doorway. 
 
-Cyran walks half a step ahead of me, hood up, hands bare.
+He doesn’t cross the threshold. He stands there, framed by the dark wood and the darker hall, his Vigil leathers stiff, his shoulders rigidly drawn. The silver tracking-sigils carved into his bracers catch the faint ambient light from the corridor, but his eyes are fixed somewhere near the center of my floorboards, as if he expects them to judge him, or perhaps open up and swallow him whole.
 
-He moves loose, casual, like any other off‑duty Warden cutting through the market—except every so often his gaze snags on something too long. A reflective surface. A shrine bell. A Tribunal badge glinting at someone’s wrist.
+"You can come in," I say gently, keeping my voice low. "I'm not going to invoice you for the floor space."
 
-The Maestro’s parchment is folded in my inner pocket, pressed flat against my ribs.
+A faint, strained twitch pulls at the corner of his mouth—the muscle memory of an ornament's smile trying and failing to seat itself. He steps inside, moving with that fluid, unnatural grace that always reminds me he was made for violence and display. But tonight, it’s purely defensive. He skirts the center of the room, coming to rest near the narrow window that overlooks the distant, smog-choked arch of the Ribcage.
 
-Temple of the Heart. Midnight. Great Pulse. Investor list. Guard rotations. The future is planned down to the minute. All that’s left is to survive long enough to disrupt it. 
+I turn my back to him, deliberately giving him physical space, and strike a match against the stone wall. I touch the flame to the small amber glow-lamp on my desk. The light it casts is soft, golden, bleeding the harsh institutional gray out of the bone structures and replacing it with something entirely mortal and deeply imperfect. It’s the furthest thing from an interrogation room, or the cold silver opulence of the Temple.
 
-“New safe house is three streets over,” I say under my breath. “Once we’re inside, we stay there until dusk. No more detours. No more Maestros.” 
+I shrug off the heavy outer shell of my Tribunal robes. The wool is stiff with the stench of the Marrow Archives, carrying the invisible weight of the things we found today. The signature. The confirmation that High Priest Varos isn’t just corrupt—he’s active, and he’s building something apocalyptic. I hang the robes behind the door, leaving me in the soft, worn linen of my undershirt. It feels like peeling away the armor of Scribe Lysa and leaving only myself.
 
-“No more Archives,” he replies. “No more flaming books. No more screaming shelves. I might even miss them, in a perverse way.”
+"Water?" I ask, moving toward the cracked clay pitcher resting on my basin. 
 
-He smiles at me.
+"No." The word is clipped. Cyran doesn't look away from the window. "Thank you."
 
-It’s a fragile thing, after the last twenty‑four hours, but it’s there.
+I pour a glass anyway, taking a slow sip. My throat is dry with the dust of old ledgers and the sharp, coppery taste of adrenaline that hasn't fully subsided since we left the Archives. Over the rim of the glass, I watch him. 
 
-I catalogue the things wrong with him anyway.
+His posture is a masterclass in controlled tension. He thinks he’s hiding it, but I’ve spent the last month reading him like an unredacted file. I can see the minute, almost imperceptible tremor running through the knuckles of his right hand where he grips the window sill. The lines of his neck are drawn tight, the scar tissue sitting livid and pale against his skin. The revelation of Varos's ritual signature hasn’t just frightened him; it’s dragged him back into the gilded cage he spent centuries trying to survive.
 
-Ears still faintly pink at the edges from the Archive’s alarms. A bruise blooming along his jaw where bone shattered under us on the way out. The way he flinched when the Maestro mentioned Subject 9 like it was an accomplishment. 
+I set the glass down. It clinks softly against the clay basin. 
 
-The way he said I want to be a man at your side, and meant it.
+"Cyran," I say, my voice steady. "Where are you right now?"
 
-“You’re staring, Investigator,” he murmurs. “Is my disguise that convincing?”
+It’s an auditor’s question, direct and grounding, stripping away the poetry to demand a factual answer. 
 
-“You look like you slept three hours and picked a fight with a music store,” I say. “So yes. You blend perfectly.”
+He finally looks at me. His eyes, usually that striking, inhuman silver, look bruised in the amber moonlight. "In your room," he says, the deflection so smooth it’s almost offensive. "Evaluating the structural integrity of your legal filing system. Do you ever sleep, or do you just absorb jurisprudence through osmosis?"
 
-He huffs a laugh.
+It’s a bitter joke. A shield.
 
-We turn down a narrower artery, away from the main crush.
+I don’t smile. I cross the small space between us, my bare feet silent against the cold stone floor. I don't stop until I am standing immediately in front of him, close enough that the scent of him—dust, stale blood, and the sharp ozone tang of panic—fills my lungs. I refuse the deflection. 
 
-This is where it should feel safer: fewer people, fewer witnesses, nothing but carts and laundry lines and the smell of hot stone. You can hear your own footsteps here.
+" Cyran." 
 
-You can hear other people’s too.
+I lift my hand, keeping the motion slow, telegraphable. His eyes track the movement with the hyper-vigilance of a prey animal that knows it’s cornered. When my fingertips brush the stiff leather of his arm, he flinches. It’s a minute, violent jerk, a full-body rejection of contact.
 
-A scrape of boot leather on bone, just out of sync with the rhythm of the street.
+I don’t pull away. I let my hand rest there, applying no pressure, just a solid, unmoving warmth against the cold leather. 
 
-I slow.
+After a second that stretches into an eternity, the tension in his spine fractures. He exhales, a ragged, uneven sound, and leans into the touch by a fraction of an inch. It’s a surrender that hurts to watch.
 
-Cyran’s head tilts almost imperceptibly.
+"He's here," Cyran whispers, the words tasting like ash. "Varos is doing this. Everything we found today… it’s him."
 
-“Left,” he murmurs. “Don’t look. Keep walking.”
+"I know," I say softly. "And we are going to stop him. We have the proof. But tonight, right now, neither of us is in the Archives. He is not in this room."
 
-I don’t look.
+Cyran closes his eyes. The tremor in his hands worsens, spreading up his arms. He is blood-starved, the stress of the day violently accelerating the Thirst he keeps locked away. I can see it in the pronounced shallowness of his breathing, the way his jaw tightens against the instinct to hunt. The city is full of easy marks outside, but he is here, vibrating with the effort of not looking at me like a meal. 
 
-I do see, in the edge of my vision, the glint of brass at hip level. Tribunal issue. Not a warden’s plain functional badge, but the more ornate pin of an Auditor’s office.
+"Cyran," I murmur, my thumb brushing the edge of his bracer. "Look at me."
 
-My office.
+He opens his eyes. 
 
-“Voss,” I whisper.
+I reach up with my free hand and slowly, deliberately, pull the collar of my linen shirt to the side, baring the pulse point at the base of my throat. The skin there is already warm, my heartbeat a steady, heavy thrum in the quiet of the room. 
 
-Too late.
+"Take what you need," I say. 
 
-They come from the alleys in a coordinated ripple.
+He stares at the exposed skin, his pupils blowing wide, swallowing the silver until his eyes are almost entirely black. A low, involuntary sound vibrates in his chest—a sound that has nothing to do with the man and everything to do with the monster. But he doesn’t move forward. Instead, he takes a sharp step back, his back hitting the wall beside the window. 
 
-Gold‑trimmed bone armour, livery bright and ostentatious in the sun. Tribunal Guard, not Vigil. Shields stamped with the balanced scales, batons at hips, a few crossbows slung over shoulders for show. 
+"No," he says. The word punches out of him, sharp and terrified. "Not tonight. I’m too… I’m not steady, Lysa. I’ll hurt you. If I start right now, I don't know if I can stop."
 
-“By order of the High Inquisitor, halt!” a voice bellows.
+His fear is a physical weight in the room. He is terrified of himself, terrified that the monster Varos made will eclipse the man I know. 
 
-The crowd parts the way crowds always do when uniforms and volume appear—a surge backward, then a ring of distance, as if the whole street has decided we’re contagious.
+I close the distance he just created, stepping directly into his space again. The amber light throws our shadows together against the worn stone. I look up into his panicked eyes, my gaze uncompromising. 
 
-Cyran steps sideways, instinct putting his body between me and the noise.
+"I am not afraid of you," I tell him, the words resonant and certain. "I know exactly who you are. This isn't a debt, Cyran. This isn't a transaction. You are not taking from me. I am giving it to you. Do you understand the difference?"
 
-He doesn’t reach for me.
+He swallows hard. His gaze drops to my throat again, the hunger fighting a losing battle against his iron-clad restraint. 
 
-He does reach for his daggers.
+"Tell me yes," I demand softly. "Tell me you understand."
 
-“Run,” he says quietly.
+"Lysa…" he breathes, his voice cracking. 
 
-“No,” I say.
+"Tell me."
 
-There is nowhere to run that isn’t under their jurisdiction.
+"Yes," he whispers, the word torn from him.
 
-The man at the front is all too familiar.
+"Then take it."
 
-Voss’s hair is more grey than it was when he gave me this assignment. His robe is heavier, embroidered with a level of gold thread that speaks of recent promotion. His expression is exactly the same: grave, patient, like a teacher calling a favored student to task.
+He doesn't hesitate any longer. He moves with a sudden, desperate speed, his hands coming up to grip my shoulders—careful, so agonizingly careful not to bruise. He ducks his head, his mouth finding the curve of my neck. 
 
-“Auditor Voss,” he says. “Lysa Voss‑daughter.” His gaze flicks to Cyran. “And the Relic.”
+I feel the sharp, precise sting of his teeth breaking the skin, and then the world drops away. 
 
-Cyran bares his teeth.
+The empathic link—the First Blood Ritual mechanics that bind us every time he feeds—flares open like a rusted door being kicked off its hinges. In the alley, weeks ago, it was a muted, disorienting echo. Tonight, it is a tidal wave. 
 
-It looks like a smile.
+I don't just feel his physical relief; I am slammed with the full, suffocating weight of his internal landscape. It’s terrifying. I feel the cold, abyssal loneliness he carries every second of the day. I feel the phantom touches of the temple priests, the ingrained, sickening subservience that he hates himself for. And underneath it all, burning brighter than the thirst, is a yearning so profound it hurts my chest to feel it. He is starving for connection, for safety, and he believes with every fiber of his being that he doesn't deserve it. 
 
-“You’re early,” I say, throat dry. “The ceremony’s not until tonight.”
+I gasp, my hands coming up to tangle in his hair. I pull him closer, trying to push my own emotions back through the link—the fierce, unyielding protectiveness I feel for him. *You are safe. You are mine to protect.*
 
-“This isn’t about the ceremony,” Voss replies. He lifts a parchment, already open. The wax seal glints red in the sun. “Lysa Voss, Tribunal Auditor, you are under arrest for dereliction of duty, unauthorized tampering with Temple property, and conspiracy against a certified donor of the Heart.”
+He groans against my skin, drinking slower now, the frantic desperation smoothing out into deep, rhythmic pulls. The pain fades, replaced by a strange, heavy warmth that begins to spread outward from the bite. 
 
-My name in his mouth sounds like an epitaph.
+When he finally pulls back, his mouth is stained, his eyes wide and stunned as the empathic feedback hits him in reverse. He stares at me, his chest heaving, the bloodlight fading back to silver in his irises. 
 
-“Betrayal doesn’t look like a villain in a mask,” I say, quietly. “It looks like my boss holding a warrant.”
+He doesn’t step away. He stays exactly where he is, his hands sliding from my shoulders to frame my face. His thumbs trace my cheekbones, smearing a faint trace of my own blood against my skin. 
 
-His jaw tightens.
+The feeding is over, but the hunger in his eyes hasn't vanished. It has simply changed shape. 
 
-“Don’t make this harder than it needs to be,” he says softly, just for me. “Come quietly. We can resolve this internally.”
+"Lysa," he breathes, his voice dropping an octave. 
 
-“Internally,” I repeat. “Where Thessen’s donation ledger outweighs my report.”
+He leans in and kisses me. 
 
-Something flickers in his eyes.
+It isn’t tentative. It isn't the careful, guarded touch of an ornament performing for a client. It is raw, urgent, and desperate. His mouth is hot, tasting of copper and salt, his hands slipping down my back to pull me flush against him. I kiss him back with equal ferocity, my hands finding the buckles of his leather armor, fighting the stiff straps to reach the heat of the skin beneath. 
 
-Guilt.
+The amber light blurs. We stagger a few steps toward the center of the room, the world narrowing to the friction of skin and the heavy, ragged sound of our breathing. He sweeps me up, his strength effortless, and deposits me on the edge of my narrow bed. 
 
-Good.
+The bed frame creaks in protest. He follows me down, his weight pinning me to the mattress. The heavy Vigils leathers are finally gone, cast aside onto the floorboards, leaving him in just his thin shirt. He pulls my linen shirt over my head, discarding it, his hands mapping the curves of my body like he is trying to memorize me before the world ends. 
 
-Not enough.
+Every touch is a contradiction—he is built with the devastating strength of a god-spawn killer, yet his hands move over me with a reverence that borders on worship. He traces the line of my collarbone, his mouth following his fingers, pressing hot, open-mouthed kisses against my skin. I arch into him, a soft, involuntary sound escaping my throat. 
 
-Cyran laughs.
+"You're so beautiful," he murmurs against my skin, the empathic link still humming faintly between us, echoing the sincerity of his words. "You have no idea."
 
-The sound is sharp, bright, dangerous.
+I pull his face up to mine, capturing his lips again. The physical intimacy escalates, a cascade of heat and friction. I am lost in the sensation, in the overwhelming rightness of his weight against me, the smell of his sweat, the desperate, beautiful noise he makes when I drag my nails lightly down his back. 
 
-“Oh, this is adorable,” he drawls. “We’ve reached the part of the story where the righteous institution reveals it’s been rotting from the inside the whole time. Truly, I didn’t see it coming.”
+We move together, the rhythm building, the tension winding tighter and tighter. I wrap my arms around his neck, my fingers tracing the raised, jagged edges of the scarred tissue there.
 
-“Relic,” Voss says, visibly ignoring him. “Stand down. This doesn’t concern you.”
+And then, in a single heartbeat, everything stops. 
 
-“Everything concerning her concerns me,” Cyran says.
+Cyran goes completely rigid. The muscles of his back lock, hard as stone under my hands. His breathing hitch—not a gasp of pleasure, but a sharp, choked intake of air, like he's just been plunged into freezing water.
 
-He draws.
+I open my eyes instantly. "Cyran?"
 
-The daggers appear in his hands like they were always there.
+He pushes himself up, his arms trembling violently holding his weight above me. His eyes are blown wide, staring at me, but he isn't seeing me. He is looking right through me, the silver irises dilated with absolute, blind terror. 
 
-For a heartbeat, the Guard hesitate.
+The empathic link, which had been humming with warmth, suddenly spikes with a jolt of cold, paralyzing shame. An image flashes through my mind, not mine—a heavy velvet curtain, the smell of suffocating incense, a hand with silver rings reaching toward him. 
 
-They know him. They’ve watched him fight on their leashes. They’ve seen what happens when he stops pretending to be tame.
+The past. The Temple. Varos. 
 
-“Take them,” Voss orders.
+Cyran yanks himself away from me entirely, scrambling backward on the bed until his back hits the wall. He pulls his knees up, a deeply defensive, curled posture that belongs to a victim, not a Vigil. 
 
-The street explodes.
+"I'm sorry," he gasps, his voice high and frantic. The "ornament" mask slams down over his features, a horrifying, artificial composure that is infinitely worse than his panic. "I'm sorry, my lady. I misread the command. I am at fault. Please, I can—"
 
-Boots pounding. Shouts. Shields coming up.
+"Cyran, stop." 
 
-Cyran moves.
+I sit up instantly, ignoring my own nakedness. I don't reach for him—I keep my hands flat on the mattress, making myself small, making sure I am not looming over him. 
 
-Later, someone will call this sequence The Dancer of Death. I’ll read the embellished reports, hear the rumors in prison whispers about how the Relic carved through a dozen Guards before they brought him down.
+"Cyran, look at the room," I say, my voice steady, projecting the calm I do not feel. I am a Tribunal auditor; I know how to de-escalate. "Look at the light. What color is the lamp?"
 
-Watching it from arm’s length is something else.
+He blinks, his breath coming in short, hyperventilating pulls. He stares at the desk across the room. "Amber," he chokes out. 
 
-He doesn’t kill.
+"And the floor. Is it marble, or is it wood?"
 
-I can see the choices in every movement.
+"Wood." His voice cracks. "It's… wood."
 
-Blade reversed to the hilt, slamming up under a Guard’s ribs just hard enough to steal breath, not life. A twist of wrist that sends a baton clattering away instead of cracking a skull. A kick to the back of a knee joint that buckles a man instead of shattering bone. 
+"You are in my room," I tell him gently. "In the Spine. You are with Lysa. You are safe. Nothing is happening that you do not want to happen."
 
-He is everywhere at once.
+He buries his face in his hands, a ragged, miserable sob tearing from his throat. The artificial composure shatters completely. "I ruined it," he whispers into his palms. "I'm sorry. I'm broken. I ruin everything I touch."
 
-A blur of black and pale and steel, weaving through gold and bone.
+My heart breaks perfectly in half. 
 
-Someone lunges for me.
+I move slowly, crawling across the sheets until I am sitting beside him. I wrap my arms around him, pulling his tense, shaking frame against my chest. I don't ask for permission; I just hold him, tucking his head under my chin, rocking him slightly. 
 
-My body moves before thought catches up.
+"You didn't ruin anything," I murmur fiercely into his hair. "You had a memory. That's all. It's just a memory. It cannot hurt you here."
 
-My baton is in my hand, extending with a familiar click. I slam it into the Guard’s forearm, feel bone give a little under the force. He yelps, drops his weapon; I step in, twist, and send him stumbling into his own comrade.
+He clings to me, his fingers gripping my arms with bruising force. He is weeping silently, the centuries of suppressed trauma bleeding out of him onto my shoulder. We sit there for a long time, the only sounds in the room the wind outside and the slow, gradual evening of his breathing. 
 
-“Lysa!” Cyran snaps.
+When the trembling finally stops, he pulls back slightly. He doesn't look at me, his gaze fixed on the tangled sheets. The shame rolling off him through the fading link is suffocating. 
 
-“I’m not running,” I bite out, catching another strike on the baton’s length. “You don’t get to bleed for me alone.”
+"I'm sorry," he says again, quieter this time. 
 
-“Oh, how novel,” he grunts, taking a shield blow on his shoulder and spinning with it, turning the momentum into a sweep that knocks three Guards back. “Equality in our self‑destructive impulses.”
+I reach out and gently cup his jaw, forcing him to meet my eyes. "If you apologize one more time, I am going to write you a citation for disturbing the peace."
 
-A crossbow bolt whistles past my ear.
+A watery, broken sound escapes him—half-laugh, half-sob. 
 
-It thunks into a shrine post behind me, quivering.
+"You have control, Cyran," I tell him, my voice leaving no room for argument. "If you want to stop, we stop. If you want to put your armor on and sleep on the floor, you can. If you want to try again, we try again. But it is your choice. Nobody else is in this room but us."
 
-Idiot, I think distantly. Firing in a crowd. Even the Tribunal’s hired muscle is getting sloppy.
+He looks at me, searching my face. He is looking for the impatience, the disgust, the entitlement that he was raised to expect from the people who owned his body. He finds nothing but my absolute, unwavering devotion. 
 
-“Enough,” Voss shouts. “Deploy the Bells!”
+"You're not angry," he says, as if stating a physical impossibility. 
 
-The street goes very still for half a heartbeat, like it’s inhaling.
+"I am furious," I reply. "But only at Varos."
 
-Then the Guard part.
+Cyran takes a deep, shuddering breath. He leans forward, pressing his forehead against mine. "I want to try again," he whispers. "Please."
 
-Four of them step forward, each holding a staff of polished bone capped with a brass bell the size of my head. The bells’ mouths are carved with Temple sigils, the kind you see etched into Heart shrines to resonate with the god’s dead pulse. 
+"Okay," I say. "We try again."
 
-Temple tech.
+He kisses me. It is different this time. The frantic, desperate edge is gone, replaced by a slow, agonizingly deliberate focus. He is testing the waters, making sure he is present, making sure I am present. 
 
-Weaponized ritual.
+I lie back, pulling him with me. He settles over me, supporting his weight on his forearms. He tracks every flicker of my expression, communicating entirely through sensation. When he touches me now, it is with the understanding that he is allowed to. 
 
-“Cyran,” I say, suddenly cold. “Ears.”
+The intimacy builds again, slower, deeper. Relieved of the pressure to perform, freed from the fear of his own trauma, Cyran gives himself over to it completely. The empathic link flares one last time, a surge of pure, blinding connection that isn't about blood or hunger, but profound, overwhelming love. 
 
-He hears something in my voice.
+When the climax hits, breaking over us in a wave of heat and breathless exhaustion, Cyran collapses against my chest. His heart is hammering against my ribs, matching the frantic rhythm of my own. 
 
-Freezes.
+The amber lamp begins to flicker, the bioluminescence finally tiring for the night. The room cools, the wind outside settling into a steady, mournful hum. 
 
-Then shoves his fingers into his ears without arguing.
+Cyran shifts, pulling the thick wool blanket over us to ward off the chill. He wraps his arm securely around my waist, his face pressed into the curve of my neck where the bite mark is already beginning to heal. 
 
-The first bell strikes.
+"Lysa," he murmurs into my skin. His voice is thick with sleep, but the words are terribly clear. 
 
-The mallet hits brass.
+"I'm here."
 
-Sound detaches from cause.  
+"I didn't know," he pauses, struggling to articulate the thought. "I didn't know I was allowed to feel like this. To just… want. Without paying for it."
 
-The boom isn’t loud in the usual way. It’s not volume, it’s pressure. A wave slams into us, thick as water, shoving at my ribs, my eyes, my teeth. The air turns solid. My bones hum.
+I close my eyes, a single tear slipping hot down my temple into my hair. I tighten my arms around him, pulling him as close as gravity will allow. 
 
-Cyran screams.
+"You are allowed," I whisper into the quiet room. "You are allowed."
 
-Even with his fingers in his ears, the resonance hits him harder than anyone else. Vampiric hearing: it saves you in dark alleys, betrays you in liturgical assaults. 
+Within minutes, the steady, even rhythm of his breathing tells me he has fallen asleep. It is the deepest rest I have ever seen him take. I lie awake for a long time, watching the amber light finally fade to black, listening to the heavy, distant heartbeat of the Titan beneath the city. 
 
-He drops.
-
-His daggers clatter off stone.
-
-He crumples to his knees, hands flying from his ears to his head as if he can claw the sound out. Blood beads at his nostrils, his ears. His mouth forms words I can’t hear over the second strike.
-
-Bang.
-
-This one tears through my center.
-
-I taste copper.
-
-My baton falls from my hand.
-
-No.
-
-I stagger.
-
-Someone slams into me from the side—one of my former colleagues, armour hard and slick against my shoulder. We go down in a tangle.
-
-I hit bone, breath leaving my lungs in a messy grunt.
-
-Hands grab my wrists, yank them behind my back.
-
-“Stop!” I hear myself shout, voice thin against the third bell’s roar. “He’s down! Stop!”
-
-The Guard don’t stop.
-
-Of course they don’t.
-
-This is what happens when you turn sacred objects into weapons: you forget how to use restraint.
-
-I twist, trying to see him.
-
-Through legs and dust and flashes of gold, I catch a glimpse of black on the ground. Cyran is on his side now, curled around the pain, teeth bared, eyes squeezed shut. Every bell strike hits him like a physical blow; his body jerks once, twice, then goes frighteningly still.
-
-“Enough!” I snarl.
-
-The word comes out small.
-
-I have never hated the limitations of my own voice more.
-
-“Lysa Voss,” a calm voice says above me. “In the name of the Tribunal, you will cease resisting.”
-
-Voss.
-
-He stands over us, expression tight with something that might be distaste or might just be annoyance at the mess. His robe is still pristine. He has not raised a hand. 
-
-“Call them off,” I rasp. “You’re going to liquefy his brain.”
-
-He looks past me, to where Cyran lies.
-
-His mouth hardens.
-
-“Stand down,” he orders. “Bells, hold.”
-
-Silence slams down like a wall.
-
-In the ringing that follows, the city’s everyday noises seem very far away.
-
-Cyran drags in a breath.
-
-It sounds wrong. Wet at the edges. He pushes himself up an inch, arms trembling, then collapses back to the stone.
-
-“Messy,” a new voice tuts.
-
-I twist as much as the hands on my wrists allow.
-
-A carriage has appeared at the mouth of the street.
-
-Of course it has.
-
-Bone‑polished, inlaid with gold sigils, drawn by two marrow‑fat horses whose ribs show just enough to be fashionable. The door stands open. 
-
-Thessen steps down with the unhurried grace of someone who is very sure nothing in this street can touch him.
-
-He’s shed the gala’s ostentatious robes for a more subdued ensemble, but the quality is the same: good bonecloth, fine embroidery, a little pin at his throat in the shape of the Prime Contract’s abstract sigil. His hair is still perfectly arranged. His smile is small and satisfied. 
-
-“High Auditor,” Voss says, bowing.
-
-“Investigator,” Thessen corrects pleasantly. “Promotions are such delicate things, aren’t they? So easy to snip.” His gaze slides over me, pinned to the ground. “Lysa. I had hoped you’d be more amenable to reason.”
-
-“Your definition of reason involves slavery,” I say.
-
-My voice shakes.
-
-Not from fear.
-
-From how badly I want to hurt him.
-
-He tuts.
-
-“Such an ugly word,” he says. “I prefer stewardship.”
-
-His gaze moves on, to the black shape on the stones.
-
-Cyran has managed to roll onto his back.
-
-His face is chalk‑pale under the grime, eyes glassy, blood streaking from his ears. He looks… small, like this. Young. The sharp lines of him blurred by shock.
-
-“Load him up,” Thessen says lightly. “We have a schedule to keep.”
-
-Two Guards move toward Cyran.
-
-He snarls.
-
-It’s a weak, shredded sound, but it’s there.
-
-He scrabbles for his daggers, fingers sliding on stone.
-
-“Leave her alone,” he gasps, trying to push himself up on one elbow. His voice is ragged, half‑raw from the bells. “This is… between you and me.”
-
-“Oh, how noble,” Thessen says, amused. “How utterly, devastatingly foolish.”
-
-He nods at the Guards.
-
-They haul Cyran up.
-
-He’s dead weight for a moment, legs not quite remembering how to function. Then his knees lock, his body remembering fighting stances even if his ears are still ringing.
-
-He swings once.
-
-The blow lands.
-
-One Guard stumbles, armour ringing.
-
-The others close in.
-
-A baton cracks across the back of Cyran’s legs.
-
-He buckles.
-
-They catch him before he hits the ground, one on each arm, turning him into something to be carried, not someone walking under his own power.
-
-A third Guard pulls a black bag from his belt.
-
-No.
-
-“Don’t,” I say.
-
-It comes out like a plea.
-
-Thessen glances at me.
-
-“Yes,” he says to the Guard.
-
-The bag goes over Cyran’s head.
-
-It’s a simple thing. Rough cloth, probably treated with some mild soporific, smelling of dust and old sweat.
-
-He stiffens when it drops.
-
-I feel something in my chest crack.
-
-Bags mean dehumanization. They mean you don’t need to look a Relic in the eyes while you use him. They mean Subject 9 again, not Cyran. 
-
-“Thessen,” I say, forcing my voice back into something like Tribunal precision. “This is an extrajudicial seizure of a Vigil asset. You have no standing to—”
-
-“I have standing,” he says smoothly, “via the Prime Contract and the High Inquisitor’s authorization. And via the fact that you no longer have a position from which to argue.”
-
-He nods to Voss.
-
-“Arrest your Auditor,” he says, almost lazy. “For treason. It will look better on the paperwork if it comes from you.”
-
-Voss flinches.
-
-Barely.
-
-Then he looks down at me.
-
-His eyes are… tired.
-
-“Lysa,” he says. “You’ve put me in an impossible position.”
-
-“No,” I say quietly. “You did that yourself when you chose a donor over the law.”
-
-The words land like small, precise knives.
-
-His jaw tightens.
-
-“Treason,” he says formally. “I am disappointed.”
-
-“You’re corrupt,” I spit back. My voice has dropped almost to a whisper, all the anger funneled into clarity. “Let’s call it what it is.”
-
-His hand flicks.
-
-The Guards on my arms tighten their grip.
-
-“Shackle her,” he orders.
-
-Cold bone cuffs snap around my wrists.
-
-They’re heavier than Tribunal practice restraints. No clever latches, no subtle sigils I can pick apart. Just brute‑force metal and bone.
-
-“Cyran!” I shout.
-
-I can’t see his face.
-
-Just the black bag, the curve of his shoulders as the Guards heft him toward Thessen’s carriage.
-
-He doesn’t answer.
-
-Then, as they reach the carriage steps, he jerks his head, bag and all, in my direction.
-
-“Don’t… follow,” he rasps.
-
-Two words.
-
-A command, almost.
-
-A plea.
-
-Then they shove him inside.
-
-The carriage swallows him whole.
-
-The door slams.
-
-The horses start forward in a clatter of hooves, elegant even in retreat.
-
-I lunge.
-
-The shackles yank me short.
-
-Pain flashes in my shoulders.
-
-The Guard hauling me back grunts.
-
-“Easy,” he mutters, almost under his breath. “Don’t make them ring them again.”
-
-I stare after the carriage as it disappears around the curve of the rib.
-
-It’s surreal how quickly the street starts to breathe again.
-
-Stalls right themselves. People edge closer, hungry for gossip now that the immediate threat has moved on. A child cries once, sharply, then is shushed. Life rushes back in to fill the space where we just broke.
-
-“Get her in the wagon,” Voss says.
-
-I turn my head.
-
-The Tribunal prison wagon is waiting like it was always part of this choreography. Bone‑slatted sides, heavy wheels, a barred window at the back. I’ve signed transfer orders for a dozen like it. I know the route they’ll take from here. 
-
-Temple for him.
-
-Prison for me.
-
-The system separating problems into their proper pens.
-
-They march me toward it.
-
-My boots drag.
-
-Not because I’m resisting.
-
-Because I am trying very, very hard not to fall apart in public.
-
-I have been angry before.
-
-Frustrated. Disillusioned.
-
-I have watched the Tribunal bend around the needs of the wealthy. I have seen men like Thessen skate on technicalities while gutter kids drown in the cracks.
-
-This is different.
-
-This is the system taking my report, my ethics, my body, and slotting them neatly into the category marked Threat.
-
-We approach the wagon.
-
-The Guard at the back swings the door open.
-
-Dark inside. No benches. Just a floor of rib‑planks stained with old dirt, old fear. A few chains hang from the ceiling, for when prisoners are considered too dangerous to leave unanchored.
-
-They’re not using them on me.
-
-Small mercies.
-
-“Lysa,” Voss says, from behind.
-
-I don’t turn.
-
-“If you recant,” he says quietly, “if you swear on the Record that you were coerced, that Thessen acted alone—”
-
-“No,” I say.
-
-My voice is very calm.
-
-“I’m not them,” I add, softer. “I don’t rewrite the truth to fit my comfort.”
-
-Silence.
-
-“So be it,” he says.
-
-There is something like regret in it.
-
-Not enough.
-
-The Guard push me.
-
-I catch myself on the edge of the wagon, metal biting my palms where the shackles press. For a heartbeat, I am suspended there, between street and cell.
-
-I think of Cyran’s forehead pressed to mine on the safe house mattress.
-
-If we survive.
-
-I think of the Maestro’s masked face, delighted at the thought of systems devouring each other. 
-
-I think of the book screaming, Subject 9 burning, red ink boiling away under acid. 
-
-I think: this is what All Is Lost looks like.
-
-Not a dramatic battlefield.
-
-Just a woman in chains, shoved into a wagon by the institution she tried to serve.
-
-I climb in on my own feet.
-
-The door slams.
-
-Darkness swallows the street.
-
-No screaming wards this time.
-
-Just the echo of the lock turning.
-
-The wagon lurches forward.
-
-I sway, catch myself on the wall, the shackles clanking.
-
-For a moment, there is a hollow, echoing silence inside me where panic should be.
-
-Then something settles.
-
-Not peace.
-
-Not yet.
-
-A decision.
-
-They have taken my badge, my authority, my ability to write neat reports that might—if stamped in the proper ink—change things.
-
-They have not taken my memory of the red phrase.
-
-They have not taken the fact that I know exactly where Thessen will be tonight, and what he intends to do.
-
-They have not taken the part of me that will burn this entire system down before I let it eat him.
-
-The wagon creaks.
-
-Light flickers through the slats in thin, accusing stripes.
-
-I sit down on the hard bone floor.
-
-I rest my shackled hands in my lap.
-
-I start planning.
-
-
+I know, with terrifying certainty, that I will burn this city to the ground to keep him safe.

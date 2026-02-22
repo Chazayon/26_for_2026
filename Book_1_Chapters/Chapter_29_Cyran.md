@@ -1,735 +1,132 @@
-# Chapter 29 — *The Gilded Cage Returns*
+# Chapter 29 — *The Gilded Cage*
 ### Cyran | POV
 
-The silk sheets are exactly as I remember them.
+The silk sheets are exactly as I remember them, and they feel like a shroud.
 
-They smell of lavender and suffocation.
+The worst part of returning to hell isn't the heat or the pain. The worst part is knowing exactly where to put your feet. It is the horrific comfort of an old, deep-seated terror, sliding back over your soul like a tailored coat you haven't worn in years. 
 
-My fingers curl in the fabric like they’re trying to claw their way back to rougher weave, to the cheap, scratchy linens on Lysas narrow bed, to the way her skin warmed them from underneath.
+I am sitting perfectly motionless on the edge of the massive, velvet-draped bed in the center of my old temple quarters. The room is opulent, gilded, and entirely windowless. There is no outside world here. There is no sun, no sky, no wind. There is only the sickening gleam of gold leaf covering the high, arched ceiling, and the suffocating silence of the deep temple walls. 
 
-Instead, I get embroidery.
+It is high noon in the city above, but in this room, time does not exist. 
 
-Gold thread in a pattern of looping vines and stylized hearts.
+Two masked temple acolytes are moving silently around the edges of the room. They glide across the heavy carpets without making a sound, swinging intricately carved bronze censers. Thick, cloying clouds of frankincense and myrrh billow into the stagnant air, designed to purify the space for the coming ritual. The smell is aggressive, coating the back of my throat. It smells like blood that has been dried and powdered. It smells like the centuries I spent trapped here. 
 
-The irony is almost poetic.
+The heavy oak door at the far end of the room unlocks with a heavy, archaic clatter. 
 
-“Welcome home,” Varos says.
+High Priest Varos enters. 
 
-He stands just inside the open door, one hand still resting on the bolt as if he’s afraid I might bolt myself if given a head start. The other hand holds a tray—fruit, bread, a cup of something steaming faintly. The air around him smells of incense and old paper and the faint metallic tang of ritual.
+He isn't wearing the blood-red velvet of the Cisterns today. He is wearing the pure, blinding white and gold silks of a high holy day. He smiles as he steps over the threshold, a serene, terrifyingly beatific expression. 
 
-My old room wraps around us like a memory that never stopped.
+The two acolytes immediately stop swinging their censers, bowing so deeply their foreheads nearly brush the thick carpet, before backing out of the room silently and pulling the heavy door shut. The lock clicks. 
 
-It is not a dungeon.
+I am alone with him. 
 
-That would be honest.
+Varos walks slowly toward the bed. His velvet slippers make no sound. 
 
-This is a stage set.
+A vicious, deeply ingrained instinct from a hundred years of slavery bypasses my conscious mind entirely. My spine curves. My shoulders drop. I reflexively lower my gaze, fixing my eyes on the intricate golden embroidery at the hem of his pristine white robes. The "ornament" takes over, assuming the posture of perfect, hollow submission. 
 
-High ceiling draped in red velvet.
+"Welcome home, my child," Varos says. His voice is incredibly soft, dripping with a paternal affection that makes me want to carve my own heart out. 
 
-Walls papered in deep, dark blue silk, embossed with small silver sigils that glitter when the lamplight hits them. Shelves lined with devotional texts and polished bone curios. A wardrobe large enough to hide a body, carved with scenes from the old hymns. No bars on the window—merely thick panes of stained marrow‑glass that turn the outside world into soft, blurred color.
+He reaches out. His hand, heavy with its ornate gold rings, rests gently on the top of my head. 
 
-The bed is the centerpiece.
+I shudder violently, my stomach rolling in revulsion, but I do not pull away. I stay perfectly still, enduring the touch. I accept the praise exactly like a beaten dog that has finally stopped running. 
 
-Big enough for a god.
+"You look well," Varos murmurs, his thumb briefly stroking my hair. "A bit ragged from the dirt of the city, perhaps, but the god's grace will wash that from your soul soon enough. The Heart-Chamber is nearly prepared. It is a profound honor, Cyran. To be the vessel that fully anchors His will to this plane."
 
-Pillows piled high.
+I don't care about the god. I don’t care about the ritual. 
 
-Curtains that can be drawn for privacy or spectacle, depending on the audience’s preference.
+"Is she safe?" 
 
-I used to think it was beautiful.
+The words scrape out of my throat, a dry, monotone rasp. I keep my eyes fixed on the hem of his robes. 
 
-I used to think that meant it was mine.
+"Scribe Lysa?" Varos chuckles softly, a warm, indulgent sound. "Of course, child. Contract Lord Thessen dropped the charges as soon as my signature was brought to the Spine. I am told she walked out of the deep blocks before dawn. She is back in her quarters, perfectly unharmed." 
 
-I sit on the edge of it now, hands limp in my lap, shoulders pulled in as if I can make myself small enough to fall through the mattress and vanish into the god‑bone below.
+He drops his hand from my head to trace the line of my jaw, tilting my face until I am forced to look at him. 
 
-“Child,” Varos says, in that soft, paternal tone he reserves for donors and pets. “You look tired.”
+"You did exactly as you were made to do, Cyran," Varos smiles, his pale eyes shining with genuine, religious pride. "You served."
 
-I look at the floor.
+The word *served* echoes in the hollowed-out cavern of my chest. 
 
-Opulence makes for excellent reflective surfaces.
+*I served.* I surrendered my body. I sacrificed my mind. I used my own pain as currency to buy someone else's freedom, exactly as the temple taught me to do. 
 
-The polished bone tiles at my feet show me a distorted version of my own face—paler than usual, shadows carved deep under my eyes, hair still dust‑streaked from the Necropolis. There’s a smudge of dried blood along my jaw I missed in the washbasin they so kindly provided.
+"Stand," Varos commands gently. 
 
-He steps further in.
+I stand up. My legs feel like they belong to someone else. 
 
-The door swings shut behind him with a quiet click that still makes something in my spine go rigid.
+"Remove the leathers," Varos says, gesturing to my dark Vigil armor. "They are stained with the violent impurities of the streets. You cannot wear them into the Heart-Chamber."
 
-“I brought you something to eat,” Varos continues. “You need your strength.”
+He holds out a folded square of fabric. It is the ceremonial garb of a temple sacrifice—thin, sheer, blindingly white silk.
 
-“For what?” I ask.
+I reach up. My fingers are clumsy, numb, as I unbuckle the heavy iron clasps of my breastplate. The leather falls to the floor with a heavy thud. I strip away the bracers, the padded gambeson, the dark linen shirt. 
 
-My voice sounds like someone else’s.
+I stand bare-chested in the dim, golden light of the room. 
 
-Flat.
+I catch sight of the vicious, jagged scars on my forearms where the old binding sigils were burned into my skin centuries ago. I see the thick, ropy scar tissue around my neck from the iron collar I wore for a hundred years. Just eight hours ago, Lysa had kissed those scars. She had touched them as if they were a tragedy, not a brand of ownership. 
 
-Distant.
+Varos steps closer. He reaches out again, trailing a cold, ring-clad finger over the scar tissue on my neck. 
 
-He sets the tray down on the small table by the bed.
+I dissociate. I feel my mind deliberately detach from my body, floating somewhere near the gilded ceiling, leaving behind an empty, unfeeling shell for the High Priest to touch. It is the only way to survive the contact without screaming.
 
-The porcelain dishes chime softly.
+"Beautiful," Varos whispers, tracing the ruin he created. "As flawless as the day I forged you. Dress yourself, Cyran. The acolytes will return for you when the sun sits at its zenith."
 
-“For the Binding, of course,” he says.
+He turns and glides toward the door. The lock clicks open, then shut again, sealing me back in the tomb. 
 
-Of course.
+I am alone. 
 
-We are making it official.
+I pick up the white silk from the bed. It is impossibly soft, slipping through my calloused hands like water. I pull it over my head, the sheer fabric clinging to my skin, hiding absolutely nothing of the scars or the monster underneath. 
 
-No more gentle fiction of Redemption marks and eventual freedom. No more pretense that the Vigil leash and the Temple leash are two different things. They intend to tie me back into the Prime Contract fully, neatly, in a way that appeases their investors and closes every legal loophole Lysa might one day try to pry open.
+I turn and look at myself in the massive, floor-to-ceiling mirror framed in carved gold that dominates the opposite wall. 
 
-Varos moves closer.
+It is the same mirror I was forced to stand in front of for decades, learning how to arrange my face, how to smile flawlessly for the priests who came to feed on my empathy. 
 
-His hand lifts.
+I look exactly like the twisted creature printed on the Tribunal's broadsheets. I look like a willing slave. The white silk is a visual return to being an object—a possession meant to be looked at, used, and discarded.
 
-He touches my hair.
+The Dark Night finally, completely settles over me, a crushing weight that drives me to my knees. 
 
-Fingers comb lightly through the white strands near my temple, smoothing them back.
+I sink to the floor, curling my knees to my chest against the base of the gilded mirror. I press the heel of my hands against my eyes, dragging in ragged, tearing breaths of the suffocating incense. 
 
-It’s the kind of gesture that would read as affectionate if someone else were doing it.
+I did this. 
 
-From him, it feels like inventory.
+Varos didn't use chains. He didn't have to hunt me down in the streets. He didn't have to break down my door and drag me back here. He simply held up a mirror to my own trauma, and I volunteered to walk back into the cage.
 
-I flinch.
+I remember Lysa in the rain-slicked alley of the tooth-market, weeks ago, after I told her what the temple had done to me. I remember the fierce, raging indignation on her face as she looked at me. 
 
-The reaction is automatic.
+*"They stole a hundred years of your life,"* she had said, her voice shaking with absolute conviction. *"You were a person. They made you a thing."*
 
-Old.
+And then, Varos's words echo back over hers.
 
-My muscles tighten; my breath goes thin. For a second, the velvet walls close in, the ceiling presses down, the window shrinks to a smear of color I can’t quite focus on. I smell hot wax and donor perfume and the copper edge of my own blood burning on coals.
+*"You did exactly as you were made to do. You served."*
 
-Varos’s hand stills.
+The horrific realization strikes me so hard it knocks the breath entirely out of my lungs. 
 
-Just for a heartbeat.
+By sacrificing myself, by offering my soul toVaros to save Lysa, I hadn't acted out of some noble, heroic love. I had acted out of my deepest, most broken trauma response. 
 
-Then he withdraws it, as if granting some small mercy.
+I had treated my own life as expendable currency. I had looked at the woman who loved me, who saw me as a person, and I had decided the only thing I was good for was being a human shield. I hadn't saved Lysa. I had just destroyed the man she loved, unilaterally robbing her of the partner she fought to protect.
 
-“I know this is difficult,” he says. “Change always is. But you must understand, Cyran, the Tribunal—Contract Lord Thessen in particular—left us with quite a mess. High‑profile deaths. Panic among the faithful. Donors asking whether the Prime Contract is… compromised.”
+I had done exactly what Varos conditioned me to do. I had erased my own value.
 
-His lips curl faintly around the last word.
+A memory surfaces, breaking through the fog of the incense. It is the amber light of Lysa's room. She is holding my hand, her thumb tracing the line of my knuckles. 
 
-Blasphemy, in his world.
+*"This is not a debt, Cyran."*
 
-“Reassure them,” I say.
+The words ring in my mind, crystal clear, cutting through the heavy, ancient silence of the temple room.
 
-It comes out almost a whisper.
+If she loved me—if I was truly a person, and not a thing—then my life was not mine to throw away to an abuser. True autonomy didn't mean suffering beautifully in silence. It meant valuing my own life enough to fight for it, even when fighting felt impossible. 
 
-“Of course,” he says. “We will. That is where you come in.”
+I lower my hands from my face. 
 
-“Because nothing says ‘stability’ like rolling out the refurbished torture ornament,” I murmur.
+I look at my reflection in the base of the gilded mirror. The man looking back is wearing the white silk of a sacrificial lamb, but the silver eyes are suddenly, violently sharp. 
 
-He tsks softly.
+I stand up. 
 
-“You persist in cheapening what was, and is, a holy vocation,” he says. “You were made for this, child. You shine in these halls. You always did. The Vigil… misused you. Turned you into something brutal and small. We will restore you to your rightful place.”
+I don't take off the white silk, but my posture completely changes. The subservient, hollowed-out curve leaves my spine. I roll my shoulders back, the muscles bunching under the sheer fabric. 
 
-Mismatched words rub against one another in my head.
+I look at the locked oak door. 
 
-Used.
+I am physically trapped. The magic of the Prime Contract is humming in the stones, preparing to bind my soul to the Heart-Node. Varos holds every card in the city. 
 
-Misused.
+But the internal surrender is broken. 
 
-Restore.
+A tiny, incredibly fragile spark of anger—pure, righteous, blinding anger at the man who convinced me I was only worth what I could endure—ignites in the center of my chest. 
 
-“Rightful place,” I repeat.
-
-My eyes stay on the floor.
-
-There is a small, dark mark in the corner tile where someone, once, spilled altar wine and it sank in.
-
-“I remember my ‘rightful place,’ Varos,” I say. “Flat on my back in that bed, or on my knees before that altar, or chained to the wall in the Heart‑Chamber when donors wanted to see the god’s lightning up close. Forgive me if I’m struggling to feel nostalgia.”
-
-His expression doesn’t change.
-
-He has centuries of practice at this.
-
-“I am not the one you should blame,” he says calmly. “The Broker… lost his way. He grew indulgent. Personal. We all agree his methods were excessive.”
-
-“We,” I echo.
-
-“The Council,” he says. “The remaining Contract Lords. The Tribunal liaison. Even the Prime Contract itself has made its displeasure felt. That is why reforms are necessary. Why your Binding must be… different, this time. Cleaner. More transparent. Less… decorative.”
-
-“Reforms,” I say.
-
-The word tastes like Lysa.
-
-Her quill scratching.
-
-Her eyes narrowing at loopholes.
-
-Her hand on mine in the Necropolis, grounding me.
-
-He is giving me all my old words.
-
-Reform.
-
-Redemption.
-
-Vocation.
-
-Wrapping them around the same cage, tying a bow on it, offering it back like a gift.
-
-“I have duties,” I say.
-
-“Hm?” Varos tilts his head.
-
-“The Vigil,” I say. “Cases. Partners. Marks to earn. The Tribunal won’t—”
-
-“The Tribunal,” he says, and for the first time there is a hint of impatience under the smooth, “has signed over your contract in full. Your Redemption file is… closed. Pending divine reassignment. Warden duties can be performed by others. You, child, are… special.”
-
-Special.
-
-The word that launched a thousand violations.
-
-My jaw locks.
-
-“I see,” I say.
-
-Varos reaches down.
-
-Lifts the cup from the tray.
-
-Steam curls up from it, carrying the scent of herbs.
-
-Not drugged.
-
-Not the usual soporific blend.
-
-Just… tea.
-
-He offers it.
-
-My fingers twitch.
-
-Old habits.
-
-Offer hand, receive what’s given, swallow without question. Perform gratitude. Smile pretty. Show the donors how docile and charming the monster can be when properly handled.
-
-I keep my hands in my lap.
-
-“I’m not thirsty,” I say.
-
-He studies me.
-
-His gaze is heavy without heat, weighing, calculating.
-
-“I am pleased you returned on your own,” he says. “It shows… growth. Awareness. Love, even, of a sort. Sacrificing your newfound… attachments to preserve the Auditor’s career? Very noble. Very moving.”
-
-My skull rings.
-
-Noble.
-
-Moving.
-
-He has taken the worst decision of my life—leaving Lysa sleeping with a note on the pillow—and slotted it neatly into his liturgy.
-
-A good Relic knows when to give himself up.
-
-A good pet knows when to crawl back to its owner’s feet.
-
-“I didn’t do it for you,” I say.
-
-“No,” he agrees. “You did it because you are what we made you. Self‑annihilating in the name of another’s comfort. You see? You’ve already learned the lesson. This Binding will simply… formalize it. Give it structure. It will be easier, with a frame.”
-
-He smiles.
-
-Like a father who just drowned the kittens and is now praising the child for not crying.
-
-He sets the cup back down with a soft clink.
-
-“Eat,” he says again, nodding to the fruit. “You will feel better. The ritual is in two days. I would prefer you not faint.”
-
-He turns toward the door.
-
-Puts his hand on the bolt.
-
-Something in me, idiot that it is, surges up.
-
-“Varos,” I say.
-
-He pauses.
-
-Looks back, one eyebrow faintly raised.
-
-“Lysa,” I say.
-
-Her name hangs between us like a dropped blade.
-
-“Will be fine,” he says, almost gently. “So long as you are. We got what we needed from her investigation. Her continued presence simply… complicates the story. But we are not without mercy. As long as you cooperate, she will be allowed to continue her work. Quietly. Respectably. Isn’t that what you wanted?”
-
-The implication is clear.
-
-Behave, and your little Auditor lives.
-
-Fight, and we see how her career holds up under a corruption scandal.
-
-He opens the door.
-
-Steps out.
-
-The bolt slides home with a heavy, final *thunk*.
-
-Silence falls.
-
-Thick.
-
-Absolute.
-
-The temple is never truly quiet.
-
-There’s always the low hum of rituals in distant chambers, the occasional echo of a hymn, the faint, omnipresent heartbeat of the dead god underfoot.
-
-But here, in this room, all of that is flattened by velvet and gold and the oppressive weight of design.
-
-I stare at the tray.
-
-A neat array of abundance.
-
-Green grapes, perfectly plump.
-
-Red berries, so ripe their skins shine.
-
-A small loaf of white bread, crust brushed with something that smells faintly of honey.
-
-My stomach is a tight knot.
-
-Not hunger.
-
-Nausea.
-
-The grapes glisten in the lamplight like a row of eyes.
-
-Varos’s words circle like carrion birds.
-
-You did it because you are what we made you.
-
-I reach out.
-
-Not for the fruit.
-
-For the tray itself.
-
-My fingers hook under the edge.
-
-I flip it.
-
-It hits the floor with a metallic crash that ricochets off the silk walls and comes back at me doubled.
-
-Porcelain shatters.
-
-Grapes roll under the bed.
-
-Red berries burst under the impact, pulp smearing across the bone tiles like tiny, blood‑bright stains.
-
-Tea soaks into the rug.
-
-The smell of sugar and fruit and hot herbs floods the air.
-
-My breath saws in and out.
-
-My heart hammers.
-
-It feels… too big.
-
-Too fast.
-
-Like it’s trying to outrun the room.
-
-I stand.
-
-The motion feels jerky, marionette‑like.
-
-I take a step.
-
-Four paces from bed to wall.
-
-Turn.
-
-Four paces back.
-
-I count them under my breath.
-
-One.
-
-Two.
-
-Three.
-
-Four.
-
-Turn.
-
-The velvet curtains brush my shoulder.
-
-Their texture makes my skin crawl.
-
-In another life—
-
-No.
-
-No other lives.
-
-One long, mutilated continuum.
-
-In those days, my pacing would have been interrupted by a knock at the door, by donors filing in in their best bone jewelry, by priests with liturgical scripts in hand, by the Broker himself with his god‑gem eyes.
-
-Now, nothing.
-
-Just me.
-
-And the smell of crushed fruit.
-
-And the echo of my own footsteps.
-
-On the fifth circuit, my legs refuse.
-
-They fold.
-
-I slide down the wall to the floor, back thudding softly against the paneling, knees drawing up against my chest because there’s nothing else to hold onto.
-
-I press the heels of my hands into my eyes until stars burst behind my lids.
-
-Get out of my head, I tell myself.
-
-The images don’t listen.
-
-They never do.
-
-They come in flashes.
-
-Not the Temple, this time.
-
-Lysa.
-
-Her face in the tunnel under the Heart‑Chamber, lit by sickly red moss, eyes wide but steady as the ceiling shook.
-
-“I feel safer with you,” she’d said then.
-
-Insanity.
-
-But she’d said it like a fact.
-
-Like my presence was a structural reinforcement, not a hazard.
-
-Her hands on my shoulders in the Necropolis, warm through my shredded shirt, grounding me after Thessen died.
-
-“You told me to choose,” I’d told her.
-
-“It worked because it was you,” I’d said.
-
-Her mouth on mine in the graveyard.
-
-Soft and messy and real.
-
-No performance.
-
-No transaction.
-
-Her bed.
-
-Her scent—ink and tea and human heat.
-
-The way she’d said “I love you” into my ear while I was inside her, like it was the easiest, truest thing in the world.
-
-I ruined it.
-
-The thought slips out.
-
-Half whisper.
-
-Half confession.
-
-It lands in the lavender‑scented air and curls there, toxic.
-
-I ruined it by doing exactly what they taught me was holy.
-
-Sacrificing myself to save her.
-
-Except—
-
-Except.
-
-Another memory pushes in, stubborn.
-
-Her voice.
-
-Not in a kiss, or in bed, or in crisis.
-
-In the Hall of Truths, outside the glass, when I told her to go home.
-
-“You’re making a unilateral decision about my life,” she’d said, quiet and precise. “Without my consent. To save me. You call that love. The Temple calls it sacrifice. I call it theft.”
-
-I called *them* thieves.
-
-For years.
-
-For taking my body, my choice, my name.
-
-And then I stole her choice the first chance I got.
-
-Varos was right about one thing.
-
-I am what they made me.
-
-Self‑annihilating in the name of another’s comfort.
-
-Except I don’t feel comfortable.
-
-I feel like I’m suffocating in silk.
-
-I lower my hands.
-
-The room is blurred for a second.
-
-Not tears.
-
-Just… overload.
-
-My gaze drops to my hands.
-
-They’re dirty.
-
-Nails rimmed in dried Necropolis grit, knuckles scraped from the sprint through the Reliquary Passage, a faint purple bruise forming along one where I’d slammed it into Thessen’s jaw.
-
-These are the same hands that held a knife over an altar.
-
-The same hands that once traced devotional sigils on donors’ skin under priestly direction.
-
-The same hands that signed Redemption contracts I knew were crooked because I didn’t yet know how to read the fines.
-
-They’re also the hands that steadied a mortal scribe when the god’s voice rattled her bones.
-
-The hands that bandaged a street child’s scraped knee.
-
-The hands that pushed a frightened Vigil recruit behind me and took the hit instead.
-
-The hands that, last night, skimmed every inch of Lysas skin with a reverence I didn’t know I possessed.
-
-The hands that made her gasp.
-
-Made her laugh.
-
-Made her say my name like a vow instead of an indictment.
-
-A Relic cannot be gentle.
-
-Relics are tools.
-
-Objects.
-
-You don’t give knives agency or credit them with tenderness.
-
-But I was gentle.
-
-Clumsy, probably.
-
-Too desperate.
-
-But I tried.
-
-I remembered to ask.
-
-I remembered to stop.
-
-I remembered to listen when she said *here* or *more* or *wait*.
-
-They didn’t teach me that.
-
-She did.
-
-Therefore—
-
-It’s childish logic.
-
-Ridiculous.
-
-But it sits there, undeniable in its own crooked way.
-
-Therefore, I am not what they say I am.
-
-Not entirely.
-
-Not anymore.
-
-I let my legs uncoil.
-
-Push myself upright.
-
-My body aches.
-
-Shoulder pulsing, ribs still bruised, a bone‑deep weariness trying to drag me back down into the mattress.
-
-I go to the window instead.
-
-The marrow‑glass turns the world outside into a smear of color—bone white, temple red, dull gray sky. My reflection swims over it—ghostly, half formed. I put my hand against the pane.
-
-Cold seeps into my palm.
-
-On the other side of that wall of glass, somewhere in the labyrinth of bone and law, she is moving.
-
-She doesn’t know about the note yet.
-
-Or she’s already found it and is planning my murder.
-
-Either way, she’s not here.
-
-I did that.
-
-Varos gave me a gilded cage.
-
-I walked into it.
-
-Closed the door.
-
-Set the bolt.
-
-I thought taking myself off the board would save her from the blowback.
-
-Instead, I left her standing alone in a game that eats people like her for breakfast and uses their bones for decoration.
-
-There’s a sympathetic narrative in there.
-
-Noble monster sacrifices happiness to spare beloved from consequences of his corruption.
-
-It’s tidy.
-
-Tragic.
-
-Varos loves tidy tragedies.
-
-I press my forehead to the glass.
-
-It’s cool.
-
-Almost soothing.
-
-“I am such a fool,” I say to the empty room.
-
-No one argues.
-
-The dead god’s heartbeat thrums faintly under the floor.
-
-A reminder.
-
-A threat.
-
-A metronome counting down to a ritual I have no intention of cooperating with.
-
-The thought takes me by surprise.
-
-No intention.
-
-Not grudging acceptance.
-
-Not resigned obedience.
-
-An absolute, bone‑deep *no*.
-
-It’s small.
-
-A spark.
-
-But it’s there.
-
-I turn away from the window.
-
-The fruit is a ruin on the floor.
-
-Berries crushed, skins split, juice seeping into the grout lines between tiles. One of the porcelain plates lies in three pieces, edges sharp and white.
-
-On the tray, miraculously unbroken, is a silver fork.
-
-Simple.
-
-Elegant.
-
-The kind donors use to pick at delicate confections between hymns.
-
-My fingers move before my better judgment can catch up.
-
-I reach down.
-
-Pick it up.
-
-It’s heavier than it looks.
-
-Good silver.
-
-Balance just off center.
-
-Too short to be a sword, too obvious to be a real weapon.
-
-Utterly unthreatening.
-
-No one ever worries about the cutlery.
-
-Varos certainly didn’t.
-
-I turn it over in my hand.
-
-The tines gleam.
-
-Sharp.
-
-Not sharp enough to do serious damage to a god’s priest, perhaps.
-
-Sharp enough to scratch.
-
-To pry.
-
-To cut a rope in the right circumstances.
-
-Or a wrist, says a darker, older part of me.
-
-I shut that voice down.
-
-No.
-
-We are not doing that again.
-
-I slip the fork up my sleeve.
-
-The silver is cold against my skin.
-
-I used to hide all sorts of things on this body—charms, knives, little vials of sacramental blood. That was for their show.
-
-This is for mine.
-
-I sit back down on the bed.
-
-The silk is still suffocating.
-
-But now, under the weight of it, under the lavender and nostalgia and ghosts, there is the thin, hard line of metal along my forearm.
-
-A sliver of possibility.
-
-“I am not your Relic,” I say softly.
-
-The room does not disagree.
-
-“I am Cyran.”
-
-The name feels too big for the space.
-
-It fills it anyway.
-
-I picture Lysa’s face when she carved it into bone for me, her steady hand, her mouth set in that determined line.
-
-*Choose what you want,* she’d said.
-
-I made the wrong choice when I left her bed.
-
-I will not make the wrong one again.
-
-I look at the closed door.
-
-At the velvet walls.
-
-At the tray’s wreckage.
-
-“And I am coming for you, Varos,” I tell the temple.
-
-My voice is still quiet.
-
-It doesn’t need to be loud.
-
-It just needs to be mine.
-
+I won't just stand in the Heart-Chamber and let him take me. If Varos wants to anchor his god to my soul, he is going to have to bleed for it.

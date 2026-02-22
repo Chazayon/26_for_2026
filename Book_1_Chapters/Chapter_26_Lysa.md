@@ -1,755 +1,140 @@
-# Chapter 26 — *Shields Up*
+# Chapter 26 — *The Doctor in the Dungeons*
 ### Lysa | POV
 
-The Hall of Truths is built of transparent stone, so you can see the lies more clearly.
+The thing about the Spine dungeons is that they aren't built to hold you; they are built to break you.
 
-That is the idea, at least.
+I have been sitting on the damp stone floor for what feels like centuries. The cell is pitch black. No natural light penetrates this far down into the dead god’s anatomy, and the guards haven't bothered to leave a lantern in the corridor. The only illumination is the bruised, sickly green glow of the bioluminescent moss clinging to the porous bone walls. 
 
-In practice, it means I can see him and not reach him.
+The cold is absolute. It seeps through the thin, torn wool of my uniform, settling into my joints with a heavy, aching finality. My wrists are raw and bleeding where the heavy iron manacles have rubbed my skin away. 
 
-My boots hammer up the Vertebrae steps, breath tearing in and out of my chest like I’ve been running for hours instead of the length of the Spine District. Afternoon light slants down through carved bone‑arches, sharp and cold. It hits the Hall’s walls and scatters, turning the entire facade into a pale, glowing cage.
+I don't cry. Crying wastes water, and I am already so thirsty my throat feels like it is lined with grit.
 
-Inside, figures move.
+Instead, I have been counting my own breaths for three hours just to prove I am still alive. When the silence becomes too pressing, I catalogue legal precedents in my head. I run through the exact statutes I can cite when Dren eventually returns down that corridor with his inquisitor’s tools. I rehearse the arguments over and over. They are my only armor left.
 
-A circle of Tribunal sigils on the floor, faintly visible from this angle.
+A scream echoes through the deep stone corridors. It is a long, ragged, wet sound that tears from a human throat somewhere deeper in the block. 
 
-A white head of hair I recognize.
+I squeeze my eyes shut and press my hands over my ears. The sound of the chains clanking against each other is almost as loud as the scream.
 
-A darker shape, standing alone in the center.
+*He's just an Inquisitor,* I tell myself fiercely. *He's just a man. He has no authority over my mind.*
 
-Cyran.
+Footsteps approach my cell.
 
-He looks small.
+I freeze, lowering my hands. 
 
-The last three days sit hard in my legs, in my lungs. Not enough sleep, not enough food, too much adrenaline burned through and not replaced. My side twinges where the sewer cut has gone from sharp to throbbing, climbing the ladder of my ribs like a slow‑moving infection.
+The footsteps are wrong. They aren't the heavy, synchronized, steel-shod thud of Tribunal Enforcers. They are soft. Even. A crisp, deliberate click of expensive leather against the wet stone. 
 
-It doesn’t matter.
+The footsteps stop outside my door. 
 
-None of it matters.
+I push myself backward on the floor until my spine hits the wall, my legs drawn up defensively. I hold my breath.
 
-They moved the hearing up.
+The heavy iron deadbolt of the cell door turns. There is no grinding of rusted tumblers. It is an unnervingly quiet, well-oiled click. 
 
-That’s all that matters.
+The heavy door swings open on silent hinges.
 
-Two Guards stand in front of the Hall’s great glass doors.
+The man who steps inside does not wear Tribunal armor.
 
-They’re not Vigil—Tribunal, like me. White and bone uniforms, sigils inked on their wrists where mine is, pikes held upright with ritual stiffness. Their armor smells faintly of oil and floor wax. The stone under my feet is so clean it squeaks.
+He is tall, flawlessly composed, and impeccably tailored. He wears a dark, exquisitely cut wool coat over a crisp white shirt entirely devoid of wrinkles. His leather gloves are a pristine, blinding white, entirely unmarred by the filth of the dungeon. In one hand, he carries a small, elegant medical bag made of dark, polished leather. 
 
-One of them—older, scar along his jaw, eyes tired—shifts as I approach.
+He looks devastatingly out of place in this brutalist nightmare. He looks like he should be attending a high-society opera in the Halo Ward, not standing in a puddle of dungeon muck.
 
-“Auditor,” he says, nodding. “Hearing in session. No entry.”
+He steps entirely into the cell, reaching behind him to smoothly, quietly close the heavy iron door. 
 
-I don’t slow.
+"Good evening, Scribe Lysa," he says. His voice is rich, polite, and completely clinically detached. He offers a small, sympathetic smile. "Though I suppose 'good' is a deeply relative term at the moment."
 
-“Move,” I say. “I’m his counsel.”
+I scramble further back, my manacles clanking loudly. The raw panic kicks in. I don't know who this man is, but I know precisely what it means when someone can bypass the elite guards of the Spine Dungeons without raising an alarm. It means they operate on a level of power that makes Contract Lords look like street thugs.
 
-I’m still in my working robe, ink stains on the cuffs, hair hastily re‑braided. The badge on my wrist glints in the thin light. I lift my arm, let him see it.
+"Who are you?" I demand, my voice hoarse. 
 
-He doesn’t move.
+He doesn't answer immediately. He turns his head gracefully, inspecting the wall of the cell. He reaches out a pristine white glove and lightly touches a patch of the glowing green mold.
 
-“Auditor,” he repeats, more carefully. “Jurisdiction has been transferred. Internal ecclesiastical review, per compact. Tribunal observers only.”
+"Fascinating," he murmurs to himself. "A localized mutation of *Bryum argenteum*, feeding directly on the latent divine marrow. Highly toxic if ingested, but topically, it has remarkable coagulant properties. The Tribunal is sitting on a small medical fortune down here and letting it rot. A tragic failure of imagination."
 
-“I am observing,” I say, flat. “From inside.”
+He turns back to me, having concluded his mycological study. 
 
-He licks his lips.
+"My apologies," he says politely. "Where are my manners. Dr. Marrow. We encountered each other briefly in the Archives, though I imagine you had other matters occupying your attention at the time."
 
-Won’t quite meet my eyes now.
+I stare at him. I recognize the name, and the sharp, aristocratic silhouette. He had been consulting a towering stack of archaic anatomical texts when Cyran and I were hunting for Varos's signature. 
 
-There’s shame there, faint and sour.
+"What are you doing here?" I ask, my voice trembling slightly despite my best efforts to keep it flat. "Who sent you?"
 
-Before I can press it, the doors behind them whisper open.
+Dr. Marrow kneels gracefully beside me, careful not to let the immaculate hem of his coat touch the wet floor. He sets the medical bag down. From his coat pocket, he withdraws a small, intricate skeleton key. 
 
-Varos steps out.
+"A mutual acquaintance of ours made a rather... absolute bargain tonight," Marrow says smoothly. 
 
-Not from the main chamber—there’s a small antechamber just off the entrance, sheltered by a bone arch, the sort of space used for quiet discussions and private agreements. He fills it like a shadow, white robes falling just right, hands folded in front of him.
+He reaches out. With surprising gentleness, he takes my bleeding wrists in his impeccably gloved hands. He inserts the key into the heavy iron manacles. They pop open instantly. The heavy iron falls to the floor with a dull clang.
 
-He looks almost gentle.
+I immediately rub my wrists, staring at him in shock. 
 
-It’s an old trick.
+Marrow reaches into his breast pocket and offers me a perfectly folded, square white linen handkerchief. "For the bleeding. Try not to let it pool; infection down here is a certainty."
 
-“Auditor Lysa,” he says, inclining his head just enough to count as a greeting without conceding authority. “You are prompt, as always. I regret to inform you that your services are not required.”
+I take the handkerchief. "What bargain?" I ask, the first spike of real terror hitting my stomach. "What are you talking about?"
 
-I feel my spine straighten.
+Marrow smiles. It is a polite expression, but it doesn't reach his eyes. "High Priest Varos requires an anchor for the Heart-Node ritual he is planning. I assume you discovered as much in the Archives. What you may not know is that the Prime Contract—the entity that governs the magical equilibrium of this delightful city—is very particular about its anchors. They must be perfectly conditioned. And they must be willing."
 
-My fingers curl around the edge of my badge until metal bites.
+He pauses, watching me process the information. 
 
-“With respect, High Priest,” I say. “You don’t have the authority to decide that. This is a formal Hearing. He is a registered Vigil warden under Tribunal oversight. He has a right to representation.”
+"If Varos succeeds," Marrow continues, his tone conversational, as if analyzing an interesting tumor, "the systemic balance of the city shifts dangerously. Varos believes he will control the god. In reality, he will simply unleash a localized apocalyptic event that will disrupt several of my... long-term investments. I prefer the disease I know to the cure he's offering."
 
-He smiles.
+The pieces click together in my exhausted mind. The arrest. The sudden, brutal isolation. 
 
-I hate that smile.
+Varos needed leverage to manufacture consent. 
 
-Pitying. Indulgent. As if I’m a child insisting the game isn’t over because I liked the previous rules.
+*Cyran.*
 
-“Hes a Relic,” Varos says softly. “Temple property on loan to the Vigil for Redemption purposes. His… deviation is therefore a matter of ecclesiastical discipline. Internal.”
+"He went back," I say. My voice breaks completely. I drop the handkerchief, my hands shooting out to grab the lapels of Marrow's expensive coat. I don't care who he is. I pull myself up on my knees, frantic. "Tell me he didn't. Did he go back?"
 
-The word property lands like a stone in my stomach.
+Marrow doesn't flinch. He doesn't look offended by my assault. He reaches up and gently, firmly pries my hands off his coat, finger by finger. The strength in his grip is terrifying—it feels like iron wrapped in silk. 
 
-“His Redemption file says citizen‑pending.” My voice stays even. Barely. “Eighty‑seven marks. Active service. Cooperative. That’s not a relic chained in a cellar. That’s a person, under joint jurisdiction. I have the compact text memorized.”
+"He traded himself for you," Marrow confirms softly. "Quite romantic, in a catastrophic sort of way. He agreed to become the Heart-Node anchor. In exchange, Varos secured this."
 
-“Of that, I have no doubt,” he says.
+Marrow reaches into his coat and produces a tightly rolled parchment. He breaks the red wax seal and holds it open for me to see in the dim, green light. 
 
-He glances at the Guards.
+It is a full Tribunal pardon. It bears Lord Thessen's seal, and at the bottom, the elegant, unmistakable signature of High Priest Varos. 
 
-A tiny flick of his fingers.
+My stomach drops out of my body. The sheer, devastating weight of the sacrifice crushes the breath from my lungs. Cyran hadn't just surrendered to the temple. He had sold his soul, his autonomy, and his future, entirely convinced that his life was a fair trade for mine. 
 
-They don’t move.
+"You're free to go, Scribe Lysa," Marrow says, rolling the parchment back up and tucking it into my torn uniform pocket. 
 
-They don’t have to.
+"The guards," I choke out, glancing at the door. "Dren…"
 
-“Nonetheless,” he continues, “the Tribunal has agreed this portion of the review falls under Temple purview. Contract Lord Thessen is present within, along with our own adjudicators. He will ensure the Spirit of the Law is maintained.”
+"The guards currently posted at the block entrance are... indisposed," Marrow remarks smoothly, rising to his feet. "They will wake up with terrible migraines in about four hours and no memory of the shift. Inquisitor Dren has received standing orders to release you, though I imagine it pains him deeply. However, the bureaucracy will take hours to process the paperwork. We do not have hours."
 
-Of course Thessen is here.
+Marrow opens his medical bag. He retrieves a small, fragile glass vial filled with a pale, shimmering blue liquid. He pops the cork and hands it to me.
 
-Of course.
+"Drink," he commands softly. 
 
-I glance past Varos, through the glass.
+"What is it?" I ask, eyeing the liquid suspiciously. 
 
-The Hall of Truths is circular, floor inlaid with a spiral of pale stone and dark sigils. The central circle—where supplicants, witnesses, or accused stand—is ringed by low steps and benches. Transparent walls encase the whole chamber, letting anyone in the outer lobby see everything.
+"A logic-serum. A mild stimulant of my own design. It will counteract the cold, the exhaustion, and the shock currently shutting down your prefrontal cortex. You are going to need a very clear head for what comes next."
 
-Everything except hear.
+I don't argue. I bring the vial to my lips and swallow. 
 
-Inside, Cyran stands in the circle.
+The effect is instantaneous. It burns like cold fire going down my throat. The bone-deep exhaustion vanishes in a snap of electrical clarity. The shaking in my hands stops. My vision sharpens, the edges of the dark cell snapping into high-definition focus. The grief is still there, but it is abruptly quarantined, walled off behind a sudden, aggressive wall of adrenaline and logic. 
 
-No chains.
+"Why are you helping me?" I ask, my voice sharp, dropping the frantic panic. "If Varos’s ritual is that dangerous, why don't you stop him yourself? Why break me out?"
 
-That isn’t kindness. That’s theatre.
+Marrow picks up his bag. The polite, sympathetic smile fades from his face entirely. For a split second, I am looking past the immaculate tailoring and the clinical detachment, and I see exactly what is looking back. 
 
-His hands hang at his sides, fingers curled just enough to show tension if you know what to look for. His shoulders are held too straight. His chin tilts up at a defiant angle. From here, he could be the picture of composure.
+It is something ancient. It is something utterly divorced from mortality. 
 
-I know better.
+"Because the Prime Contract owes me a debt, Lysa," Marrow says, the air in the cell suddenly dropping ten degrees. "And I do not want an unstable zealot like Varos managing my accounts."
 
-Outside the circle, pacing along its edge like a bored predator, is Thessen.
+He turns toward the door, his hand resting on the heavy iron lock. 
 
-He’s changed since the temple confrontation—a cleaner robe, Tribunal cut, fewer overt sigils. But the set of his shoulders is the same. So is the line of his mouth when he thinks no one is watching.
+"You have until dawn before the Heart-Node binding is fully locked into Cyran’s soul," Marrow says without looking back. "Once the sun rises over the Ribcage, the sacrifice is permanent. The god will take him, and no law in this city will be able to bring him back."
 
-He is holding a folder.
+He pushes the heavy iron door open, leaving it ajar. 
 
-Red wax seal.
+"Run, Scribe," Dr. Marrow says quietly. 
 
-He sets it down on a low table in front of Cyran.
+And then he steps out into the dark corridor, and is gone. 
 
-My pulse jumps.
+I am alone in the cell, the open door staring back at me. 
 
-“Let me in,” I say, more quietly now.
+Cyran traded everything for me. He believed his trauma made him a monster, so he martyred himself. He thinks he saved me. He thinks I am going to let him do it.
 
-Not begging.
+I pick up the white handkerchief from the floor and wrap it tightly around my bleeding right wrist, binding it with my teeth. The raw, jagged anger I felt being arrested is nothing compared to the cold, militant fury blooming in my chest now. 
 
-Stating.
+I am not the victim anymore. 
 
-Varos follows my gaze.
-
-“Treason,” he says, with that same soft regret. “Conspiracy. Evidence of long‑term corruption. This is not a matter where sentiment should be allowed to interfere, Auditor.”
-
-“Then it’s fortunate I’m not here as a lover,” I say. “I’m here as a scribe.”
-
-The word lover tastes like iron and the memory of his mouth on mine.
-
-Varos’s eyes flick back to my face.
-
-Something shifts there.
-
-Satisfaction.
-
-Ah.
-
-So that rumor reached them.
-
-Of course it did.
-
-“The fact remains,” he says. “Your presence would render the proceedings… compromised. Given your evident partiality.”
-
-“I’m partial to the truth,” I say. “If that compromises you, perhaps you shouldn’t be holding a hearing in a building named for it.”
-
-The older Guard’s jaw tightens.
-
-The younger one—barely more than a boy, freckles stark against his pale skin—swallows audibly.
-
-He looks like he wants to step aside.
-
-His fingers twitch on the shaft of his pike.
-
-Varos doesn’t raise his voice.
-
-He doesn’t need to.
-
-“This is not a negotiation,” he murmurs. “You may observe from here, as is your right as any citizen. But you will not enter. Any attempt to do so will be recorded as obstruction.”
-
-I could push.
-
-I could force it.
-
-Bare hands on glass, quill against names, a very public, very messy scene.
-
-They are counting on that.
-
-On me losing composure in a way they can use.
-
-The Hall’s glass is thick.
-
-A beautiful, translucent lie.
-
-I step around Varos until I’m directly in front of it.
-
-Up close, I can see tiny imperfections—ripples in the stone, faint lines where it was grown and carved. My reflection hovers over the scene beyond: a ghost, watching.
-
-Inside, Thessen taps the folder.
-
-Cyran doesn’t reach for it.
-
-Of course he doesn’t.
-
-He waits.
-
-Always the performer.
-
-Making them show their hand first.
-
-Thessen smiles thinly, flips the latch himself, and opens the dossier. He turns it so the contents face Cyran. Photographs pinned to parchment. Neat columns of figures. Copies of contracts, signatures inked in a hand I know as well as my own by now.
-
-Even from here, I can see my name on one of the pages.
-
-Cold moves up my spine.
-
-Thessen says something.
-
-I can’t hear the words.
-
-Only the cadence.
-
-Pleasant. Reasonable. Someone explaining the inevitable with great patience.
-
-Cyran’s face is a mask.
-
-For three breaths.
-
-Then that, too, cracks.
-
-Not much.
-
-Enough.
-
-The color drains from his cheeks.
-
-His shoulders, held so rigidly, fold in by a degree.
-
-His throat works.
-
-He reaches out, slowly, and takes the folder from Thessen’s hand.
-
-Our bond, already taut, snaps bright and painful.
-
-I don’t get words that way.
-
-Just… impact.
-
-A rush of sick horror, followed by a familiar, bone‑deep resignation.
-
-I press my palm flat against the glass.
-
-“Cyran,” I whisper.
-
-Muffled, my breath fogs a tiny patch of transparent stone.
-
-His head lifts.
-
-His eyes flick sideways, toward the doors.
-
-Toward me.
-
-For a heartbeat, everything else in the Hall disappears.
-
-It’s just us.
-
-Glass between.
-
-We’ve been here before, in other forms. Barriers of rank, of duty, of trauma. All the ways he’s believed himself untouchable, all the ways I’ve had to stand on the other side and insist he is more than they made him.
-
-This feels worse.
-
-Varos steps closer at my shoulder, close enough that the scent of incense clinging to his robes wraps around me like a hand over my mouth.
-
-“You see?” he murmurs.
-
-I ignore him.
-
-Inside, Cyran looks back down at the pages.
-
-The bond flares again.
-
-Sharp, hot—then cold.
-
-Not detachment.
-
-Decision.
-
-Thessen leans in.
-
-He taps one of the photographs with a neatly trimmed nail.
-
-Cyran’s hand tightens on the folder’s edge.
-
-I can imagine the contents.
-
-Thessen is not unimaginative.
-
-He is thorough.
-
-Bribes, they said.
-
-Cover‑ups.
-
-Evidence doctored to show Cyran taking payment to ignore certain murders, to misfile certain contracts. Temple donors with old connections, criminals with new, all conveniently linked by ink and signature.
-
-And me.
-
-Sign‑offs.
-
-Witness lines.
-
-Quill‑marks that could be interpreted—twisted—as complicity.
-
-If I squint, I can already see how they’ve written it.
-
-Ambitious Auditor aligns with dangerous Relic to skim power and coin from both sides, hiding bodies along the way.
-
-The Temple’s favorite kind of story.
-
-I hit the glass with my fist.
-
-The sound is a muffled thud.
-
-The younger Guard jumps.
-
-“Auditor—” he starts.
-
-“Open the door,” I snap, not taking my eyes off Cyran. “Now.”
-
-He falters.
-
-Looks to Varos.
-
-Varos folds his hands.
-
-“Absolutely not,” he says. “You are witnessing a confession in progress.”
-
-Confession.
-
-It rings wrong.
-
-Inside, Thessen stops speaking.
-
-Varos’s reflection in the glass moves away, circling to take up a position opposite Thessen, flanking Cyran like twin predators.
-
-Cyran closes the file.
-
-He doesn’t throw it.
-
-Doesn’t rip it.
-
-Simply presses it shut, fingers splayed across the cover, and stares at the floor for a long, breathless moment.
-
-Then he nods.
-
-Once.
-
-Small.
-
-I feel the decision like a migraine behind my eyes.
-
-“No,” I say, more to myself than anyone.
-
-My heart is pounding so hard it hurts.
-
-He lifts his head.
-
-He doesn’t look at Thessen.
-
-He doesn’t look at Varos.
-
-He looks at me.
-
-His face is composed again.
-
-Too composed.
-
-Every line set just so, every angle controlled.
-
-The mask is back.
-
-Not the charming monster one he uses in bars and on patrol.
-
-The older one.
-
-The Object.
-
-The thing.
-
-“Cyran!” I shout.
-
-The sound hits the glass and comes back to me, a distorted echo of my own voice. Inside, it arrives as a faint, blurred thump. He hears the intent more than the word.
-
-He flinches.
-
-Just a little.
-
-Thessen says something else.
-
-Varos adds a few measured syllables, lips barely moving.
-
-They are offering him something and twisting a knife at the same time.
-
-Going by the sickness rolling through our bond, the knife has my name on it.
-
-I slam my palm against the glass again.
-
-“Don’t listen to them!” I say. “You know what they are. You know exactly what this is.”
-
-It’s a trap.
-
-It’s always been a trap.
-
-But traps only work if you don’t see the teeth.
-
-He sees them.
-
-He sees me.
-
-That’s what makes it worse.
-
-If he were fooled, I could be angry.
-
-Instead I feel… something else.
-
-He lifts his chin.
-
-The motion is sharp.
-
-Performative.
-
-He says something to Thessen and Varos—three words, by the shape of his mouth.
-
-Thessen smiles.
-
-Varos inclines his head, satisfied.
-
-The Guards inside the Hall relax fractionally, their stances easing as if some unspoken verdict has landed where they wanted it.
-
-My stomach drops.
-
-“Open. The. Door,” I say, each word a separate stone dropped into a void.
-
-The older Guard looks back at me.
-
-There is pity in his eyes now.
-
-And regret.
-
-“Auditor,” he says softly. “Please. Don’t make this worse for yourself.”
-
-“For myself?” I repeat, incredulous. “There is a man in there being coerced into—”
-
-The interior doors slide open with an almost soundless shift.
-
-Cyran steps out first.
-
-He crosses the inner threshold with the same easy, predatory grace he uses when entering a bar, a crime scene, any space where he knows all eyes are on him. Shoulders back, head high, robes falling perfectly around him despite the hours he’s spent in those too‑bright lights.
-
-He looks immaculate.
-
-There’s a new tightness around his mouth.
-
-Only someone who’s watched him lie to survive for weeks would see it.
-
-He walks toward the main doors.
-
-Toward me.
-
-Every part of me wants to meet him halfway.
-
-To grab his hands, his shoulders, his throat if I have to, and shake the truth out where the Temple can’t rewrite it.
-
-I hold my ground.
-
-If I move first, he’ll use it.
-
-He’ll make it a scene.
-
-They’ll make that the story.
-
-He reaches the threshold.
-
-The Guards snap to attention, pikes briefly crossed before pulling back to let him pass. Protocol. Show for the invisible audience.
-
-Varos comes to stand just inside, in the Hall’s shadow.
-
-Thessen doesn’t appear.
-
-He’s a voice behind glass now, power without a face.
-
-Cyran walks right up to me.
-
-Stops close.
-
-Too close.
-
-He smells like the Hall: cold stone, floor wax, stale incense. Not like blood and sweat and sewer and Heart‑chamber heat. Not like the man who laughed, half‑broken and free, in that glowing cavern.
-
-He doesn’t reach for me.
-
-Doesn’t look at my hand still pressed to the glass.
-
-His eyes are cold.
-
-Performatively cold.
-
-“Cyran,” I say, carefully. “What did they show you?”
-
-“Go home, Auditor,” he says.
-
-The word Auditor lands harder than any slap.
-
-He doesn’t call me that.
-
-Not anymore.
-
-“Scribe Lysa,” I correct, quietly. “And no.”
-
-Something like anger flashes in his eyes.
-
-Good.
-
-Anger is honest.
-
-“I said,” he bites off, “go home. I am handling it.”
-
-His tone is vicious.
-
-If I didn’t know him, if I hadn’t seen him use that exact cadence on donors and suspects and anyone he wanted to push away, I might believe it. I might believe the contempt, the dismissal.
-
-They are counting on that.
-
-On me flinching, retreating, letting the script play out.
-
-“Handling what?” I ask. “The fabricated ledger? The charges against you? Or the ones against me they tucked in the back, hoping you’d read fast enough to panic?”
-
-His jaw tightens.
-
-There.
-
-Confirmation.
-
-“Lysa.” My name, this time. Low, warning. “Not here.”
-
-They’re listening.
-
-Of course they are.
-
-Varos stands two paces back, expression serene, hands folded. Behind him, shapes move in the Hall’s interior rings: scribes, junior adjudicators, people who will write the official record.
-
-“Then where?” I ask, keeping my voice level, precise. “Because from where I’m standing, this is a classic coercive structure: closed hearing, denied counsel, leverage applied via third party—in this case, me. You sacrifice your rights so they can threaten mine without oversight. That’s not handling, Cyran. That’s martyrdom.”
-
-He takes a step closer.
-
-Now we’re almost chest to chest.
-
-To anyone watching, it looks like intimidation.
-
-It feels like a whisper.
-
-“You think I don’t know that?” he hisses, so quiet only I catch it. “You think I haven’t seen this play before? They have you in there, Lysa. On paper. In ink. If I fight this their way, they drag you down with me. They’ll ruin you. They’ll chain you. I can’t—”
-
-His voice cracks, almost imperceptibly.
-
-He swallows it.
-
-Masks it as a snarl.
-
-“I won’t let them,” he finishes.
-
-I hold his gaze.
-
-Every part of me wants to reach up and touch his face, to push his hair back, to make him meet my eyes without the performance.
-
-Instead, I do what I always do.
-
-I name the thing.
-
-“You’re making a unilateral decision about my life,” I say, very quietly. “Without my consent. To save me.”
-
-He blinks.
-
-Just once.
-
-“You call that love,” I continue. “The Temple calls it sacrifice. I call it theft.”
-
-Color rises, high and angry, in his cheeks.
-
-“You’re not listening,” he says.
-
-“You’re not *asking*,” I shoot back.
-
-We stand there, breathing the same cold, wax‑scented air, the glass wall of the Hall at my back and the open Spine at his.
-
-Behind him, Varos watches like a man who has set his dominoes and is now waiting for them to fall in the appropriate pattern.
-
-If I push too hard now, Cyran will dig in.
-
-If I let go, he’ll walk away.
-
-There is no good option.
-
-Only less damage.
-
-“Twenty‑four hours,” he says abruptly.
-
-It sounds like a concession.
-
-It isn’t.
-
-“The verdict,” he clarifies, voice flattening. “They’ll announce it in a public Accounting tomorrow. You don’t want to be associated with me when they do.”
-
-“That’s not your decision,” I say.
-
-He smiles then.
-
-It’s the worst version.
-
-All teeth, all glitter, no warmth.
-
-The one he used the first week, when I was just an assignment and he was just a weapon.
-
-“It’s adorable you think that,” he says, volume rising just enough for the Guards and Varos and the scribes beyond to hear. “Truly. But there are bigger games at play than your moral scruples, love.”
-
-Love.
-
-Used like a knife.
-
-They’ll quote that later.
-
-“Auditor,” Varos says gently, stepping forward. “We are finished here. Warden Cyran has agreed to abide by Temple remediation. You are interfering with due process.”
-
-Remediation.
-
-An elegant word.
-
-It means *we get him back*.
-
-Cyran’s hand twitches at his side.
-
-He doesn’t look at Varos.
-
-He looks at me.
-
-Underneath the barbs and the ice, the bond between us hums with something like panic.
-
-*Believe me,* it says.
-
-*Don’t believe me.*
-
-Both.
-
-At once.
-
-I exhale slowly.
-
-Every piece of training I’ve ever had tells me to escalate.
-
-To lodge a formal protest.
-
-To call for immediate review by higher Tribunal.
-
-To drag this out into the open where other eyes can see it before they seal the record.
-
-But higher Tribunal is busy.
-
-Complicit.
-
-Afraid.
-
-They gave Varos this jurisdiction.
-
-They let Thessen run this hearing.
-
-If I push now, all I do is paint a brighter target on my own back.
-
-They want me angry.
-
-They are less prepared for me patient.
-
-“Very well,” I say.
-
-Cyran flinches.
-
-Tiny.
-
-I keep my face neutral.
-
-“If this is an internal matter,” I continue, “then internal records will exist. I will, of course, be requesting full transcripts, evidence logs, and contract copies for my audit files. Retroactively, if I must.”
-
-Varos smiles, small and condescending.
-
-“Of course, Auditor,” he says. “We are always happy to cooperate with honest oversight.”
-
-“I know,” I say. “You rely on it.”
-
-His smile tightens.
-
-Cyran looks between us like someone watching a knife fight conducted with paper.
-
-“I’ll see you later,” I tell him.
-
-It is both promise and threat.
-
-He opens his mouth.
-
-Closes it.
-
-When he speaks, his voice is loud again, for the benefit of our audience.
-
-“No,” he says. “You won’t.”
-
-He steps past me.
-
-Deliberately not brushing against my sleeve.
-
-Deliberately not looking back.
-
-To everyone watching, it is a clean break.
-
-The dangerous Relic dismissing his foolish Auditor liaison, cutting ties so he can go back to where he belongs.
-
-To me, it feels like standing on the wrong side of yet another transparent wall.
-
-I let him go.
-
-For now.
-
-The glass of the Hall is cool against my spine as I lean back, just enough to keep from swaying.
-
-The Guards relax.
-
-Varos inclines his head, already turning away, back into his den of transparent stone and muffled lies.
-
-My hand is still clenched around my badge.
-
-My nails have cut crescents into my palm.
-
-Blood slicks the metal.
-
-I take a slow breath.
-
-Count to three.
-
-Then I push off the glass and turn toward the Spine.
-
-If they think this is over, they have misjudged the nature of my stubbornness.
-
-Cyran has made his choice, backed into a corner with my file held to his throat.
-
-That doesn’t mean I have to accept the terms.
-
-They have twenty‑four hours.
-
-So do I.
-
+I push myself off the floor. I walk through the open iron door, into the dark corridor, and head straight for the surface.

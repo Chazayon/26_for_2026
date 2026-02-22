@@ -1,733 +1,158 @@
 # Chapter 27 — *The Last Night*
 ### Cyran | POV
 
-I need to burn this moment into my skin so I can feel it when I’m back in the dark.
+I am a dead man walking into the only heaven I was ever allowed.
 
-That thought has been looping in my skull since I left the Hall of Truths. It follows me down the Vertebrae, through the bone‑bridges, into the quieter arteries of the Spine where Tribunal scribes actually sleep.
+The corridors of the Spine District are mercifully empty at two in the morning. I move through them like a ghost, my Vigil boots making no sound on the polished bone tiles. I don't feel the weight of the armor anymore. The manic, violent panic that consumed me outside the barracks is gone, replaced entirely by a profound, echoing numbness. Varos bled the fight out of me in the Cisterns. All that is left is the execution of a contract I signed with my own soul.
 
-Dawn is a thin, pink promise under the city’s ribs.
+I stop outside Lysa’s door. 
 
-I have until then.
+I stare at the heavy wood grain. My hands are trembling. I ball them into fists, squeezing until the leather of my gloves groans in protest, forcing the muscles to still. I have spent four hundred years learning how to mask pain, how to smile while my heart was being carved out of my chest. If I fail now, if I let the terror or the grief bleed through to my face, she will know. She will try to stop me. She will void the deal Varos made, and Dren will drag her back down to the deep blocks. 
 
-After that, I go back to the temple.
+I knock on the door. It is a soft, measured sound. 
 
-Back *in*.
+A moment later, I hear the deadbolt slide back. The door pulls open.
 
-Voluntarily.
+"Cyran."
 
-I’ve done a great many degrading things in my unlife.
+She is standing there in the amber light of her room. She is wearing the ruined remains of her gray Tribunal uniform. The lapel is torn ragged where Dren ripped her badge away. The knees are stained with the vile muck of the dungeon floor. 
 
-This might be the first I’ve chosen for someone else’s sake.
+My vision tunnels immediately to her hands. To her wrists. 
 
-The corridor outside Lysas quarters smells like ink and dust and old law. The lamplights are down to embers, throwing long, twitching shadows on carved precedent‑panels. My hand shakes when I lift it.
+The skin over her pulse points is bruised a violent, mottled purple, scraped raw where the heavy iron manacles bit into the delicate flesh.
 
-I don’t knock gently.
+The sight of it hits my stomach like a solid punch. A physical wave of nausea rolls through me. 
 
-The sound cracks down the hall like a bone breaking.
+I step across the threshold. I don't wait for her to invite me in. I reach out and pull her into a crushing, desperate hug, burying my face in the curve of her neck.
 
-There’s a scramble inside—chair legs against stone, a muttered curse, the rustle of paper. A beat later the latch slides, and the door opens a crack, then all the way.
+She gasps at the sudden impact, but her arms come up instantly, wrapping fiercely around the heavy leather of my chestplate. She holds me back with a strength that belies the exhaustion she should be feeling. 
 
-She stands there in the low light, barefoot, robe belted hastily over her shift, hair coming loose from its braid in tired waves. There’s ink on her fingers and a line from a pillow pressed into one cheek.
+"I'm here," Lysa says, her voice thick against my collarbone. "Cyran, I'm out. A man came—Dr. Marrow. He unlocked the cell."
 
-Gods.
+I close my eyes, breathing in the scent of her skin underneath the sharp, metallic tang of the dungeon dampness. I force my muscles to relax, forcing the lie to take root in my throat.
 
-I almost fall to my knees just seeing her.
+"I know," I whisper into her hair. "I know. Varos sent the pardon to him."
 
-Her eyes go wide.
+Lysa pulls back just enough to look at my face. Her eyes are entirely too bright, the pupils blown slightly wide. She is running on sheer chemical fumes—whatever stimulant Varos or his pet doctor gave her to get her upright is keeping her mind racing ahead of her body. 
 
-“Cyran?”
+"How did you know they let me out?" she asks, a slight frown creasing her brow. "How did you get Varos to agree?"
 
-All the words I could say line up in my throat. *It’s handled.* *They’re going to take me back.* *They have your name in there, like a noose.* *I’m leaving at dawn.*
+I push the "ornament" mask onto my face. It is the most flawless, terrible performance of my life. I soften the lines of my eyes. I let a practiced, profound relief wash over my features. 
 
-If I open my mouth, I will scream.
+"He caved," I lie smoothly, the deceit tasting like ash on my tongue. "When he realized you were missing, when he realized Thessen had overstepped... Varos didn't want the political fallout of a dead Scribe complicating his audit. He secured your release to appease me, to keep the Vigil from storming the Cisterns."
 
-So I don’t speak.
+It is a thin excuse. Under normal circumstances, her analytical mind would have shredded the logic in three seconds. The Tribunal never bows to Vigil threats. Contract Lords don't care about fallout. 
 
-I move.
+But Lysa is exhausted, battered, and wired high on a medical stimulant. The serum is keeping her conscious, but it is suppressing her paranoia. She blinks, the tension slowly draining out of her shoulders as she accepts the lie. She wants to believe it. She wants to believe we won.
 
-One step forward, one hand on the door, shoving it the rest of the way open with more force than necessary, closing the gap between us in the same motion. My other hand finds her jaw, the small, warm hinge of it just below her ear.
+And I need her to believe it, just for a few more hours. 
 
-I kiss her.
+"I need to wash," Lysa says quietly, looking down at the dark stains on her uniform, a sudden shudder wracking her frame. "I feel like I'm covered in the rot of the deep blocks."
 
-Hard.
+"I have it," I say softly.
 
-There’s a soft sound from her, half shock, half something else, and she stumbles back a step, dragging me with her. The door swings shut behind us with a dull *thunk*. My body slots against hers like it’s been waiting all this time for the right excuse.
+I step back, carefully untangling myself from her grip. I move to the small washstand in the corner of her quarters. I pour fresh water from the clay pitcher into the basin. My movements are deliberate and reverent. I find a clean linen cloth, dipping it into the cool water and wringing it out. 
 
-Her mouth opens under mine.
+Lysa strips off the ruined Tribunal robes, letting the heavy wool fall to the floor with a dull thud, practically stepping out of her career and her old life entirely. She stands in a simple linen shift, shivering slightly in the cool night air. 
 
-Familiar.
+I walk back to her. 
 
-New.
+"Let me," I murmur. 
 
-Her hands are on my chest, pushing for a heartbeat—then fisting in the front of my shirt instead, anchoring me there.
+She doesn't argue, lifting her chin to grant me access. 
 
-I taste ink, and the bitter tea she pretends is sufficient substitute for sleep, and underneath it, the warm, human copper of her.
+I gently wipe the damp cloth over the smudges of dirt on her cheek. I wash the drying blood from the scrape on her jaw. I take her hands, holding them as if they are made of spun glass, and carefully clean the raw, angry skin around her wrists, deliberately avoiding putting pressure on the dark bruises. 
 
-A low, desperate noise claws its way up from somewhere in my ribs.
+The act of tending to her—this profound, domestic, mortal act of care—cracks something foundational inside me. I am a predator built for violence, but the only thing I have ever wanted is this. To be gentle. To be allowed to take care of her without it being a transaction. 
 
-I swallow it into the kiss.
+When I finish, I wipe the rag over her collarbone, my knuckles brushing the warm skin of her neck. 
 
-When she finally tears her mouth away, we’re both panting.
+Lysa catches my hand, stopping the cloth. She looks up at me, her amber eyes burning with an intense, fierce heat that strips the breath from my lungs. She drops the cloth to the floor.
 
-“Cyran,” she says again, breath hot against my lips. “What happened? What did they—”
+She steps into my space, wrapping her hands in the leather collar of my armor, and pulls my mouth down to hers.
 
-“Don’t,” I rasp, dragging my mouth along her cheek to her jaw, to the smooth column of her throat. I breathe her in, every inch of exposed skin a reprieve. “Don’t talk. Just… be here.”
+The kiss is desperate. It is hot and urgent, carrying the raw, ragged edge of survival. It isn't the hesitant exploration of the Archives, or the quiet intimacy of last night. It is a frantic demand for contact, a need to physically prove we are both still standing. 
 
-Her pulse flutters under my tongue like a trapped bird.
+I answer it, kissing her back with a hunger that borders on savagery. It is the only honest thing I can give her tonight. 
 
-She stiffens.
+My hands find her waist, lifting her effortlessly against me. She wraps her legs around my hips, her fingers diving into my hair. I carry her to the bed, the heavy thud of my boots the only sound in the quiet room. 
 
-Just a little.
+I lay her down against the pillows, following her down onto the mattress. I don't bother undoing the intricate buckles of my armor. The leather is heavy and restrictive, but I need the weight. I need the armor to keep my soul from flying apart entirely. 
 
-Enough that, if I were anyone else, I might not notice.
+"Cyran," she breathes, pulling my head down again. 
 
-“Be here?” she repeats, voice already sharpening. “That’s not an answer.”
+I touch her as if a hundred years from now, I will be tested on the exact topography of her skin. 
 
-She tries to tip my chin up, to make me meet her eyes the way she always does when she wants more than a performance.
+I trace the curve of her ribs, learning the precise shudder of her breath beneath my palms. I drag my mouth down the long line of her throat, savoring the frantic pulse hammering against my lips. Every brush of my fingers, every desperate, tangled kiss, is an apology I can never say out loud. 
 
-I don’t let her.
+*I am sorry. I am so sorry. I love you.*
 
-If I look at her like that, if I see her see me, this whole plan collapses.
+And then, she reaches up and tilts her head back, offering the pale column of her throat fully. 
 
-I press her back instead.
+"Take it," she whispers, her eyes dark, locking onto mine. 
 
-A slow, inexorable walk toward the bed.
+I feel the fangs lengthen instinctively, pushing painfully past my gums. The Thirst, suppressed by panic and grief for hours, flares to life in the back of my skull. It demands the blood.
 
-Her quarters are small by Tribunal standards but palatial compared to mine—compared to the Vigil bunks, compared to the places the temple used to stack me. One narrow bed, a desk drowning in scrolls, a single shelf crowded with ledgers and bone‑etched cases. The window slit is open a hand’s breadth, letting in a sliver of moonlight and cold night air.
+But tonight, the blood is secondary. What I need is the empathic link. 
 
-As we move, my shoulder bumps her desk.
+I lower my mouth to the vein in her neck. I don't bite to hurt. I trace the sharp point of a fang over the skin until it yields, a clean, precise break. The taste of her floods my senses—copper, salt, and the sharp, chemical tang of whatever stimulant Marrow had given her. It burns like a fever.
 
-The edge digs into my back; a stack of parchment slides, slapping to the floor.
+The emphatic link snaps open entirely, an invisible floodgate rushing between us.
 
-“Cyran.” There’s a note of warning in it now. “Tell me.”
+I am slammed immediately by the intensity of her feelings. It isn't fear. It isn't hesitation. It is a blinding, overwhelming rush of pure adoration. She looks at me, and she feels completely, profoundly safe. She loves me. 
 
-I put my hands on either side of her face and force myself to stillness for one second.
+The realization is so beautiful, and so utterly agonizing, that a tear finally escapes my control, tracking hot down my cheek to mingle with the blood on her skin.
 
-Her eyes search mine.
+I begin the most dangerous part of the lie. 
 
-They’re tired.
+I pull all my terror, all my grief, all the hollow, deadened horror of what will happen at dawn, and I force it down into a tiny, lightless box in the center of my mind. I build a mental wall out of pure, suffocating discipline. It is the same discipline that kept me from screaming in the temple when my skin was cut open. 
 
-Worried.
+Through the empathic connection, I push back nothing but adoration. I push the deep, thrumming warmth of safety. I let her feel the profound wonder of holding her. I make myself a mirror for her love, hiding the abyss just inches away.
 
-So very, very alive.
+The physical climax of the scene is a messy, beautiful devastation. We cling to each other, a tangle of heavy leather and soft linen. For her, it is a euphoric, exhausted release—the emotional capstone on surviving the worst twenty-four hours of her life. 
 
-“It’s handled,” I manage, the lie scraping like broken glass in my throat. “They… had their little show. I performed. Curtain call at dawn. For tonight—” I lean in, brush my mouth along the line of her jaw. “Tonight, I am here.”
+For me, it is a funeral. Every choked gasp of my name against my neck is a shovel of dirt on my grave. Every kiss is a eulogy for a life I never got to live.
 
-She studies me.
+Afterward, the adrenaline holding her upright completely crashes. The stimulant wears off, leaving her body dragging with the heavy, inescapable weight of the dungeon floor and the emotional toll. She falls asleep within minutes, her head resting heavily on my chest plate, her hand tangled in my shirt. 
 
-Too perceptive for her own safety.
+Her breathing evens out, slow and steady in the quiet room. 
 
-Her fingers flex against my chest, feeling the tension in muscles I can’t seem to unclench.
+I lie awake in the dark. 
 
-“Handled,” she repeats, flat. “By agreeing to something you’re not telling me.”
+I don't move. I don't sleep. The Thirst is sated, the empathic link humming a dull, quiet baseline of contentment from her end, but my own mind is a barren wasteland. I stare up at the ceiling, feeling the slow, heavy drag of time. 
 
-“Lysa.” I let her name roll out on a breath, soft, reverent, a prayer to a dead god. “Please.”
+I watch the pale bars of moonlight inch across the wooden floorboards. The moonlight hits the edge of the rug. It climbs the leg of the wooden chair. It stretches out, long and thin, like fingers pointing toward the inevitable dawn.
 
-She goes very still.
+At four in the morning, the light begins to change. The blue hour. The ambient temperature in the room drops, signaling the final stretch of night before the sun breaches the horizon of the dead god's ribs. 
 
-Not like the Temple stillness, the trained freeze of a creature waiting for orders.
+I have to go. If I am not in the Cisterns when the sun rises, Varos will revoke the pardon.
 
-Like a woman weighing choices.
+I carefully, agonizingly untangle myself from her arms. She shifts, murmuring something unintelligible in her sleep, but her exhaustion is too profound. She doesn't wake. 
 
-She can press.
+I slip out of the bed entirely. The cold air of the room hits my sweat-damp skin, a stark reminder that the warmth is over.
 
-Push.
+I move silently to her small writing desk. I pick through the stacked, chaotic mess of papers until I find a clean scrap of parchment paper. I locate a quill, but her inkwell is completely dry. 
 
-Peel me open with those surgeon’s eyes and careful questions.
+I hesitate for a single second. Then, I pull the bone-hilted dagger from my thigh sheath. I press the razor edge against the pad of my left thumb, drawing a sharp line. 
 
-If she does, I will break in one of two ways.
+I dip the iron nib of the quill directly into the welling blood of my own hand.
 
-I will confess everything and she will throw herself into the fire with me, because that’s who she is, and they will burn her to ash.
+It feels fitting. Appropriate. My blood brought me into the temple, and my blood will write my way back into it.
 
-Or I will lie to her face on purpose, not just by omission.
+The pen shakes violently as I lower it to the parchment. I have to lock my elbow to keep the handwriting smooth. I cannot give her a ragged, terrified note. I need it to be final. I need her to hate me, or she will try to come after me.
 
-I am not sure which would destroy me faster.
+I write the note. It is short. The lie in it is the cruelest thing I have ever constructed. 
 
-She exhales slowly.
+I fold the parchment carefully.
 
-Her hands slide up from my chest to my shoulders, thumb catching on the seam of an old scar in my collarbone. The contact is gentler now.
+I walk back to the bed. I stand over her, looking down at the soft curve of her face in the pale, pre-dawn light. I want to wake her up. I want to pull her against my chest and scream that I'm terrified, that I don't want to go back to the cage. 
 
-“Fine,” she says quietly. “For tonight.”
+I lean down and press a single, painfully soft kiss to her forehead. 
 
-Relief hits so hard my knees go weak.
+"I love you," I whisper directly into her ear, the only true thing I will leave her with.
 
-I don’t deserve it.
+She sighs, leaning into the warmth of my breath, but her eyes remain shut.
 
-I take it anyway.
+I place the folded note containing my blood precisely onto the pillow beside her cheek. 
 
-Her concession is not consent to what I’m about to do, not really, not fully. She is agreeing to shelve the interrogation, not to the unspoken goodbye I’m building out of her body and mine.
-
-But she wants me here.
-
-She said yes to that.
-
-I can work with yes.
-
-“Darling,” I murmur, because if I don’t lace this with my usual performance I will start sobbing, “you have no idea how much I appreciate your occasional lapse in professional rigor.”
-
-She snorts once, the sound half choked.
-
-“There’s nothing rigorous about this,” she says. “You barged in and started devouring me.”
-
-“I can be more thorough,” I offer against her throat.
-
-Her fingers tighten on my shoulders.
-
-“Less talk,” she says, voice dropping. “More—”
-
-I oblige.
-
-We hit the bed in an inelegant tangle, her calves knocking against the frame, my knee catching on the thin mattress. We’ve done this before—once, in a slower, more deliberate way, all careful consent and discovery, her hands reverent on scars no one was supposed to touch. That night felt like a question we were finally allowed to answer.
-
-This feels like a deadline.
-
-My hands are shaking.
-
-Not with arousal.
-
-With *need*.
-
-Raw, clawing, panicked.
-
-I bury them in motion.
-
-Her belt comes loose under my fumbling fingers, the knot refusing for a second before giving way. I push the robe off her shoulders, exposing the soft linen of her shift beneath, the curve of collarbone, the top swell of her breasts where the fabric gapes. My mouth follows, mapping an old terrain with new desperation.
-
-She arches under me, a quiet sound escaping.
-
-Her hands aren’t passive.
-
-They’re everywhere.
-
-In my hair, at the back of my neck, sliding under the open edges of my shirt to skim the planes of my chest. Every touch burns. Every place her fingers land is one more point I have to memorize for later.
-
-This is the last time.
-
-The thought hits with the force of a blow.
-
-I have to swallow a gasp against her skin, make it sound like hunger instead of grief.
-
-“Cyran,” she breathes, fingers finding the row of buttons down my front. “Slow down. We have—”
-
-“Not as long as you think,” I say, too quickly.
-
-She stills.
-
-I curse myself.
-
-Then I drown the moment in motion before she can drag it into the light.
-
-My hands slide down, gathering her shift, dragging it up over her thighs, hips, ribs. The fabric bunches, catches on one of the ink‑dark hairs at my wrist, nearly tears. She lifts her arms automatically, letting me strip it off, leaving her bare in the dim lamplight and the smear of moon.
-
-I go quiet.
-
-For a second I can’t move at all.
-
-She lies there, breathing a little fast, skin flushed from throat to chest, dark nipples peaked in the cool air. There are faint bruises on her hips from the last time I held her too hard. A smudge of ink on one upper arm. A tiny scar along her ribcage where some childhood injury once caught her, pale against the warmer tone of her skin.
-
-I trace it with one fingertip.
-
-“Cyran,” she says, and this time there is a different note in it.
-
-Less demand.
-
-More question.
-
-I drag my gaze up to her face.
-
-Her eyes are soft in this light.
-
-Open.
-
-She’s looking at me like I am something *holy*, which is ridiculous on several levels and makes my chest hurt.
-
-“You’re staring,” she says quietly.
-
-“You’ll have to forgive me,” I manage, voice rough. “I’m committing a crime.”
-
-An eyebrow lifts.
-
-“Against Tribunal decorum?” she asks. “Temple property statutes?”
-
-“Against good sense,” I say. “I am attempting to burn you into memory. It requires focus.”
-
-Something flickers in her expression.
-
-“If you’re memorizing me,” she says, “I expect a detailed report later.”
-
-“You’ll be there,” I say.
-
-The lie tastes like ash.
-
-She reaches up and cups my cheek, thumb brushing the edge of one of the thin, silvery scars the Temple’s aestheticists left along my jaw. Not necessary for function, those. Pure ornament. They wanted me to catch the light just so when I turned my head.
-
-I have never felt more like I was given a face for someone else’s pleasure than when her thumb moves across it now and my whole body leans into the touch like a starving thing.
-
-“Then stop thinking,” she says softly. “Be here.”
-
-I huff out something that might be a laugh, might be a sob.
-
-“Bossy,” I murmur.
-
-“Effective,” she counters.
-
-She pulls my head down.
-
-Our mouths meet again, slower this time, deeper. Not the frantic crash of entry, but a drag, a press, tongues sliding, breaths tangling. Her hands move over me with more intention now, tugging my shirt open the rest of the way, smoothing over my sides, my back.
-
-She doesn’t flinch at the scars.
-
-She never has.
-
-I do, a little, when her fingers brush old brand‑lines near my hip, the faintest raised pattern of a sigil long since burned out.
-
-She feels it.
-
-Of course she does.
-
-She gentles her touch there.
-
-The consideration guts me.
-
-I undress with less elegance than usual.
-
-Buttons pop.
-
-Fabric tangles.
-
-Her fingers try to help, laughing once, which helps loosen something knotted in my throat. My trousers go next, dragged down over my hips with impatient hands—hers, then mine, then both together when the material catches.
-
-We end up skin to skin.
-
-Her legs sliding along mine.
-
-The heat of her pressed against the hardness I have absolutely no control over right now.
-
-I shudder.
-
-“Cyran,” she says, and there it is again, the question wrapped in my name.
-
-I duck my head and put my mouth on the pulse in her throat before I can hear it.
-
-My hands roam.
-
-Her ribs, rising and falling under my palms.
-
-The dip of her waist, the soft give of her belly, the curve of her hip. I drag my thumb along the inside of her thigh, feel the muscles jump. She parts her legs for me, just a little, a familiar invitation that still manages to light my nerves like kindling.
-
-“Tell me what you want,” I say, because some habits I have earned, and I will not turn this into a duty, even now. “Not what you think I need, not what Temple trauma response protocol suggests. You.”
-
-She exhales, a shaky sound.
-
-“You,” she says simply.
-
-I huff out a strangled noise into the hollow of her collarbone.
-
-“Specificity, love,” I say, because clinging to my patterns is the only way I know not to drown. “I’m very thorough. I wouldn’t want to misinterpret.”
-
-She drags one hand down my spine, nails biting just enough to make me twitch.
-
-“I want you,” she says again, firmer now. “Inside me. Here. Now. Not as payment. Not as performance. Because you want it too.”
-
-My vision blurs for a second.
-
-I blink it clear.
-
-“I do,” I say.
-
-The words slip out too quietly.
-
-Too true.
-
-I press my forehead to hers.
-
-For a heartbeat, I let myself imagine an impossible world where this is just sex.
-
-Just two people who nearly died three days ago, who pulled each other out of a god’s mouth, who are clinging to each other tonight because the alternative is thinking about paperwork and politics.
-
-In that world, I stay.
-
-In this one, I line the coffin of my future with every sound she makes.
-
-I slide my hand between her thighs.
-
-She’s already wet, heat slicking over my fingers as I stroke along her, slow and careful at first, reacquainting myself with every nuance. Her breath catches. Her hips roll up, chasing contact.
-
-I watch her face.
-
-The way her brows draw together when I circle just right. The way her lips part when I press a little harder. The way color blooms high in her cheeks.
-
-“Beautiful,” I murmur.
-
-It used to be a line.
-
-Tonight it feels like an oath.
-
-She whispers my name on a breath that shakes.
-
-“Here,” she says, reaching down, guiding my hand, showing me the pressure she wants, the angle. “Cyran, gods—”
-
-I adjust.
-
-Her back arches.
-
-She bites her lip to muffle a sound and fails, a low, desperate noise spilling into the quiet room.
-
-I drink it in.
-
-I slide two fingers into her when she’s panting, when her thighs have gone trembly around my hand. She clenches around me, body instinctively trying to pull me deeper. My own breath stutters.
-
-“Still with me?” I ask, voice rough.
-
-She nods.
-
-“Words, love.”
-
-“Yes,” she gasps. “Don’t you dare stop.”
-
-“I wouldn’t dream of it.”
-
-I build her up carefully.
-
-Not gentle, not tonight—not the tentative exploration of the first time—but not cruel, either. I ride the line between, matching the rhythm of her hips, the hitch of her breath, the hands that clutch at my shoulders, my back, the sheets.
-
-When she comes, it’s sudden and sharp.
-
-Her muscles seize, clamping around my fingers, her head tipping back, throat bared, a broken sound tearing out of her. I watch every second like I can etch it into the back of my eyelids.
-
-She shudders down.
-
-Breath staggering.
-
-I ease my hand back, slick with her, and brace myself over her, chest heaving.
-
-Her eyes flutter open.
-
-She looks wrecked.
-
-Beautiful.
-
-Mine.
-
-“Come here,” she whispers.
-
-I lower myself.
-
-She wraps her legs around me, ankles locking at the small of my back, drawing me in.
-
-There’s no performance left to hide behind now.
-
-I line myself up with her, the blunt heat of my cock nudging against her, the slickness there making the contact almost unbearably intense. For a second, I just… stop.
-
-If I move, this becomes real.
-
-If I move, this becomes the last time.
-
-She lifts her hips.
-
-Enough to push me that fraction closer.
-
-“Cyran,” she says.
-
-It sounds like *please*.
-
-I push.
-
-The tight resistance of her, then the give, the slow stretch as I sink into warmth that has only ever felt like home and now feels like a precipice. I groan, a helpless, wrecked sound I can’t swallow down.
-
-She clutches at me.
-
-Fingers digging into my shoulders.
-
-Breath coming in sharp little pants as I fill her.
-
-“Okay?” I manage.
-
-“Yes,” she whispers, eyes squeezed shut for a second. Then open, pinning me. “Move.”
-
-I do.
-
-Slow at first, letting both of us adjust, the drag of my body inside hers almost too much. Her nails bite into my back; her mouth finds my neck, teeth scraping lightly along an old bite scar. My hips find a rhythm without my permission.
-
-This isn’t like the first time, all soft exploration and wonder that this could be real.
-
-This is hard and raw and full of things we are not saying.
-
-I thrust deeper.
-
-She meets me, no hesitation, hips rising, taking me, wanting me. Her breath breaks on every stroke. Mine joins it. The room fills with the sounds of us—heavy breathing, the creak of the bed, the faint wet slap where our bodies meet.
-
-I worship her because I don’t know how else to ask forgiveness.
-
-My mouth finds every inch of skin I can reach—her throat, her jaw, the hollow below her ear, the swell of her breast, the scar on her ribcage. I murmur nonsense against her, pet names and half‑formed praises, anything to drown out the voice in my head that keeps counting down to dawn.
-
-She drags my face up.
-
-Kisses me like she’s trying to climb inside my ribs.
-
-At some point my eyes start burning.
-
-I realize belatedly that I’m crying when a tear slips free and drips onto her cheek.
-
-She pulls back an inch, surprised.
-
-“Cyran?” she breathes.
-
-I don’t let her see.
-
-I bury my face in her hair, in the crook of her neck, and thrust harder, chasing the sharp, bright friction that might burn this ache away. My shoulders hitch with silent sobs I pretend are just ragged breaths.
-
-She holds me.
-
-Not gently.
-
-Like she’s bracing against a storm.
-
-“I love you,” she whispers into my ear.
-
-The words slam into me harder than any temple command.
-
-I freeze.
-
-Everything stops.
-
-For one suspended second I hover above a decision: say it back and shatter, or stay silent and let it hang there, unanswered, a wound.
-
-I have told her pieces.
-
-I carved a name into bone for her.
-
-I have bled for her, killed for her.
-
-I have not said those words.
-
-If I say them now, right before I walk back into the temple’s jaws, I don’t know if either of us will survive it.
-
-My throat works.
-
-No sound comes out.
-
-So I kiss her.
-
-Hard enough to bruise.
-
-I pour everything I could say into the press of my mouth on hers—the awe, the terror, the fact that she stood between me and a god and I would burn the world to keep her heart beating where I can hear it.
-
-She kisses back with equal ferocity, a low, wounded sound vibrating against my tongue.
-
-I move again.
-
-Faster.
-
-Her nails rake down my back, sparks of pain mixing with pleasure until the line blurs. Her legs tighten around my hips, drawing me deeper, as if she can keep me there by sheer force of will.
-
-If only.
-
-Her second climax hits like a wave.
-
-I feel it before she does—the way her body tightens, the way her breath stutters. I angle my hips, grind just right, and she breaks apart under me, gasping my name, eyes flying wide, then squeezing shut.
-
-I let go.
-
-There’s no point trying to hold back.
-
-My own release rips through me, white‑hot, stealing my breath, my thoughts, everything but the feel of her around me and the sound of my own rough shout against her throat. For a moment, there is nothing but sensation—clenching muscle, pounding heart, the dizzy, floating aftermath.
-
-Then gravity returns.
-
-I slump, barely catching myself on my forearms before I crush her.
-
-She’s shaking.
-
-So am I.
-
-We pant against each other, bodies slick with sweat, the room heavy with the scent of sex and salt and something like sorrow.
-
-“Hey,” she murmurs after a while, fingertips tracing idle patterns along my spine. “Still with me?”
-
-“Sadly,” I say into her hair, voice hoarse. “I’d hoped that was enough to knock me into a merciful coma.”
-
-She huffs out a small laugh.
-
-“Idiot,” she says.
-
-There’s so much fondness in it, I almost start crying again.
-
-I roll to my side, staying inside her as long as our bodies will allow, unwilling to lose that last physical connection even as reality seeps back in. Eventually, necessity wins; I soften, slip out. She makes a small, unconscious sound of loss, quickly smoothed over as she tucks herself into my side instead.
-
-We tangle together under her thin blanket.
-
-Her head on my chest.
-
-My arm around her.
-
-Our legs a messy knot.
-
-The window slit lets in a bar of moonlight that slowly crawls across the floor, up the side of the bed, over the curve of her shoulder. It paints my scarred arm pale, highlights the faint tremor that hasn’t quite left my fingers.
-
-Her breathing evens out bit by bit.
-
-I listen.
-
-Count.
-
-One.
-
-Two.
-
-Three.
-
-My own heart—such as it is—finds a rhythm too, slower now, though it still feels like it’s trying to tear free of my ribs and throw itself at her feet.
-
-She drifts.
-
-Half‑awake, she murmurs something against my chest.
-
-It might be my name.
-
-It might be a protest.
-
-Her hand, resting over my heart, loosens; her fingers go slack.
-
-I keep very, very still.
-
-If I move, I will wake her.
-
-If I wake her, I will not leave.
-
-The city creaks around us.
-
-Bones settling.
-
-Somewhere, far off, the Heart gives a distant thump you can only hear at night when everything else is quiet and you are foolish enough to listen. Dawn inches closer with every beat.
-
-Eventually, her breathing slides into the deep, even pattern of true sleep.
-
-Safe.
-
-Unaware.
-
-My throat tightens.
-
-I press my lips to the top of her head, closing my eyes against the burn.
-
-“I love you,” I whisper into her hair.
-
-There.
-
-In the only way I can bear it.
-
-She doesn’t stir.
-
-Coward, a voice that sounds uncomfortably like hers says in the back of my mind.
-
-Not wrong.
-
-Carefully, inch by inch, I start to untangle myself.
-
-It’s an exercise in control more difficult than any assassination I’ve ever pulled off. Her leg is hooked over mine; I slide free, pausing every time she shifts or sighs. Her hand is sprawled over my chest; I lift it, gently, and lay it back on the mattress, fingers brushing the underside of her wrist where her Tribunal mark sits, ink dark against skin.
-
-She frowns in her sleep.
-
-I go still until it smooths out again.
-
-When I’m finally clear, the bed feels too big.
-
-Too cold.
-
-I stand.
-
-My knees almost buckle.
-
-The room is a testament to her life—papers scattered on the floor near the desk, a half‑empty tea cup gone cold, a quill left in the inkwell, its tip drying. Little things I have taken for granted these last months.
-
-I pull on my clothes in the dark.
-
-Shirt, still rumpled from her hands.
-
-Trousers.
-
-I don’t bother with buttons that won’t cooperate under my shaking fingers.
-
-I find a scrap of paper on her desk, push aside a case file about dock tariffs to clear a space. My hand hovers over the inkwell.
-
-I haven’t written anything that mattered in years.
-
-Not with my own hand.
-
-Not like this.
-
-The quill feels alien between my fingers.
-
-My first attempt at a word scratches too hard; the quill catches, splatters. I take a breath, slow and shallow, and try again.
-
-The sentence I settle on looks small on the page.
-
-Pitiful, really, compared to everything I could say, everything I should.
-
-*I won’t be the thing that destroys you.*
-
-It’s a lie, of course.
-
-I already am.
-
-But it’s the only truth I know how to offer tonight.
-
-I sign nothing.
-
-Fold the paper once.
-
-Carry it back to the bed.
-
-She’s curled on her side now, facing my empty half, one hand resting on the hollow my body left in the mattress, as if she reached for me in her sleep and found nothing.
-
-I place the folded note on the pillow in front of her.
-
-For a long moment, I just stand there, looking.
-
-Memorizing.
-
-The way her hair fans across the sheet.
-
-The soft part of her lips.
-
-The faint crease between her brows that never fully goes away, even in sleep—too much responsibility etched into her skin.
-
-I lean down and press one last kiss to her forehead.
-
-“Forgive me,” I whisper, to her, to whatever god still listens, to the empty city.
-
-Then I go to the window.
-
-The slit is narrow, but I’ve squeezed through worse. I ease it open the rest of the way, stone grating softly. Cold night air knifes in, heavy with the scent of bone dust and distant incense.
-
-I swing one leg over the sill, then the other.
-
-Balance on the lip for a heartbeat, fingers white‑knuckled on the edge.
-
-One more look.
-
-Her, in the bed.
-
-The note.
-
-The lamp guttering low.
-
-Then I push off.
-
-The drop isn’t far.
-
-Two stories down to a protruding rib, then another to a bracket, then to the ground. My body takes the impact easily; this, at least, is something the Temple built me for.
-
-I land in a crouch.
-
-Straighten.
-
-Dawn is closer now.
-
-The path to the temple yawns ahead, lit by a few lonely bone lanterns and the faint, reflected glow of the Heart’s pulse.
-
-I start walking.
-
-I don’t look back.
-
+I turn around. I put the "ornament" mask back on my face, locking it into place. I walk out of the door, pulling it silently shut behind me, and I walk back to the Blood Cisterns to throw my life away.
