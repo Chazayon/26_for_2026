@@ -1,0 +1,52 @@
+# Continuity Review: Book 1 Chapters
+
+I have reviewed the generated chapters for Book 1 against the story outline ([book1_blood_and_bone_cyran_lysa.md](file:///Users/charlotteokeyo/Downloads/26_for_2026/Outlines/book1_blood_and_bone_cyran_lysa.md)). I found significant incoherence stemming from a major plot divergence, broken POV alternation, and duplicate chapters.
+
+---
+
+## 1. The Major Plot Divergence (Chapters 20-30)
+
+According to your outline, **Chapter 20** is meant to be the "Second Spicy Scene" (Lysa's POV) set in her quarters after an investigation, cementing their connection. 
+
+However, the generated [Chapter_20_Lysa.md](file:///Users/charlotteokeyo/Downloads/26_for_2026/Book_1_Chapters/Chapter_20_Lysa.md) diverged heavily from the prompt/outline. It ends with Lysa being arrested, shackled, and locked in a cell by Thessen's men.
+
+This divergence completely derails the plot sequence planned for Chapters 21–30. Instead of the planned "Midpoint of Love" and "Public Defiance" (Outline Ch 21-22), the generated Chapters 21-30 follow an improvised plot where Lysa is imprisoned ("The Doctor in the Dungeons") and Cyran is controlled ("The Puppet Strings").
+
+## 2. POV Alternation Broken (Chapters 21-25)
+
+The outline dictates strict POV alternation: **Cyran (Odd Chapters) / Lysa (Even Chapters)**.
+Chapters 1–20 and Chapters 31–40 follow this perfectly.
+
+However, from Chapters 21 to 25, the generation inverted the POV pattern:
+- **Expected:** 21 (Cyran), 22 (Lysa), 23 (Cyran), 24 (Lysa), 25 (Cyran)
+- **Actual Generated:** 21 (Lysa), 22 (Cyran), 23 (Lysa), 24 (Cyran), 25 (Lysa)
+
+## 3. Duplicated Chapters (Chapters 26-30)
+
+For Chapters 26 through 30, the generator created **two versions for every chapter** (one from Cyran's POV and one from Lysa's POV). 
+
+This resulted in 5 extra chapter files, bringing the total in the folder to 45 files instead of the planned 40:
+- `Chapter_26_Cyran` & `Chapter_26_Lysa`
+- `Chapter_27_Cyran` & `Chapter_27_Lysa`
+- `Chapter_28_Cyran` & `Chapter_28_Lysa`
+- `Chapter_29_Cyran` & `Chapter_29_Lysa`
+- `Chapter_30_Cyran` & `Chapter_30_Lysa`
+
+---
+
+## Recommendations & Next Steps
+
+Because the generated text in Chapters 20–30 completely breaks away from the outline, you have two main options for how to fix the incoherence before moving on to Book 2:
+
+### Option A: Stick to the Original Outline (Recommended)
+1. **Trim:** Delete Chapters 20 through 30 entirely. 
+2. **Rewrite:** Regenerate Chapter 20 to accurately reflect the "Second Spicy Scene" in Lysa's quarters, then regenerate Chapters 21-30 using strict adherence to the outline. This will fix the plot, restore the Cyran-Lysa POV alternation, and remove the duplicate files naturally.
+
+### Option B: Keep the "Arrest" Plotline
+If you liked the new direction where Lysa gets arrested and Cyran is puppeted:
+1. **Add a Bridge Chapter:** Add a new chapter between 19 and 20 to better set up the arrest (it currently feels very sudden).
+2. **Fix POVs (21-25):** If you want to keep the events of 21-25, you'll need to either merge them or rewrite them to swap back to the Cyran (odd) and Lysa (even) pattern.
+3. **Trim Duplicates (26-30):** You must read the duplicates and choose ONE POV for each chapter (e.g., Delete 26_Cyran and keep 26_Lysa, to maintain the alternating pattern). 
+4. **Bridge to Chapter 31:** Since Chapter 31 suddenly jumps back onto the outline's track ("The Wake-Up Call" where Cyran fights Varos' binding), you'll need to write heavily customized bridge chapters around Chapter 30/31 to connect the "jail/puppet" plot back to the climax in the Heart-Chamber.
+
+Please let me know which direction you'd like to take, and I can start deleting, renaming, or setting up prompts to rewrite the necessary files!

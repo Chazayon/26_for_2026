@@ -3,13 +3,13 @@
 #### **Core Identifiers**
 
 ```yaml
-Title: The Performance of Blood
+Title: Night Terrors in the Skull
 Chapter_Scene_Number: Chapter 13, Scene 1
 POV_Character: Cyran (1st person present tense)
 POV_Alternation_Scheme: Dual Alternating (Cyran / Lysa)
-Time_of_Day: Night, approx 11:00 PM
-Duration: Spans 30 minutes
-Trope_Scene_Type: "Forced Duel / The Test of Loyalty"
+Time_of_Day: Night, approx 9:00 PM
+Duration: Spans 45 minutes
+Trope_Scene_Type: "Panic Attack / Consent-First Hurt-Comfort"
 ```
 
 ---
@@ -17,62 +17,62 @@ Trope_Scene_Type: "Forced Duel / The Test of Loyalty"
 #### **Plot & Structure**
 
 **Plot Summary:**  
-In the main hall, Thessen announces the entertainment. He brings out a "feral" beast (actually a drugged prisoner/criminal). He commands Cyran to demonstrate his "Vigilance" by executing the threat. It's a test of obedience in front of the investors. Cyran steps into the circle. He sees the prisoner is terrified, not feral. He has to choose: kill an innocent and maintain cover, or refuse and die. He chooses a third path. He "dances" with the prisoner, making it look like a deadly duel, but whispering instructions to the man (*"Fall when I shove you. Stay down."*). He delivers a "killing blow" that is actually a precise, non-lethal nerve strike. The crowd applauds the "death." Thessen looks suspicious but satisfied. Cyran feels sick.
+Tribunal ceremony in the god's skull chamber—required for all high-profile Vigil members. The setting triggers Cyran: old command phrases, incense, chanting. He dissociates during the ceremony; manages to hold it together publicly. Afterward, Lysa finds him in a side corridor, mid-panic attack. She grounds him carefully: names what she's doing before touching, stays when he lashes out. He comes back to himself, ashamed and furious. She doesn't leave; doesn't pity; just stays.
 
 **Scene Goal:**  
-Cyran: Fake the kill without being discovered.
+Cyran must survive the mandatory commendation ceremony without breaking his public "Blood Relic" mask, hiding the fact that the ritual is tearing his mind apart.
 
 **Scene Outcome:**  
-Cyran successfully fakes the execution, saving the prisoner but traumatizing himself further.
+Cyran survives the public spectacle but suffers a severe PTSD flashback in private. Lysa finds him and successfully grounds him using strict, consent-based care, deepening their emotional bond.
 
 **Scene Question:**  
-Can Cyran fool Thessen?
+When Cyran's mind betrays him and drags him back to the temple, will Lysa's presence be a threat or an anchor?
 
 **Ticking Clock/Deadline:**  
-The combat is happening *now*.
+The ceremony feels endless (internal clock of enduring pain), but the external clock is the 72-hour delay Lysa bought in Chapter 12. He *must* keep up appearances so Thessen can't claim he's "malfunctioning" and expedite the Gala.
 
 **Opening Hook - First Line Strategy:**
 
-1. *Thessen hands me a sword like he's handing me a pen. Sign here, in red.*
-2. *The circle is drawn in salt and crushed bone. I know this stage.*
-3. *The crowd wants blood. I have to give them a show instead.*
+1. *The god's skull is a terrible place to hold a party, mostly because the acoustics make every whisper sound like a judgment.*
+2. *I am drowning in dry air and frankincense, smiling so hard my jaw might crack.*
+3. *There is a specific cadence to the old temple chants that doesn't just enter the ear—it wraps around the spine and pulls.*
 
 ---
 
 #### **Action Beats (25 Minimum)**
 
-1. Thessen claps. "And now, the demonstration!"
-2. Guards drag a man into the center. Chained. Drugged.
-3. Thessen introduces him as a "City-Killer" (lie).
-4. He turns to Cyran. "Show them why you are the Relic."
-5. Cyran steps forward. The crowd hushes.
-6. He draws his glass dagger (from boot) or stage weapon.
-7. He circles the prisoner.
-8. The prisoner weeps. "Please."
-9. Cyran leans close, masking it as a taunt. "Listen to me."
-10. "I'm going to cut the chain. Swing at me."
-11. The prisoner blinks. Confused.
-12. Cyran slashes—cutting the chain link. Sparks fly.
-13. "Fight!" Cyran roars (performance).
-14. The prisoner swings clumsily.
-15. Cyran dodges, spins. The crowd gasps. "Beautiful!"
-16. Cyran whispers again. "On three. Fall left."
-17. They trade blows—all choreographed by Cyran's speed.
-18. He nicks the prisoner's arm—just enough blood for show.
-19. "Three," Cyran hisses.
-20. He thrusts the dagger under the armpit (nerve pinch).
-21. The prisoner collapses, looking dead.
-22. Cyran stands over him. Panting.
-23. Silence.
-24. Then applause. Thunderous.
-25. Thessen walks up. Kicks the body. The prisoner doesn't move (paralyzed).
-26. "Efficient," Thessen says. "But messy."
-27. "You wanted a show," Cyran says, wiping the blade.
-28. He looks for Lysa. She is pale. She knows.
-29. "Take the trash away," Thessen commands guards.
-30. Cyran sheathes the blade. His hands are trembling.
+1. Cyran stands at attention in the center of the God's Skull Chamber, flanked by other Vigil members. The chamber is vast, the ceiling made of fused cranial plates.
+2. He adjusts the stiff, high collar of his ceremonial armor. It feels too tight. Like a collar.
+3. **Priest Kelton**, a minor Tribunal officiant, begins swinging a censer of heavy, cloying myrrh. 
+4. The smoke hits Cyran. His breath hitches. *Temple incense.*
+5. Kelton begins chanting the commendation rites in High-Divine, the dead language of the old temple.
+6. Cyran's vision tunnels. The acoustic echoes distort the priest's voice, making it sound exactly like High Priest Varos.
+7. Kelton steps in front of Cyran to offer the ceremonial chalice of spiced blood-wine.
+8. Kelton smiles a bureaucratic, oblivious smile: "Drink, Relic, and be renewed in your service."
+9. Cyran's hands shake as he takes the heavy gold chalice. He forces a charming, arrogant smirk. "Always a pleasure, Father."
+10. He drinks. The taste—copper, cinnamon, ash—is a violent trigger. It's the exact mixture they used to drug him before the rites.
+11. He hands the chalice back. A drop of red stains his lip. He feels the magic of the command phrases pulling at his blood, demanding submission.
+12. He locks his knees to stay standing. *You are in the Tribunal. It is year 84. You are not there.*
+13. The ceremony finally ends with the striking of a bone-gong. The crowd begins to mingle.
+14. Cyran smoothly, mechanically excuses himself from a minor noble trying to congratulate him.
+15. He slips through a heavy velvet curtain into a dark, disused maintenance corridor behind the ocular cavity (eye socket).
+16. The moment he is alone, the mask shatters. His legs give out. He hits the stone floor hard.
+17. The panic attack hits fully: hyperventilating, fangs dropping involuntarily, clawing at his own collar to breathe. 
+18. Footsteps approach. Cyran scrambles backward into the dark, cornering himself, baring his teeth. *A predator trapped.*
+19. It’s Lysa. She stops ten feet away, holding a glowing lumen-sphere.
+20. "Cyran," she says softly. Not a command. A question.
+21. He lashes out verbally, voice feral, disjointed. "Don't touch me! Get back! I did the rite, I drank the cup, don't—"
+22. Lysa immediately lowers her hands and sits on the floor, making herself non-threatening. "I'm not touching you. I'm right here. You're in the upper corridors."
+23. She talks him through it, narrating reality. "My name is Lysa. It's Tuesday. You are wearing black leather. I am wearing indigo."
+24. Cyran's breathing hitching. He presses his hands to his eyes. "Make it stop."
+25. "May I hold your hand?" she asks clearly. "Only your hand."
+26. A long, agonizing beat. Cyran gives a jerky nod.
+27. She scoots closer, telegraphing her movement, and wraps her warm, ink-stained hands around his freezing, clawed ones.
+28. The panic slowly breaks. He slumps forward, his forehead resting against the cold stone wall, gasping for air.
+29. Shame crashes over him. "Look at me," he whispers bitterly. "The great Blood Relic."
+30. "I'm looking," Lysa says, her voice steady, refusing to pity him. "And I'm not going anywhere."
 
-*Note: The tension is "Will the prisoner spoil the act?"*
+*Note: The focus is on Lysa's consent-first grounding technique. She never forces a touch.*
 
 ---
 
@@ -80,24 +80,23 @@ The combat is happening *now*.
 
 **Emotional Beats (5-8 Key Moments):**
 
-1. **Dread:** Realizing the task.
-2. **Analysis:** Assessing the prisoner (not a threat).
-3. **Calculation:** Planning the fake.
-4. **Performance:** Acting the killer.
-5. **Fear:** That the prisoner won't follow the lead.
-6. **Relief:** It worked.
-7. **Self-Loathing:** The applause makes him feel dirty.
-8. **Connection:** Seeing Lysa understands.
+1. **Claustrophobia:** The physical confinement of the armor and the chamber.
+2. **Dissociation (The Slip):** The smell and taste pull him out of the present. He is a passenger in his own body.
+3. **Desperate Control:** Faking the smirk to survive the public interaction.
+4. **Absolute Terror:** The collapse in the hallway. Pure fight-or-flight animal panic.
+5. **Defensive Rage:** Snapping at Lysa because he thinks she is a temple handler.
+6. **Anchoring:** The profound relief when she asks for permission to touch him. It breaks the "handler" illusion.
+7. **Shame:** The crash after the panic. Hating himself for being weak in front of her.
+8. **Quiet Awe:** Her steady presence overriding his self-loathing.
 
 **Character Arc Moment:**  
-Cyran uses his skills to *save* rather than *kill*, subverting his role as a weapon.
+Cyran is stripped of all his defenses (humor, seduction, violence) and is forced to let Lysa see the broken foundation underneath. He survives being entirely vulnerable with her.
 
 **Relationship Dynamics:**  
-**Public:** Cyran is a monster.
-**Private (Lysa):** She sees the mercy in the strike.
+**Safe Harbor:** Lysa proves she is a safe space. By asking consent ("May I hold your hand?"), she subverts all of his temple trauma where his body was never his own.
 
 **Subtext Layer:**  
-Thessen thinks he owns a dog; he actually owns a wolf who learned to pick locks.
+When Cyran says "I did the rite," he is flashing back to his abuse. Lysa realizes in this moment just how horrific his past was, even without him spelling it out yet.
 
 ---
 
@@ -105,142 +104,14 @@ Thessen thinks he owns a dog; he actually owns a wolf who learned to pick locks.
 
 **Character List & Roles:**
 
-- **Cyran** - POV - Present
-- **Thessen** - Villain - Present
-- **Prisoner** - Victim - Present
-- **Lysa** - Observer - Present
+- **Cyran** - POV/Protagonist - Present
+- **Lysa** - Love Interest/Anchor - Present
+- **Priest Kelton** - Minor Antagonist (Unwitting) - Present
+- **Various Nobles/Vigil** - Background - Present
 
 **For Each Major Character in Scene:**
 
 **[CYRAN]**
 
-- **Physical State:** Adrenaline high.
-- **Goal:** Zero casualties.
-
-**[THESSEN]**
-
-- **Goal:** Show off his toy.
-
----
-
-####
-
- **World Interaction & Secondary Characters**
-
-**Secondary Character Interactions:**
-
-- [Identify at least ONE secondary character who appears: colleague, neighbor, stranger, service worker, fan, or antagonist]
-- [Describe their role and how they interact with the POV character]
-- [Note their distinct voice, mannerism, or personality trait]
-
-**Dialogue Moments:**
-
-- [What worldbuilding is revealed through conversation?]
-- [What local gossip, rumors, or information is exchanged?]
-- [How does this character's speech pattern differ from the main cast?]
-
-**Character Interaction Beats:**
-
-- [How does the POV character treat this secondary character?]
-- [What does this interaction reveal about the POV character's personality or reputation?]
-- [Is there a small kindness, cruelty, or moment of connection?]
-
-**Environmental Engagement:**
-
-- [What background activity or environmental detail is noticed?]
-- [What objects are touched, used, or noticed in passing?]
-- [How does the POV character physically interact with their surroundings?]
-
-**Purpose:**
-This section ensures the scene includes external dialogue and interaction, preventing pure introspection and making the world feel lived-in and populated.
-
-
----
-
-#### **Setting & Atmosphere**
-
-**Location:** Simple circle in the Main Hall.
-
-**Sensory Environment (Required):**
-
-- **Sights:** Spotlight (magical), blood spray (minimal), the faces of the rich (hungry).
-- **Sounds:** Clashing metal, applause.
-- **Smells:** Sweat, fear.
-
----
-
-#### **Conflict & Stakes**
-
-**Main Source of Conflict:**
-- **External:** Thessen's command.
-- **Internal:** Moral dilemma.
-
-**Obstacle/Complication:**
-- The prisoner is unpredictable.
-
-**Stakes:**
-- **Life:** If he refuses, they both die.
-
-**Cost/Consequence:**
-- Cyran cements his reputation as a killer, making it harder to be free.
-
----
-
-#### **Narrative Function & Style**
-
-**Scene Function:**
-- **Competence Porn:** Showing he's *that* good (faking a death in real time).
-
-**Tone & Style Notes:**
-- **Prose:** Tense, fast-paced action beats intercut with slow internal thoughts.
-
----
-
-#### **World-Building Integration**
-
-**Magic System Elements:**
-- **Nerve Strike:** Vampiric precision.
-
----
-
-#### **Symbolism & Theme**
-
-**Symbolism/Motifs Present:**
-- **The Circle:** The arena. Life as performance.
-
-**Thematic Layer:**
-- **Mercy:** True strength is mercy.
-
-**Foreshadowing Elements:**
-- *Nerve Strike:* Will be used on Thessen later?
-
----
-
-#### **Reveals & Information**
-
-**Information Revealed:**
-- Cyran can fake kills. (Retroactively makes Lysa question his file—how many others did he save?).
-
----
-
-#### **Continuity & Connections**
-
-**Callbacks to Previous Scenes:**
-- **Ch 1:** Mention of his "performance" in the cistern. This is the dark mirror of that.
-
-**Setup for Future Scenes:**
-- **Setup:** Ch 14 (Escape/Rescue).
-
----
-
-#### **Technical Considerations**
-
-**Scene Transitions:**
-- **Opens:** The command.
-- **Closes:** The body removal.
-
----
-
-#### **Other Notes**
-
-- Make sure the reader knows it's a fake kill early in the scene via internal monologue, so the tension is "will it work" not "will he do it."
+- **Outfit of the Day:** Vigil Ceremonial Armor. High, stiff collar, heavy epaulets, restrictive tailoring meant to make him look like a beautiful, deadly statue. It feels like a cage.
+- **Physical State:** Sweating cold, trembling, f
