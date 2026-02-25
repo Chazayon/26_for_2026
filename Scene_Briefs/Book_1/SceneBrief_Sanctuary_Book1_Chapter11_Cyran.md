@@ -74,7 +74,7 @@ Lysa’s temporary access pass to the outer archive outposts expires at sundown.
 **Emotional Beats (5-8 Key Moments):**
 
 1. **Hyper-Vigilance/Alienation:** The bright, loud mortal market makes him feel exposed and acutely aware of his monstrous nature.
-2. **Defensive Theatrics:** When the mother fears him, he leans into the "villain" persona to protect his pride.
+2. **Defensive Theatre:** When the mother fears him, he leans into the "villain" persona to protect his pride.
 3. **Fondness:** Watching Lysa work with complete focus, oblivious to the danger of standing next to him.
 4. **Provocation (The Test):** Deliberately trying to disgust her with the meat comment to force her to reject him.
 5. **Shock:** Her complete lack of revulsion. The test fails.
@@ -270,4 +270,17 @@ Every time Cyran says, "I'm a monster," he is secretly begging her to say, "Not 
 #### **Continuity & Connections**
 
 **Callbacks to Previous Scenes:**
-- **Ch 9 Feeding:** Cyran is hyper-aware of the pulse in Lysa's throat, a lingering side effect of the intimacy
+- **Ch 9 Feeding:** Cyran is hyper-aware of the pulse in Lysa's throat, a lingering side effect of the intimacy. He can still taste the specific metallic sweetness of her blood, which makes the market food taste even more like ash in comparison.
+- **Ch 10 Hiding:** The memory of the safe-house closeness makes the public distance of the market feel artificial and strained.
+
+**Setup for Future Scenes:**
+- **Setup:** The "sun" giving Cyran a headache foreshadows his collapse in the God's Skull (Ch 13) where the sensory overload becomes too much.
+- **Setup:** Lysa's sketches of the sigils will be the key evidence she uses in the Tribunal (Ch 12) to buy them 72 hours.
+- **Series Setup:** The "Hounds of Thessen" mention prepares the reader for the more aggressive surveillance in Phase 3.
+
+**Timeline Considerations:**
+- Occurs the day after their first real feeding and heart-to-heart in the safe house. The emotional whiplash is intentional—trying to find "normalcy" in the middle of a brewing political execution.
+
+**Character Knowledge Check:**
+- Cyran knows Lysa won't be easily scared off by his "monster" persona.
+- Lysa knows Cyran's past in the temple is a raw, unhealed wound that he guards with sarcasm.

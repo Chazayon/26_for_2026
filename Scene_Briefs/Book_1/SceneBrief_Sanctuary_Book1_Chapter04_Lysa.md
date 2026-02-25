@@ -7,7 +7,7 @@ Title: The Coin He Knows
 Chapter_Scene_Number: Chapter 4, Scene 1
 POV_Character: Lysa (1st person present tense)
 POV_Alternation_Scheme: Dual Alternating (Cyran / Lysa)
-Time_of_Day: Night, approx 11:45 PM (Immediately following Ch 3)
+Time_of_Day: Night, approx 11:45 PM (Immediately following Ch 3.5)
 Duration: Spans 1 hour
 Trope_Scene_Type: "The Seduction Attempt Fails / Establishing Boundaries"
 ```

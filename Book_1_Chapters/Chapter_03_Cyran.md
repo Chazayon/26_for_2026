@@ -1,131 +1,53 @@
 # Chapter 3 — *Knife-Point Introductions*
 ### Cyran | POV
 
-I smell the ink before I smell the fear—which is rare in my line of work.
+I smell the ink before I smell the fear, which is rare in my line of work. 
 
-Ink cuts differently on the air than blood does. Blood is loud, bright, shouting its presence into every nerve. Ink is quieter, patient, the ghost of iron and tannin and scraped parchment clinging to cloth and skin. Whoever is down here near my cistern carries the Spine District with them like a second robe.
+Usually, the terror hits first—that sharp, metallic tang of sweat and adrenaline that cuts through the marrow-mist like a bell. But tonight, lingering near the edge of the lower cisterns, there is only the damp, heavy scent of old god-blood, the sulfurous echo of the feral I killed an hour ago, and the distinct, dry-dust smell of iron-gall ink. 
 
-The hour is late enough that the Ribcage has settled into its usual, exhausted groan. The last fight-slick of adrenaline from the god-spawn earlier has faded to a low hum in my limbs, leaving everything sharp-edged and slightly hollow. My leathers are still tacky in places, seams stiff with dried ichor. The god-blood in the cistern below thrums away on its own ancient rhythm, heat rising in slow breaths that fog the chilled air above the pools.
+Someone is reading in my jurisdiction. 
 
-My goal, for the remainder of this charming evening, is elegantly simple: keep idiots away from the forbidden blood, finish my patrol without another lecture from Command, and pretend I don’t know that somewhere in the Spine, a file with my name on it is sitting on a desk that smells of bergamot and judgment.
+I crouch on the curve of a hanging vertebra, perfectly still. Below me, the mist thins enough to reveal the slick stone lip of the cistern. The blood-pools are quiet now, pulsing with that slow, sullen rhythm that makes my own buried heartbeat ache in sympathy. 
 
-The intruder drifts at the edge of the glow, a hunched shadow moving where no shadow should be.
+A figure moves near the edge. 
 
-I hug the curve of the upper walkway, pressed into bone and darkness, watching them. Below, the cistern chamber opens wide: a hollow under the god’s ribs, all red under-light and knife-edged shadow. The Titans congealed blood sleeps in the pits—vast round pools sunk into the stone, breathing light up from their depths. Every pulse paints the pillars and walkways in a sullen, viscous red.
+Dark cloak, hood up. They are stepping carefully, avoiding the worst of the ichor-puddles I left behind, but they aren't trying to hide. They are examining the stone. A gloved hand reaches out, tracing the edge of a warding rune carved into a load-bearing pillar. 
 
-The figure in the hood pauses at the lip of one pool, close enough that if they slip, they will fall straight into forbidden divinity. They lean in like a drunk over a balcony, studying something carved into the wall: a monitoring rune, half-crumbled, the lines spidering away under their scribe’s gloved fingers.
+*Not a feral. Not a scavenger.* 
 
-Lovely. A curious little moth, playing with sigils over an open flame.
+There are three ways to catch a spy in the Ribcage, and my favorite involves gravity. 
 
-The scent of them reaches me in threads. Not fear, not yet. Fast heartbeat, yes, but contained, as if they’re holding their own pulse on a short leash. The more prominent note is ink. Ink, parchment, cold tallow, the stale ozone of Tribunal punishment sigils clinging to hair and cloth. And under that, the faintest trace of skin—salt and something warmer, tucked stubbornly beneath the bureaucracy.
+I step off the bone. 
 
-Tribunal, then. Of course.
+The drop is silent, the landing a controlled coil of muscle and leather. I am behind them before the displaced air of my fall even stirs the hem of their cloak. My left hand snaps out, gripping a surprisingly narrow shoulder, jerking them backward and spinning them. My right hand brings the bone-hilts up. 
 
-I shift my weight, boots steady on the narrow bone ledge, shoulders brushing slick stone. Above me, the ceiling vanishes into darkness; below, somewhere out of sight, mechanisms wheeze and groan, drawing thin lines of power from the Titan’s heart to feed the Contract Lords’ toys. The air here is always a paradox—heat breathing up from the pits, biting cold spilling down from the higher arches. My breath ghosts white when I exhale; the god-blood glows red when I inhale.
+By the time their back hits the pillar, my dagger is pressed flush against the soft, frantic pulse at their carotid. 
 
-“Relic.”
+"Lost, little shadow?" I whisper, letting my voice drop into the register I reserve for things I'm deciding whether to kill or play with. I lean close, letting them feel the cold radiating off my armor, letting them smell the fresh kill on me. 
 
-The word floats up the stairwell from behind me, too soft for human ears. I hear it anyway. I turn my head just enough to glance back.
+Most people beg when they feel the blade. Some try to bargain. The foolish ones try to struggle.
 
-At the top of the service stairs, a junior warden lingers, half in shadow, half in the halo of a guttering bone-lamp. Luro, tonight. I remember him—sharp shoulders, softer eyes, never quite sure where to rest his gaze when it wanders over the carved sigils on my skin. His hand tightens on the haft of his spear when our gazes brush.
+The figure does none of those things. 
 
-He isn’t supposed to be down this far. Wardens stick to the access tunnels. The Vigil handles the heart.
+She stiffens, yes. I feel the sudden, rigid line of her spine against the stone. The pulse under my blade jumps like a startled rabbit. But she doesn't scream, and she doesn't fight. Instead, her chin lifts a fraction of an inch—dangerously close to the edge of the steel—and her left hand comes up, slow and deliberate. 
 
-“Problem?” I murmur.
+She is holding a small, silver plate. 
 
-He swallows. His breath fogs. The smell that reaches me from him is the usual mix—old leather, cheap lamp oil, the sharp tang of anxiety.
+The red light of the cistern catches the embossed crest. The balanced scales. The unblinking eye. 
 
-“Patrol captain said to remind you,” he says, eyes flicking past me toward the cisterns, “Th-the Tribunal sent notice. Auditor in the district. For you.”
+*Tribunal Inquiry.*
 
-Ah. That.
+For a fraction of a second, the predator in my head stumbles over its own feet. The mask slips. I blink, staring at the badge, then at the face beneath the hood. 
 
-“Yes, love, I read the memo,” I say, keeping my voice silk-smooth. “I can even sound out the big words, if you like. Now shoo. You’re not cleared for proximity to divinity.”
+Spectacles. Severe mouth. Eyes that look right past the knife and calculate exactly how much trouble I am in. 
 
-He flinches at “love.” They always do, the new ones, unsure if it’s insult or flirtation or both. To his credit, he steps back instead of insisting, boots scuffing bone. His knuckles are white on the spear shaft.
+I recover. It takes less than a heartbeat, but I know she saw the stutter. I step back, sliding the dagger into its sheath with a calculated, theatrical flick of my wrist that sends an imaginary spray of blood to the floor. 
 
-“If Command hears you called me that—”
+"My mistake," I say, pitching my tone back to smooth, lazy amusement. I offer a small, mocking bow. "You didn't look like a bureaucrat. Usually, you people come with more ledger-clerks and less trespassing."
 
-“They’ll assume I’m keeping morale up.” I flash him a quick, bright smile, all teeth and good behavior. “Run along, Luro. There’s a good boy.”
+She reaches up and pulls the hood back. Her hair is dark, pinned up with the ruthless efficiency of someone who considers loose strands a moral failing. She adjusts her spectacles, pushing them up the bridge of her nose. The gesture is so aggressively mundane I almost laugh. 
 
-He goes. Of course he does. They all do, eventually. Monsters are so much easier to deal with when you can pretend we’re your superiors’ problem, not yours.
-
-The faint scuff of his retreating footsteps fades. The chamber recloses around me—just god-blood, pillars, distant city creaks, and my ink-scented shadow leaning where she should not be.
-
-The Auditor in the district. For me.
-
-Unless the Tribunal has started sending their scribes to investigate faulty cistern runes in person, that hooded figure below is about to make my night significantly more interesting.
-
-I let the thought sit for one slow heartbeat. Then I smile to myself and step off the ledge.
-
-The drop is short, practiced. Bone to bone. The Vigil likes its Relics dramatic, and I’ve never been one to disappoint an audience.
-
-I land in silence on the narrow walkway behind her.
-
-The impact runs up my calves, a clean shock, my knees bending to take it. Stone groans softly beneath my weight. No clatter, no scrape. I move through the echo of my own landing, closing the last two steps in a glide.
-
-Gloved fingers, already reaching for my knife, pause over the hilt when the ink-smell hits me stronger, mingled now with the powder-dry scent of old parchment folded a hundred times.
-
-Closer, I can see more. Dark wool cloak over indigo robes, hood drawn low enough to shadow her features. The line of her spine is straight, not slouched, shoulders set rather than hunched. Her right hand traces the rune on the cistern wall, a careful, unfussy movement; her left tucks a stray lock of hair back into the shadow of her hood, more habit than affectation.
-
-Not a thief. Too clean. Not a priest. Wrong kind of ink.
-
-Shame.
-
-I come up behind her and let my hand close over her shoulder.
-
-She’s smaller than me, but not fragile; bone under fabric, solid. Her body seizes under my grip, instincts flaring, but she doesn’t scream. Not even a helpful little gasp.
-
-Interesting.
-
-I spin her in one fluid motion, using her own momentum, her cloak flaring out like night caught in a draft. My other hand has already drawn the dagger; by the time she faces me, the blade is at her throat, cold edge kissing the thrum of her pulse.
-
-Warm. Fast. Human.
-
-Up close, her scent opens like a book: ink and parchment, yes, but also the ghost of citrus peel and cheap soap, the faint copper of old quill-nicks on fingers. Her breath hitches once as my presence slams into her space—leather, steel, expensive cologne layered over the inevitable iron tang of what I am.
-
-Red light from the pools below shivers up, painting half her face in blood-shadow, the other in stark bone-pale. Her hood falls back just enough to show me the essentials: dark hair drawn back into something practical, the line of a strong nose, the cut-glass clarity of spectacles catching the glow. Her eyes behind the lenses are very, very sharp.
-
-“Lost, little shadow?” I murmur, leaning in close enough that my words ghost against her lips. “This is a dangerous place to wander without a leash.”
-
-Most people, at this point, beg.
-
-They flinch away from the blade with rabbit-fast jerks. They sweat. They stink of panic, bodies screaming messages their mouths can’t assemble into words.
-
-She goes still.
-
-Not limp, not about to faint. Still like a wire held taut.
-
-Her pupils flare, then contract. Her throat works against the edge of my dagger, a precise, infuriating swallow, and I feel the press of her pulse against steel. My Thirst perks up, interested, nosing at the back of my skull like a cat scenting cream. I ignore it.
-
-She exhales, slow and controlled, as if guiding her own heart back down from a ledge. Then—only then—does she move.
-
-Her right hand lifts, fingers deliberately splayed so I can watch every inch of the motion. No sudden grabs, no reaching for hidden weapons. She slides that hand into her cloak with insulting tidiness and draws out a small, hard rectangle.
-
-A badge. Thick bone disk, sigil cut deep, edges worn by decades of fingers. Tribunal crest at the center, flanked by the discreet little etching that says not just scribe.
-
-Inquiry.
-
-The red cistern light catches on it, flaring off polished grooves. It glints between us like a second blade.
-
-She doesn’t speak. She just holds it there, steady, level with my face, the dagger pressed to her throat like a punctuation mark at the end of a sentence she clearly thinks I’m literate enough to read.
-
-For one heartbeat, my body betrays me.
-
-Everything goes very still.
-
-The familiar freeze flickers through me—old reflex from temple days, when certain sigils meant orders and certain voices meant pain. Throat, wrists, spine. The places they held when they carved obedience into bone.
-
-Badge. Tribunal. Inquiry.
-
-The knife at her throat doesn’t move. My grip on her shoulder doesn’t tighten. But some small, private muscle inside me locks.
-
-Then the moment passes.
-
-I blink once, let my mouth stretch back into a smile, and peel the blade away from her skin with a flourish, stepping back as if we’re on a stage and someone off in the wings has just coughed politely to remind me of my cues.
-
-“My mistake,” I say lightly, sheathing the dagger in one smooth motion. The snick of metal sliding home echoes against the bone pillars. “You didn’t look like a bureaucrat.”
-
-Her eyes—grey, behind the glass, I think, though the bloodlight muddies everything—flick from my face to where the knife vanished, then back up again. She adjusts the fall of her cloak with her free hand, smoothing the fabric where my grip has creased it.
+Her eyes fllick from my face to where the knife vanished, then back up again. She adjusts the fall of her cloak with her free hand, smoothing the fabric where my grip has creased it.
 
 “And you don’t look like a protector,” she says.
 
@@ -181,7 +103,7 @@ Somewhere deep under my skin, my Marks prickle, reacting to the proximity of the
 
 The god-blood throbs underfoot, steady, patient. The whisper that lives in it curls around the edges of my thoughts: mine, mine, mine, in a voice that sounds uncomfortably like old prayers.
 
-I push off the pillar, drifting a slow circle around her, letting my boots whisper against the damp stone. Predatory, yes, but not just for show. I want every angle of her: the tension in her shoulders, the way her hand tightens on the little leather-bound notebook I now see tucked at her belt, the spider-fine tremor she thinks she’s hiding.
+I push off the pillar, drifting a slow circle around her, letting my boots whisper against the damp stone. Predatory, yes, but not just for show. I want every angle of her.
 
 She turns with me, keeping me in her field of view, pivoting rather than letting me at her back. Not prey behavior.
 
@@ -205,11 +127,7 @@ I lean against another pillar, one arm lifted above my head, hand splayed on the
 
 “Is this an interrogation,” I counter, tipping my head, “or are you just looking for an excuse to keep me talking?”
 
-Her mouth presses, the suggestion of a frown twitching and then smoothing out, as if she refuses to waste the muscle effort on obvious disapproval. She shifts, just slightly, and that’s when I see it: the notebook, half-pulled free.
-
-She clicks it open with her thumb and, without taking her gaze entirely off me, makes a short, precise notation.
-
-Ink scratches paper, dry and efficient.
+Her mouth presses, the suggestion of a frown twitching and then smoothing out, as if she refuses to waste the muscle effort on obvious disapproval. From somewhere inside her robes, she produces a small, leather-bound notebook and a charcoal pencil. She flips it open. The scratch of the graphite against the paper sounds obscenely loud in the echoing cavern. 
 
 I feel the prickle of it like a hand sliding under my skin. Reduced to lines of script. Again. Always.
 
@@ -227,77 +145,30 @@ Fear, I can work with. It slides into familiar grooves. Lust, too—that one I k
 
 Her eyes are bright, but not with that. Not yet. Curiosity, perhaps. Calculation, certainly. Wariness, absolutely.
 
-Attraction, if it’s there, is buried so deep under duty I’d need a spade and a week off to dig it up.
+I realize, with a sinking sense of inevitability, that intimidation isn't going to work. Neither is the cheap theatricality. She sees the mask and refuses to engage with it. 
 
-“My quarters are nearby,” I say, changing tactics in the only way I know how when the first mode fails. My voice drops, the edges going softer, smoke over velvet. “This chamber is hardly the place for official business. Too noisy. Too… exposed.”
+I need a new angle. 
 
-I let my gaze drift deliberately to the pools, to the humming blood, then back to her, letting the implication hang between us like incense. There are other things we could be doing here, in the red glow and the heat and the echo of our breaths.
+I soften my stance. I let the predator fade back into the shadows and pull the Seducer out—slower, warmer, the voice pitching down not to threaten, but to invite. I let my eyelids drop a fraction, holding her gaze. 
 
-“Wine,” I add, as if offering isn’t calculated. “Fire. A chair that doesn’t smell like bone-dust and despair. I could make your first encounter with a Relic much more… comfortable.”
+"This isn't the place for official business, the air down here is terrible for parchment. My quarters are a short walk from here. We could have a proper interview. I have a fire. Wine, if you partake."
 
-Her pulse jumps once under her skin. I see it. I hear it. The Thirst purrs.
+For a moment, she considers it. Her eyes flick over my face, searching for the trap. 
 
-She doesn’t step back.
+"An interview," she says slowly. 
 
-She also doesn’t step forward.
+"Strictly professional," I lie, letting the smile reach my eyes. 
 
-“An interview,” she says instead, carefully, as if choosing each word with tweezers. “In a controlled environment, where patrol logs can be cross-referenced with your own account. Yes. That would be necessary.”
+"Fine. An interview. Yes." She tucks the notebook away. "The wine is not required."
 
-“Wine optional?” I ask, letting the suggestive smile curl slow and sharp.
+I offer her my arm, an exaggerated, courtly gesture that usually disarms the wary and flatters the vain. 
 
-Her mouth twitches. Not quite a smile, not quite not. Her eyes drop to my offered hand before she remembers I haven’t offered it yet; then, because I am who I am, I take her cue and extend my arm, elbow crooked.
+She looks at my extended arm, looks at my face, and walks right past me toward the maintenance stairs. 
 
-“Relic escort service,” I murmur. “For special Tribunal guests. No extra charge.”
+I stand there for a long moment, my arm still held out to the empty, damp air. A stray droplet of condensation falls from the ceiling and hits my leather bracer with a dull *smack*. 
 
-She looks at my arm like it’s a piece of furniture she’s considering purchasing and has found wanting.
+My hand drops. My fingers brush the high collar of my tunic, tracing the line where the leather hides the old, scarred ring of my temple-collar. 
 
-Then she steps past it without touching me.
+*Tell me which one of those is true,* she had said with her eyes, just looking at me. 
 
-The air between us moves, stirring my coat, carrying her scent in a new direction—over my shoulder now, trailing after her as she strides toward the stair that leads up and out of the cistern chamber.
-
-Her cloak swirls around her ankles, catching red light and throwing it in thin, bloody strips across the stone. She doesn’t look back to see if I follow.
-
-I stand there for a heartbeat, arm still extended to empty air, feeling faintly ridiculous.
-
-Interesting.
-
-She’s not immune. No one is. But she’s disciplined. The pet names slide off. The violence didn’t make her beg. The suggestion of seduction made her catalogical, not pliant.
-
-Two modes, both tested, neither doing what they’re supposed to. I don’t like that. It leaves me with the one thing I’ve never been taught to rely on: improvisation.
-
-My hand drops to my side. My fingers twitch once before I tame the movement, thumb brushing the inside of my wrist where old temple-bindings used to bite. I find my own throat briefly, touch it, then let my hand fall.
-
-A collar, invisible, tightens just a fraction at the thought of her notation: Arrogance. Deflection.
-
-If she keeps writing, if she goes back to her tea-scented superior with careful pages full of the same, Thessen will have all the excuse he needs.
-
-Freedom by inches. Lost by paragraphs.
-
-I watch her reach the stairs. The red light licks at the hem of her cloak, turning Tribunal indigo almost black. She climbs without hesitation, steps steady despite what I just did to her neck, to her night, to her file.
-
-At the first turning she pauses—not for breath, but to glance back down at me.
-
-Our gazes meet across the distance, over the breathing pools, past the pillars and the rune and the memories.
-
-Her expression is unreadable. Careful. Professional.
-
-Under it, something glints. Not fear. Not quite.
-
-Interest.
-
-Then she nods once—as if confirming some internal calculation—and disappears around the curve of the stair.
-
-I let out a breath I hadn’t realized I’d hiked high in my chest.
-
-The cistern hums on, patient as a debt. The god-blood’s whisper licks at me again: mine. Mine.
-
-“Not tonight,” I tell it, softly. “I have company.”
-
-The words taste strange in my mouth. Not prayer, not performance. Something else.
-
-I follow her up, boots careful on the damp stone, eyes on the shifting edge of her cloak as it flickers into view at each bend and vanishes again.
-
-For the first time in a long time, I’m not entirely sure whether I’m leading the dance or being led.
-
-And for some perverse, unwise, deeply inconvenient reason, I find that I want to know what happens if I let her keep writing.
-
+I turn and follow the Auditor up the stairs, suddenly, acutely aware that I am not the one leading this dance.

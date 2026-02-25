@@ -157,10 +157,6 @@ Cyran's anger isn't really that she *read* it; it's that she saw the proof that 
 
 **Location:** The Marrow Archives (Deep beneath the Halo Ward).
 
-**Time & Weather:**
-- Time of day: 10:00 AM.
-- Weather conditions: Irrelevant underground, but the air is noticeably colder than the rest of the city.
-
 **Sensory Environment (Required):**
 
 - **Sights:** Dim lighting provided by floating lumen-spheres. Rows of yellowed bone-shelves. The vivid, blood-red leather of Cyran's ledger.
@@ -269,3 +265,18 @@ Cyran's anger isn't really that she *read* it; it's that she saw the proof that 
 
 **Secrets:**
 - **Revealed:** Cyran's darkest shame is now known to Lysa.
+
+---
+
+#### **Continuity & Connections**
+
+**Callbacks to Previous Scenes:**
+- **Ch 13 Hurt/Comfort:** Lysa’s desire to help him ground himself led her here. 
+- **Ch 12 Key:** Uses the literal key Scribe Meris gave her.
+
+**Setup for Future Scenes:**
+- **Setup:** Directly leads to the bone-chapel confession in Chapter 15.
+- **Series Setup:** Establishes the Halo Ward architecture for Dr. Marrow’s book.
+
+**Timeline Considerations:**
+- Occurs the morning after the Ch 13 breakdown. Lysa hasn't slept; she went straight to the archives as soon as they opened.

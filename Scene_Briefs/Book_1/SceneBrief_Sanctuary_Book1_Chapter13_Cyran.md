@@ -114,4 +114,106 @@ When Cyran says "I did the rite," he is flashing back to his abuse. Lysa realize
 **[CYRAN]**
 
 - **Outfit of the Day:** Vigil Ceremonial Armor. High, stiff collar, heavy epaulets, restrictive tailoring meant to make him look like a beautiful, deadly statue. It feels like a cage.
-- **Physical State:** Sweating cold, trembling, f
+- **Physical State:** Sweating cold, trembling, fangs protruding and aching. He is on the edge of a total psychological break.
+- **Emotional State:** Pure, unadulterated terror masked by a paper-thin layer of aristocratic arrogance.
+- **Goal/Motivation:** Survive the ceremony without being "redesignated" as a malfunctioning asset.
+- **Obstacle:** The incense and chants—the physical triggers of his past.
+- **Behavioral Notes:** He uses "anchor words" in his head to stay present, though they begin to fail him.
+- **Power Dynamic:** In the room, he is a "relic" to be admired and used. With Lysa, he is a man drowning, begging for a lifeline.
+
+**[LYSA]**
+
+- **Outfit of the Day:** Formal indigo Tribunal robes, but has clearly been lurking in the shadows of the chamber to watch over him. 
+- **Behavioral Notes:** Steady. She doesn't rush him; she gives him space and uses clear, telegraphed movements.
+- **Goal/Motivation:** Ground Cyran and prevent him from hurting himself or being discovered in a vulnerable state.
+- **Interaction Style:** "Consent-First." She asks before every physical boundary she crosses, which is the direct antithesis of how he was treated in the temple.
+
+---
+
+#### **World Interaction & Secondary Characters**
+
+**Secondary Character Interactions:**
+
+- **Priest Kelton:** A mid-level bureaucrat of the Tribunal faith. He sees the "Blood Relic" as a sacred battery, not a person.
+- **Interaction:** He performs the rite with clinical perfection, oblivious to the fact that he is torture-triggering Cyran.
+- **Voice/Mannerism:** Pious, nasal, and overly formal.
+
+**Dialogue Moments:**
+
+- **Worldbuilding:** The use of "High-Divine" in the ceremony shows that the Tribunal has co-opted the old temple's language to lend itself legitimacy, even as it claims to "redeem" the monsters the temple created.
+
+**Environmental Engagement:**
+
+- **Objects touched:** The cold gold chalice; the tight, restrictive collar of the armor; the rough stone of the maintenance corridor.
+- **Physical interaction:** Lysa's hands on Cyran's, providing the first safe, non-transactional touch he’s felt in years.
+
+---
+
+#### **Setting & Atmosphere**
+
+**Location:** The God's Skull Chamber and the Ocular Corridor.
+
+**Sensory Environment:**
+- **Sights:** The vast, white expanse of the skull's interior; the flickering orange glow of the lumen-sphere; the blur of Cyran's vision during dissociation.
+- **Sounds:** The rhythmic, low chanting; the heavy *thrum* of the bone-gong; the ragged, wet sound of Cyran's panic-breathing.
+- **Smells:** Thick, cloying myrrh; the metallic tang of the spiced wine; the dry, ancient dust of the disused corridor.
+- **Textures:** The biting edge of the metal collar; the sandpaper-dry air of the skull; the startling warmth of Lysa's skin.
+
+---
+
+#### **Daily Life Details (Color & Grounding)**
+
+- **The Ceremonial Armor:** It’s not built for combat; it’s built for display. It’s heavy, impractical, and designed to force the wearer into a specific, "regal" posture.
+- **The Spiced Blood-Wine:** A standard Tribunal liturgical element. It is heavily watered down and mixed with drugs to keep the "relics" docile during long ceremonies.
+
+---
+
+#### **Conflict & Stakes**
+
+- **Internal:** Cyran’s battle with his own mind vs. the crushing weight of his history.
+- **External:** If he breaks publicly, Thessen has grounds to claim he is "unstable" and must be "reset" (re-conditioned).
+- **Stakes:** If he fails here, he loses the personhood Lysa has been helping him build.
+
+---
+
+#### **Narrative Function & Style**
+
+- **Scene Function:** The "Hurt/Comfort" beat. This provides the first deep emotional bond that isn't based on sex or survival, but on the simple act of *staying*.
+- **Tone:** Gothic, claustrophobic, and intensely intimate.
+- **Pacing:** High tension during the ceremony, followed by a slow, rhythmic "grounding" phase in the corridor.
+
+---
+
+#### **World-Building Integration**
+
+- **The God's Skull:** The literal center of the city's power. It reinforces the idea that these people live inside the remains of what they once worshipped.
+- **High-Divine Language:** Establishes the religious heritage of the city.
+
+---
+
+#### **Symbolism & Theme**
+
+- **The Collar:** A physical and metaphorical symbol of his lack of autonomy.
+- **The Chalice:** The "poisoned gift"—sustenance that comes with the price of submission.
+
+---
+
+#### **Reveals & Information**
+
+- **The Ritual Trauma:** Explicitly connects the current Tribunal rites to the old temple's abuse.
+- **Lysa's Competence:** Shows she is trained in (or naturally gifted at) crisis management and trauma care.
+
+---
+
+#### **Continuity & Connections**
+
+**Callbacks to Previous Scenes:**
+- **Ch 1 Mask:** The "Blood-Relic" mask from Chapter 1 is seen here failing for the first time.
+- **Ch 11 Market:** The headache he had in the sun foreshadowed the total sensory collapse here.
+
+**Setup for Future Scenes:**
+- **Setup:** This vulnerability directly leads to Lysa seeking the records in Chapter 14—she needs to know *exactly* what those chants were doing to him.
+- **Setup:** Establish the God's Skull layout for the rescue attempt in Ch 31-40.
+
+**Timeline Considerations:**
+- Occurs several days after Chapter 12. Cyran has been dreading this "Sanctuary Day" since the market outing.

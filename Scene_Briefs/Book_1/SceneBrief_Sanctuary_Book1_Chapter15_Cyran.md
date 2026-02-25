@@ -108,4 +108,90 @@ When Cyran crushes the offering-fig, it represents what Varos did to him—takin
 **[CYRAN]**
 
 - **Outfit of the Day:** Simple, unadorned dark clothing. No silk, no jewelry, no armor. He has physically stripped away the "ornament" aesthetic to tell this story.
--
+- **Physical State:** Exhausted but stable. For the first time, he isn't performing.
+- **Goal/Motivation:** Tell the truth to the one person he might actually love, even if it destroys him.
+- **Behavioral Notes:** He avoids looking at her until the very end. His voice is flat, lacking its usual musicality.
+
+**[LYSA]**
+
+- **Outfit of the Day:** Standard indigo scribe robes, dust-stained from the archives.
+- **Goal/Motivation:** Listen. Provide a safe space for the truth to exist without judgment.
+- **Behavioral Notes:** Perfectly still. She doesn't interrupt or offer "there, theres." She waits for the full story.
+
+---
+
+#### **World Interaction & Secondary Characters**
+
+- **Elderly Acolyte:** Represents the mundane, fading religion of the lower districts. He is easily bribed to leave, showing that Cyran’s wealth still holds power in the slums.
+
+**Dialogue Moments:**
+- **The "Theft" line:** This becomes a core thematic anchor for the rest of the series.
+
+---
+
+#### **Setting & Atmosphere**
+
+**Location:** The Bone-Chapel (Lower Ribcage District).
+
+**Sensory Environment:**
+- **Sights:** Fractured bone-pews; the dim, yellow flicker of marrow-candles; the evening mist rolling in through the cracks in the door.
+- **Sounds:** The hollow echo of Cyran's voice; the pop of a candle wick; the rustle of Lysa's robes.
+- **Smells:** Old incense, damp stone, and the waxy scent of marrow-candles.
+- **Textures:** The cold, rough grooves of the altar; the heat of Lysa's palm against his chest.
+- **Temperature:** Damp and bone-chillingly cold, making the warmth of their touch startling.
+
+---
+
+#### **Daily Life Details (Color & Grounding)**
+
+- **Marrow-wax Candles:** A reminder of the city’s anatomy-based economy.
+- **The Bone-Chapel:** These small, local shrines are everywhere, often neglected, used more for refuge than for prayer.
+
+---
+
+#### **Conflict & Stakes**
+
+- **Internal:** Cyran’s self-loathing vs. his desire to be known.
+- **Interpersonal:** The revelation of his earlier manipulation could have ended the relationship.
+- **Stakes:** This is the emotional "make or break" for the couple.
+
+---
+
+#### **Narrative Function & Style**
+
+- **Scene Function:** The "Confession" beat. It clears the air of all previous subtext and lies, allowing them to face the finale (Ch 31-40) as a true unit.
+- **Tone:** Somber, raw, and ultimately hopeful.
+- **Pacing:** Very slow and deliberate.
+
+---
+
+#### **World-Building Integration**
+
+- **Resurrection Protocols:** Explained as a tool of abuse, grounding the magic system in the book's darker themes.
+- **Temple Culture:** Defined as predatory and systemic.
+
+---
+
+#### **Symbolism & Theme**
+
+- **The Fractured Altar:** A symbol of Cyran’s broken faith and broken self.
+- **Ink vs. Voice:** By banning the notebook, Cyran makes the truth a living thing between them rather than a record for the Tribunal.
+
+---
+
+#### **Reveals & Information**
+
+- **The Manipulation:** Cyran admits he targeted Lysa for safety.
+- **The Reality of Rites:** The full, non-euphemistic truth of his past.
+
+---
+
+#### **Continuity & Connections**
+
+**Callbacks to Previous Scenes:**
+- **Ch 14 Archives:** The discovery of the ledger forced this conversation.
+- **Ch 4 Offer:** Recontextualizes why he offered himself as a bribe originally.
+
+**Setup for Future Scenes:**
+- **Setup:** Lysa’s cold rage at the system fuels her legal strategy in Chapter 16.
+- **Setup:** This emotional breakthrough makes the first explicit scene in Chapter 17 possible.
